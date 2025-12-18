@@ -1,0 +1,229 @@
+﻿The Broadcast Orchestration Engine: A Comprehensive Technical Analysis of Streamer.bot (2025 Edition)
+1. Introduction: The Evolution of Broadcast Automation
+The paradigm of live streaming has undergone a radical transformation over the past decade, evolving from simple, unidirectional video feeds into complex, bi-directional interactive experiences. As the expectations for production value have risen, so too has the complexity of the underlying software stacks required to manage these broadcasts. In the early era of streaming, automation was largely relegated to cloud-based chatbots—simple scripts running on remote servers that could respond to text commands but had no visibility into the broadcaster’s local environment. Tools like Nightbot and StreamElements defined this era, offering reliability and low overhead but suffering from inherent latency and a lack of integration with the broadcast encoding software itself.
+We are now firmly in the era of "Local-First" automation. The demand for sub-second latency, complex logic processing, and deep integration with hardware (lights, audio interfaces) and software (OBS Studio, game engines) has necessitated a shift toward middleware that runs directly on the broadcaster's machine. Within this competitive landscape, Streamer.bot has emerged not merely as a tool, but as a comprehensive orchestration engine. It distinguishes itself through a philosophy of rigorous extensibility, eschewing the "walled garden" approach of its competitors in favor of an open architecture that leverages the full power of the.NET framework.
+This report provides an exhaustive, expert-level analysis of Streamer.bot. It deconstructs the software’s architectural foundations, explores its event-driven logic systems, and analyzes its capacity for advanced C# scripting. Furthermore, it examines the application's integration ecosystem—ranging from sibling projects like Speaker.bot to enterprise-grade connections via UDP and WebSocket servers—and forecasts its trajectory in the rapidly maturing streaming market of 2025.
+2. System Architecture and Deployment Model
+The architectural decisions underpinning Streamer.bot reveal a prioritization of user control, data sovereignty, and performance over the ease-of-access typically prioritized by cloud-based alternatives.
+2.1 The Portable Application Paradigm
+Streamer.bot adheres strictly to a portable application model. Unlike traditional Windows installers that embed dependencies deep within the Windows Registry or scatter configuration files across AppData and ProgramData directories, Streamer.bot encapsulates its entire runtime environment within its own root directory.1 This design choice has profound implications for disaster recovery and system migration. A broadcaster can replicate their entire broadcast logic—comprising thousands of complex actions, authorized tokens, and databases—simply by copying the directory to a new machine.
+The application is built on the Microsoft.NET framework. The transition to version 1.0.0 marked a significant architectural milestone, migrating the codebase to .NET 4.8.1 and refactoring the user interface from Windows Forms (WinForms) to Windows Presentation Foundation (WPF).2 This shift to WPF was not merely aesthetic; it enabled the implementation of hardware-accelerated UI elements, better scaling on high-DPI monitors, and the long-requested "Dark Mode," which required a fundamental decoupling of the UI layer from the logic layer.2
+2.2 Storage and Persistence
+Data persistence is handled through a combination of JSON configuration files and local SQLite databases. This ensures that data remains accessible and human-readable where appropriate, while maintaining transactional integrity for complex datasets like user points or watch-time tracking.
+Warning on Cloud Synchronization:
+While the portable nature of the app suggests it could be run from a cloud-synced folder (e.g., Dropbox, OneDrive), the documentation and technical analysis strongly advise against this.1 The real-time nature of the bot involves constant file I/O operations (logging, database writes). Cloud synchronization agents often lock files to upload changes, creating race conditions that can cause the bot to crash or corrupt its database. Professional deployments invariably utilize local storage with scheduled, non-real-time backups.
+2.3 Cross-Platform Emulation Layers
+While natively a Windows application, the architecture’s reliance on standard.NET libraries allows for experimental execution on macOS and Linux via compatibility layers.1
+* macOS: Execution is achieved via "Whisky," a containerized implementation of Wine. This allows the Windows binary to execute on Apple Silicon, though it introduces an abstraction layer that can affect the timing of high-precision triggers.3
+* Linux: Similarly, Wine is used to translate Windows API calls.
+* Limitations: The primary architectural bottleneck for true cross-platform parity is the reliance on Windows-specific APIs for certain features, most notably Voice Control (which hooks into the Windows SAPI5 engine) and global keyboard hooks for hotkeys. These features often fail or behave unpredictably in emulation, reinforcing Windows as the primary production environment.
+3. The Event-Driven Core: Triggers and Logic
+At a fundamental level, Streamer.bot functions as a high-speed, asynchronous message bus. It ingests signals from the external world (Triggers), processes them through a user-defined logic gate (The Argument Stack), and outputs commands (Actions).
+3.1 The Trigger System: Granularity and Event Sources
+The Trigger system acts as the sensory cortex of the application. It supports over 350 distinct event types 4, allowing for an extraordinary degree of granularity. Unlike simpler bots that might simply detect "A sub occurred," Streamer.bot differentiates events with specific state data.
+Trigger Categories:
+* Platform Events (Push): Utilizing WebSockets (e.g., Twitch EventSub), the bot receives real-time notifications. This includes granular events like Prediction Locked, Poll Terminated, or Hype Train Level Change.2
+* Platform Events (Poll): For APIs that do not support sockets (or for legacy implementations), the bot employs polling intervals. For example, tracking "Present Viewers" on YouTube requires querying the API every few minutes.5
+* System Events: Hooks into the local OS allow triggers based on File Changed (useful for integrating with apps that log to text files), Process Started, or System Idle.
+* Network Events: The internal UDP and HTTP servers act as trigger sources, allowing external hardware (like an Arduino sending a UDP packet) to fire logic within the stream.6
+Logic at the Ingest Point:
+A defining feature of the architecture is the ability to apply logic within the trigger configuration itself. Users can set ranges for numeric values (e.g., "Only trigger on Cheers between 100 and 500 bits") or use Regular Expressions to match chat patterns.7 This "pre-filtering" is architecturally significant as it prevents the instantiation of the Action Queue for irrelevant events, conserving system resources.
+3.2 The Action Queue: Threading and Concurrency
+Once a Trigger fires, it instantiates an Action. In a single-threaded environment, a long-running action (like a 10-second animation) would freeze the entire bot. Streamer.bot solves this via a sophisticated Action Queue system that mimics enterprise job scheduling.8
+Queue Modes:
+1. Blocking Queues: Actions executing in a blocking queue run sequentially (FIFO). If five users subscribe simultaneously, the "Alert" action (which might include video and sound) plays five times in a row, never overlapping. This is essential for preventing audiovisual chaos on stream.
+2. Concurrent (Non-Blocking) Queues: Actions run in parallel threads. This is used for backend logic—logging data, updating counters, or sending webhooks—where visual overlap is irrelevant.
+3. Paused State: Queues can be programmatically paused. A broadcaster can create a "Pause Alerts" action that sets the Alert Queue to a paused state during a serious moment, and a "Resume Alerts" action that releases the backlog when appropriate.8
+The introspection capabilities here are robust. The "Action Queues" tab provides a real-time visualization of the thread pool, showing exactly which actions are pending, running, or completed, along with their execution duration in milliseconds.8
+3.3 The Logic Stack: Sub-Actions and Control Flow
+An Action is composed of a sequence of Sub-Actions. Prior to v1.0.0, this was a flat list. The introduction of Nestable Sub-Actions transformed the bot from a linear sequencer into a structured programming environment.2
+Core Logic Sub-Actions:
+The logic stack supports Turing-complete operations:
+* If/Else: The staple of automation. It evaluates variables against criteria. The v1.0.0 update introduced visual nesting, allowing users to drag sub-actions inside the "Then" and "Else" blocks, vastly improving readability.2
+* Switch: For multi-state variables, the Switch sub-action replaces cumbersome chains of If/Else statements. It evaluates a variable once and branches based on the result (Case A, Case B, Default).10
+* While Loop: This enables iterative processing. A common use case involves looping through a list of active viewers to distribute points, or waiting for a specific file to exist before proceeding.11
+* Break: A flow-control command to immediately exit a loop or terminate the Action entirely.13
+Data Processing Sub-Actions:
+* File I/O: Reading and writing to local files allows Streamer.bot to act as a bridge between disjointed software. The File Exists and Folder Exists sub-actions (added in v1.0.1) add error-checking capabilities to these workflows.14
+* Math and Parsing: The bot includes an inline math engine ($math(equation)$) based on mXparser. This allows for complex calculations, such as dynamic probability weighting or currency conversion, to happen directly within variable fields.15
+4. Variable Scope and Management: The Argument Stack
+The mechanism by which data moves through Streamer.bot is the Argument Stack. Understanding this stack is critical for advanced development.
+4.1 Local Scope (The Stack)
+When an Action starts, it is seeded with "Arguments"—variables derived from the Trigger. For a Twitch Chat Message trigger, the stack is populated with %message%, %user%, %badges%, %color%, and %isSub%.15
+* Volatility: These variables are ephemeral. They exist only for the lifecycle of that specific Action instance.
+* Mutability: Sub-actions can modify these arguments or add new ones. A Get Random Number sub-action pushes a new variable (e.g., %randomNum%) onto the stack for subsequent sub-actions to use.
+* Parsing: The system uses % delimiters for parsing. Send Message: Hello %user% resolves to "Hello Steve" at runtime.
+4.2 Global Scope (The State)
+To persist data, Streamer.bot employs Global Variables.
+* Persisted Globals: Stored in the local SQLite database. These survive application restarts. Usage is denoted by ~variableName~ in some contexts, or via specific Get/Set Global sub-actions.15
+* Non-Persisted Globals: Stored in RAM. These are faster but are lost on restart. They are ideal for session-specific tracking (e.g., "Hype Train Level" for the current stream).
+* User Globals: A specialized dictionary linking values to specific User IDs. This is the foundation for loyalty systems, allowing the bot to track "XP" or "Gold" for thousands of unique viewers independently.4
+4.3 Introspection and Debugging
+One of the software's most "expert-friendly" features is the Action History. It provides a forensic log of every execution. Users can right-click any past run and select "Inspect Variables After Run." This opens a JSON-like view of the entire Argument Stack as it existed when the action finished.8 This capability allows developers to debug logic errors—such as why an If statement returned false—by verifying the exact state of the variables at runtime.
+5. Platform Integration: The Multi-Stream Reality
+Streamer.bot acts as a unification layer, abstracting the differences between various platform APIs into a common event language.
+5.1 Twitch Integration
+Twitch is the most mature integration, built on the EventSub WebSocket standard.
+* Legacy vs. Modern: The roadmap shows a clear deprecation of the older "PubSub" protocol in favor of EventSub, which offers better reliability and granular permission scopes.2
+* Authentication: The system handles multiple OAuth tokens. It distinguishes between the "Broadcaster" (channel owner) and the "Bot" (chat agent). This separation allows the bot to perform administrative actions (commercials, title changes) that require the Broadcaster token, while chatting using the Bot token.16
+* Feature Depth: The integration covers the entire Twitch feature set: Predictions, Polls, Hype Trains, Ad Schedules, and Channel Points. It even supports "Suspicious User" events, allowing for automated moderation workflows.2
+5.2 YouTube Integration
+YouTube's infrastructure poses different challenges, historically relying on heavy polling.
+* PushAPI: Streamer.bot utilizes the YouTube PushAPI where available to mimic real-time behavior, though some metrics (like viewer count) may still rely on polling intervals.2
+* Broadcast Identity: The integration creates complex logic to handle YouTube "Brand Accounts." Authentication requires a multi-step handshake where the primary Google account authorizes the bot to act on behalf of the sub-account (the Brand).5
+* Events: Key supported events include SuperChats, SuperStickers, and Memberships (YouTube's equivalent of subscriptions).
+5.3 Kick and Trovo Integration
+The integration with Kick highlights the speed of Streamer.bot’s development cycle.
+* The Scraping Era: Initially, Kick lacked an API. Community extensions relied on browser emulation (scraping the DOM of a hidden browser window) to detect chat. This was fragile and resource-intensive.17
+* The API Era: With v1.0.0, Streamer.bot introduced native support for the Kick Public API. This allows for stable, socket-based event reception (Chat, Follows, Subs) without the overhead of browser rendering.6
+* Trovo: Similarly, native API support allows for unique Trovo interactions like "Spells" and "Raids".18
+5.4 Cross-Platform Chat
+Streamer.bot enables a "Unified Chat" experience. By aggregating message events from Twitch, YouTube, and Kick into a single internal logic flow, broadcasters can create commands that work identically across all platforms (e.g., a !discord command that replies to the specific platform the user is chatting from).18
+6. Broadcasting Control: OBS and Streamlabs
+Unlike a simple chatbot, Streamer.bot is designed to "drive" the broadcast software.
+6.1 OBS Studio: First-Class Integration
+The bot connects to OBS Studio via obs-websocket.
+* Protocol Support: It supports both the legacy v4.9.x protocol and the modern v5.x protocol simultaneously. This is crucial for users transitioning between OBS versions.18
+* Raw Requests: Beyond the pre-built sub-actions (Switch Scene, Mute Source), the bot exposes a Raw request sub-action. This allows power users to construct custom JSON payloads. This is vital for interacting with 3rd-party OBS plugins (like the Move Transition or Shaderfilter) that Streamer.bot developers haven't explicitly built UI for.19
+* Bi-Directional Sync: The connection is not just one-way. Streamer.bot subscribes to OBS events. If the broadcaster manually changes scenes in OBS, Streamer.bot detects this SceneChanged event, which can then trigger other automations (e.g., automatically changing the category on Twitch when switching to the "Just Chatting" scene).
+6.2 Streamlabs Desktop
+Support for Streamlabs is provided via its remote control API. While functional, it allows for scene switching and source visibility, but generally lacks the depth of "Raw" access provided by the open architecture of OBS Studio.18
+7. The C# Scripting Engine: Extensibility Without Limits
+The feature that unequivocally separates Streamer.bot from competitors like Mix It Up is its integrated C# scripting environment. This transforms the bot from a configuration tool into a development environment (IDE).
+7.1 The CPH Interface
+Scripts interact with the application via the CPH (Common Programmable Helper) object. This interface exposes the bot's internal methods to the code.21
+* Method Exposure: The CPH object provides methods for every capability of the bot: CPH.SendMessage(), CPH.ObsSendRaw(), CPH.TwitchBanUser(), CPH.Wait().
+* Data Interchange: Scripts can pull data from the Argument Stack using CPH.TryGetArg<T>("variableName", out T value). This allows a script to process data generated by a previous sub-action.22
+7.2 The Compilation Lifecycle
+Code is not interpreted; it is compiled into a.NET assembly at runtime.
+* References: Developers can import external .dll files (Assemblies). This means a script can utilize System.Data.SQLite to talk to a SQL database, or Newtonsoft.Json for advanced JSON parsing.21
+* Initialization: Scripts support an Init() method (running at compile time/app start) and a Dispose() method. Dispose() is critical for memory management, ensuring that resources like file handles or TCP clients are released when the script creates them.22
+* The Monaco Editor: v1.0.0 replaced the basic text box with the Monaco Editor (the engine behind VS Code). This brought IntelliSense, syntax highlighting, and code folding into the bot, drastically lowering the barrier to entry for complex scripting.2
+7.3 Shared Methods and Code Reuse
+The Execute C# Method sub-action allows an Action to call a specific method defined in another C# script. This promotes the "Don't Repeat Yourself" (DRY) principle, allowing developers to create a library of utility functions (e.g., a shared logging function or math helper) that can be invoked by multiple different Actions.23
+8. Integration Ecosystem: Expanding the Capability Horizon
+Streamer.bot’s power is amplified by its ability to integrate with external software and hardware.
+8.1 Speaker.bot: The Voice of the Stream
+Speaker.bot is a sibling application designed specifically for Text-to-Speech (TTS). Streamer.bot integrates with it natively.18
+* Mechanism: Connection is established via WebSocket.
+* Capabilities: It supports a wide array of TTS engines, including Google Cloud, Azure, Amazon Polly, and local Windows voices.25
+* Workflow: A user redeems a channel point reward. Streamer.bot catches the event, sanitizes the text (using Pass Through Bad Word Filter), and sends the payload to Speaker.bot, which generates the audio and plays it through a specific audio device on the host machine.26
+8.2 Voice Control: SAPI5 and AI
+The bot includes a native Voice Control engine based on Microsoft SAPI5 (Windows Speech Recognition).27
+* Local Processing: Audio is processed locally, ensuring zero latency and privacy.
+* Configuration: Users map spoken phrases to Actions. The system allows for "Confidence Thresholds," preventing accidental triggers from background noise.27
+* AI Evolution: While SAPI5 is functional, it is aging. The community and roadmap point toward integrating AI models. Extensions currently exist to bridge OpenAI Whisper (running locally via Python) to Streamer.bot, providing near-human level transcription accuracy compared to the older SAPI5 engine.28
+8.3 Server Integrations: HTTP, UDP, and WebSocket
+Streamer.bot acts as a server, exposing interfaces for external devices.
+* WebSocket Server: Primary interface for browser-based overlays. JavaScript clients connect to this server to listen for events (e.g., displaying a custom alert animation).29
+* HTTP Server: Allows the bot to receive RESTful requests (GET/POST). This is used for integrating with services like Patreon webhooks or IFTTT.6 It can also serve local files, acting as a lightweight web server for overlay assets.31
+* UDP Server: Designed for high-performance, fire-and-forget messaging. This is often used by game developers to send game state data (e.g., "Player Health Low") from a game engine (Unity/Unreal) to the bot to trigger lighting changes.32
+9. Remote Control: Decks and Mobile
+To compete with hardware like the Elgato Stream Deck, Streamer.bot offers software-based control surfaces.
+9.1 Streamer.bot Deck
+This is a web-based mobile interface.33
+* Architecture: It runs in a browser, connecting to the bot's WebSocket server.
+* Functionality: It replicates the grid functionality of a hardware deck. Users can create buttons to trigger Actions. Because it is web-based, it works on any device (iOS, Android, Tablet) without app store restrictions.34
+9.2 Elgato Stream Deck Plugin
+The official plugin for Elgato hardware offers deep, bi-directional integration.6
+* Beyond Hotkeys: Unlike simple key presses, the plugin can query the bot for state. A button can display the current "Hype Train Level" or change its icon based on whether a specific OBS Scene is active. This state awareness is managed via the WebSocket link between the plugin and the bot.35
+10. Comparative Market Analysis
+To understand Streamer.bot's position, we must compare it to its primary competitors: Mix It Up, Firebot, and SAMMI.
+Table 1: Feature Comparison Matrix
+Feature
+	Streamer.bot
+	Mix It Up
+	Firebot
+	SAMMI (LioranBoard)
+	Architecture
+	.NET / WPF (Native)
+	.NET / WPF (Native)
+	Electron (Node.js)
+	HTML/JS (Wrapper)
+	Resource Usage
+	Low (Lightweight)
+	Medium
+	High (Chromium)
+	Medium
+	Scripting
+	C# (Compiled)
+	C# (Restricted)
+	JavaScript
+	JavaScript / Visual
+	OBS Control
+	Native + Raw JSON
+	Native
+	Native
+	Native + Raw JSON
+	Logic Style
+	Procedural List
+	Guided UI
+	Event Chains
+	Visual Deck/Grid
+	Learning Curve
+	Steep (Expert)
+	Moderate
+	Moderate
+	Steep (Visual)
+	Integrations
+	Extensive (Raw)
+	Curated (Polished)
+	Curated
+	Extensive (Plugin)
+	10.1 vs. Mix It Up
+Mix It Up is a direct competitor in the.NET space. It offers a more polished, "wizard-driven" user experience, making it easier for beginners to set up standard features like currency or games. However, Streamer.bot's "building block" philosophy allows for greater complexity. Mix It Up gives you a Currency system; Streamer.bot gives you variables and math logic to build a currency system exactly how you want it.36
+10.2 vs. Firebot
+Firebot is built on Electron (Node.js). While powerful, Electron apps are notoriously resource-heavy compared to native.NET apps. For streamers maximizing system resources for gaming and encoding, Streamer.bot's lower footprint is a significant advantage. Firebot's scripting is JavaScript-based, which some web developers prefer, but it lacks the deep OS-level integration of C#.37
+10.3 vs. SAMMI
+SAMMI uses a visual programming language where logic is tied to buttons on a grid. Streamer.bot decouples logic (Actions) from control surfaces. SAMMI is incredibly powerful visually but can become disorganized ("spaghetti code") in complex setups. Streamer.bot's list-based logic with nested groups mimics traditional coding structures, which many engineers find more maintainable.38
+11. Future Outlook: The 2025 Roadmap
+The analysis of changelogs and community discussions points to three key pillars for Streamer.bot's development into 2025.
+11.1 AI and Local LLMs
+The integration of AI is the most significant trend. While current solutions rely on API calls to OpenAI, the move towards Local LLMs (using hardware NPUs) is inevitable. We anticipate native sub-actions that allow the bot to run small language models locally for tasks like sentiment analysis, chat summarization, or dynamic NPC dialogue generation, without the latency or cost of cloud APIs.19
+11.2 Vertical Content Orchestration
+As platforms push vertical video (Shorts, TikTok, Twitch Mobile Feed), broadcasting software is adapting. Streamer.bot is adding features to manage "Dual Canvas" setups—controlling a 16:9 scene for desktop viewers and a 9:16 scene for mobile viewers simultaneously. New sub-actions like Take Vertical Screenshot in Meld Studio confirm this direction.2
+11.3 Enterprise Reliability
+The shift to v1.0.0, with features like Cloud Backup, SemVer versioning, and rigorous changelogs, indicates a maturation from a "hobbyist tool" to "enterprise software." Reliability, uptime, and backward compatibility are becoming primary engineering goals as the software is adopted by professional broadcast studios.2
+12. Conclusion
+Streamer.bot represents the pinnacle of the "Local-First" automation philosophy. By rejecting the convenience of the cloud in favor of the raw power of the local machine, it offers a ceiling of capability that is virtually non-existent. Its architecture—built on.NET, driven by asynchronous events, and extensible via C#—makes it less of a "chatbot" and more of a Broadcast Operating System.
+While its steep learning curve and utilitarian interface may deter the casual user, for the broadcast engineer or the technical content creator, it creates an environment where the only limit is programming skill. As the live streaming industry in 2025 demands higher interactivity, lower latency, and deeper immersion, Streamer.bot stands as the essential middleware powering the next generation of digital performance.
+Works cited
+1. Installation - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/get-started/installation
+2. Streamer.bot v1.0.0, accessed December 16, 2025, https://streamer.bot/changelogs/v1.0.0
+3. MacOS Support - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/get-started/installation/macos
+4. Introduction | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/get-started/introduction
+5. YouTube - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/guide/platforms/youtube
+6. Features | Streamer.bot, accessed December 16, 2025, https://streamer.bot/features
+7. Triggers - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/guide/triggers
+8. Actions - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/guide/actions
+9. If / Else - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/sub-actions/core/logic/if-else
+10. Switch - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/sub-actions/core/logic/switch
+11. While | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/sub-actions/core/logic/while
+12. How do I write to file multiple times based on a variable? : r/streamerbot - Reddit, accessed December 16, 2025, https://www.reddit.com/r/streamerbot/comments/1l22olp/how_do_i_write_to_file_multiple_times_based_on_a/
+13. Streamer bots? : r/Twitch - Reddit, accessed December 16, 2025, https://www.reddit.com/r/Twitch/comments/1jz8mds/streamer_bots/
+14. Streamer.bot v1.0.1, accessed December 16, 2025, https://streamer.bot/changelogs
+15. Variables - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/guide/variables
+16. Initial Setup Guide - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/get-started/setup
+17. Kick [kick.com] Platform Support - Streamer.bot Ideas and Suggestions, accessed December 16, 2025, https://ideas.streamer.bot/posts/689/kick-kick-com-platform-support
+18. Streamer.bot - Supercharge your live stream, accessed December 16, 2025, https://streamer.bot/
+19. Examples | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/examples
+20. Sub-Actions | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/sub-actions
+21. Tutorial for Writing Streamer.bot C# code with linting in Visual Studio Code - GitHub Gist, accessed December 16, 2025, https://gist.github.com/rondhi/aa5e8c3b7d1277d1c93dd7f486b596fe
+22. Advanced "Fetch URL" - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/examples/http-post
+23. Execute C# Code - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/sub-actions/core/csharp/execute-csharp-code
+24. Speaker.bot | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/guide/integrations/speakerbot
+25. Speaker.bot | Speaker.bot Docs, accessed December 16, 2025, https://speaker.bot/
+26. Speak - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/sub-actions/speakerbot/speak
+27. Voice Control | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/guide/voice-control
+28. streamer-bot · GitHub Topics, accessed December 16, 2025, https://github.com/topics/streamer-bot
+29. Remote Access | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/websocket/recipes/remote-access
+30. Using the Client - Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/websocket/guide/client
+31. More HTTP Server endpoints - Streamer.bot Ideas and Suggestions, accessed December 16, 2025, https://ideas.streamer.bot/posts/1099/more-http-server-endpoints
+32. UDP Server | Streamer.bot Docs, accessed December 16, 2025, https://docs.streamer.bot/api/udp
+33. Decks | Streamer.bot, accessed December 16, 2025, https://streamer.bot/decks/66c57de9-a62c-4d20-83db-9de87ad1b0af
+34. Mobile ?? : r/streamerbot - Reddit, accessed December 16, 2025, https://www.reddit.com/r/streamerbot/comments/1ooyoix/mobile/
+35. Stream Deck for Streamer.bot, accessed December 16, 2025, https://streamdeck.streamer.bot/
+36. Compare Mix It Up vs. Streamer.bot in 2025 - Slashdot, accessed December 16, 2025, https://slashdot.org/software/comparison/Mix-It-Up-vs-Streamer.bot/
+37. Compare Firebot vs. Streamer.bot in 2025 - Slashdot, accessed December 16, 2025, https://slashdot.org/software/comparison/Firebot-vs-Streamer.bot/
+38. Streamerbot or SAMMI for Visual Novel like interactions ? : r/Twitch - Reddit, accessed December 16, 2025, https://www.reddit.com/r/Twitch/comments/1lwzr5g/streamerbot_or_sammi_for_visual_novel_like/
+39. 2025 Product Roadmap: The Year of AI - GetStream.io, accessed December 16, 2025, https://getstream.io/blog/product-roadmap-2025/

@@ -1,0 +1,32 @@
+Categories available in Banana Prompt Quicker:
+
+Main Categories:
+1. 全部 (All)
+2. 工作 (Work)
+3. 生活 (Life)
+4. 学习 (Study)
+5. 有趣 (Fun)
+6. NSFW
+
+Filter Options:
+- 最近一周 (Recent Week)
+- 文生图 (Text-to-Image)
+- 编辑 (Edit)
+
+Sub-categories/Tags found:
+- PPT
+- 美食 (Food)
+- 表情包 (Emoji/Stickers)
+- 总结 (Summary)
+- 滤镜 (Filter)
+- 想象 (Imagination)
+- 穿搭 (Fashion/Outfit)
+- 电商 (E-commerce)
+- 插画 (Illustration)
+- 旅游 (Travel)
+- 装修 (Decoration/Interior)
+- 封面 (Cover)
+- 头像 (Avatar)
+- COSPLAY
+- 解构 (Deconstruction)
+- 金主 (Sponsor)

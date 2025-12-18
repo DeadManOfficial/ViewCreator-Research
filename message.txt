@@ -1,0 +1,133 @@
+Here are five copy‑paste prompt patterns to cut morphing, limb drift, and off‑model glitches in text‑to‑video (Sora/Runway/Luma/Veo). Each includes quick “do/don’t” and ready snippets.
+
+---
+
+1) Identity Anchors (lock the character’s look)
+
+Why: Keeps faces/outfits/hair consistent shot‑to‑shot.
+
+Do: lock 5–8 stable traits (age, hair, eyes, outfit, props, silhouette).
+Don’t: overstuff with style refs or change wardrobe mid‑shot.
+
+Snippets (paste at end):
+
+“identity anchor: teenage boy named Ryo, spiky black hair, red eyes, faint scar under left eye, slim build, ripped black jeans, black jacket closed, red star chest tattoo hidden, keeps same clothes every frame”
+
+“identity anchor: baby creature ‘Rokoko’—round rabbit‑cat, three glowing red eyes (triangle layout), floppy ears, small tail, stays same size/proportions entire clip”
+
+“identity anchor: royal princess—lavender hair, UV‑purple eyes, white‑gold ceremonial gown, jeweled headpiece centered, gown never changes, no accessories appear or vanish”
+
+“prop anchor: crystalized demon guitar—alive, red internal glow, same shape/scale in every frame; never melts, never morphs”
+
+“brand silhouette: long jacket hem at knee, chunky boots, zipper always closed, no garment physics that remove/shorten clothing”
+
+---
+
+2) Temporal Segmentation (freeze states between beats)
+
+Why: Reduces ‘state drift’ (items appearing/disappearing).
+
+Do: define micro‑beats with locked states (0–2s, 2–4s, etc.).
+Don’t: ask for multiple wardrobe/pose swaps inside one beat.
+
+Snippets:
+
+“temporal locks: 0–2s idle stance; 2–4s slow head turn only; 4–6s raise right hand only; 6–8s hold; no other body part changes between beats”
+
+“state continuity: hair length, jacket closed, tattoo hidden—unchanged for entire 8s”
+
+“object persistence: background door stays closed; no new lights, no new props appear”
+
+“continuity guardrail: character remains stage‑left; never crosses centerline across beats”
+
+“pose hold: maintain elbow angle within ±5°; hand pose remains open, no finger teleport”
+
+---
+
+3) Camera‑Rig Cues (move the camera, not the body)
+
+Why: Panning/trucking instead of moving the subject prevents re‑synth glitches.
+
+Do: name a simple rig & path (dolly, slider, handheld‑micro‑jitter).
+Don’t: stack multiple complex moves or FOV swings in one shot.
+
+Snippets:
+
+“camera rig: shoulder‑mounted, 50 mm, gentle dolly‑in 1%/s, micro‑jitter realistic; subject stays planted”
+
+“locked gimbal: slow orbit 10° around subject waist‑up; body remains fixed to world space”
+
+“tripod tilt‑down only 8° over 3s; no zoom, no parallax drift”
+
+“virtual slider left‑to‑right at constant 0.2 m/s; background parallax true; subject does not walk”
+
+“depth discipline: no autofocus hunting; focus on eyes; aperture f/2.8 constant”
+
+---
+
+4) Physics Constraints (stop melting limbs)
+
+Why: Consistent joint limits & contact make limbs behave.
+
+Do: set joint bounds, conservation of mass, and contact rules.
+Don’t: request rubber limbs or sudden shape changes.
+
+Snippets:
+
+“skeletal constraints: human IK stable; elbow/knee bend within anatomic limits; spine stiffness medium; no limb stretching”
+
+“mass & volume preserved; no mesh thinning; clothing thickness constant”
+
+“grounding: shoes maintain floor contact; no foot sliding; friction realistic”
+
+“hair dynamics low; avoids explosive secondary motion; earrings/necklace remain steady”
+
+“hand fidelity: 5 distinct fingers visible; thumb orientation anatomically correct; no finger fusion”
+
+---
+
+5) Keyframe Anchors (pose pins the model must hit)
+
+Why: Pose stamps every couple seconds reduce drift and identity loss.
+
+Do: specify time‑stamped poses & facial expressions.
+Don’t: over‑key every 0.25s (feels robotic); pick 3–5 anchors.
+
+Snippets:
+
+“keyframes: t=0s neutral face, hands at sides; t=2s right hand chest‑high open palm; t=4s head tilt 10° left; t=6s small smile; hold”
+
+“facial anchor map: eyebrows neutral→slight concern (t=3s)→resolve neutral (t=6s); pupils steady; gaze camera‑lens”
+
+“prop anchor: guitar at 15° neck‑up angle at t=1s, 20° at t=3s, 25° at t=5s—no other angles”
+
+“robe anchor: hem location at calf height remains fixed through keys; belt knot visible at sternum”
+
+“silhouette anchor: readable triangle (head‑shoulders‑guitar) preserved across all keys”
+
+---
+
+How to use (stack light, in this order)
+
+Paste Identity Anchors → 2) add Camera‑Rig Cues → 3) choose Temporal Segmentation beats → 4) add Physics Constraints → 5) finish with Keyframe Anchors. Keep it short; these are suffix guards you append after your creative description.
+---
+
+One ready‑to‑paste master suffix (8–10s shot)
+
+“identity anchor: teenage boy ‘Ryo’—spiky black hair, red eyes, scar under left eye, slim build, ripped black jeans, black jacket zipped, proportions constant. camera rig: shoulder‑mounted 50 mm, gentle dolly‑in 1%/s, micro‑jitter natural, no zoom. temporal locks: 0–2s idle; 2–4s slow head turn only; 4–6s raise right hand to chest; 6–8s hold; no wardrobe/prop/state changes. physics constraints: human IK stable, no limb stretch, feet don’t slide, mass/volume preserved, hair dynamics low, hand shows 5 distinct fingers. keyframes: t=0s neutral; t=2s gaze to lens; t=4s right hand open palm chest‑high; t=6s small half‑smile; t=8s hold.”
+
+---
+
+Quick “don’t” checklist
+
+Don’t change hair length, outfit, or props mid‑shot.
+
+Don’t ask the subject to walk and the camera to orbit. Pick one.
+
+Don’t spam style refs; they fight identity anchors.
+
+Don’t over‑animate fingers or cloth—keep secondary motion low.
+
+Don’t exceed 3–5 keyframes in <10 s.
+
+---

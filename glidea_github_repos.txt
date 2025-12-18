@@ -1,0 +1,49 @@
+GitHub Profile: glidea
+URL: https://github.com/glidea
+
+Profile Info:
+- Location: Hangzhou
+- Website: https://glidea.zenfeed.xyz/
+- Bio: LESS is more
+- 51 followers, 6 following
+- 358 contributions in the last year
+
+Pinned Repositories (15 total):
+
+1. **banana-prompt-quicker** ⭐ 1.8k | 🍴 142
+   - JavaScript
+   - 🍌Awesome Prompts; Nano Banana；Banana Pro; Gemini；AI Studio；Prompt Quickly
+   - URL: https://github.com/glidea/banana-prompt-quicker
+   - **PRIMARY PROMPTS SOURCE - Already extracted**
+
+2. **zenfeed** ⭐ 1.6k | 🍴 99
+   - Go
+   - Make RSS 📰 great again with AI 🧠✨!!
+   - URL: https://github.com/glidea/zenfeed
+
+3. **VictoriaMetrics/operator** ⭐ 528 | 🍴 192
+   - Go
+   - Kubernetes operator for Victoria Metrics
+   - URL: https://github.com/VictoriaMetrics/operator
+
+4. **one-balance** ⭐ 386 | 🍴 50
+   - TypeScript
+   - Make ai KEY rotation SMARTER and more SECURE; Cloudflare Worker
+   - URL: https://github.com/glidea/one-balance
+
+5. **tinygpt** ⭐ 141 | 🍴 14
+   - Python
+   - Learning LLM by doing
+   - URL: https://github.com/glidea/tinygpt
+
+6. **llm-structed** ⭐ 7 | 🍴 1
+   - Go
+   - llm-structed is an LLM Client optimized for structured output scenarios
+   - URL: https://github.com/glidea/llm-structed
+
+Recent Activity (December 2025):
+- Created 21 commits in banana-prompt-quicker
+- Created 1 repository: chatlog (Go)
+- Opened 1 issue in ruanyf/weekly about Banana Pro
+
+Note: The banana-prompt-quicker repository is the main source for prompts and has already been extracted. Other repositories are AI/LLM tools but don't appear to contain prompt collections.

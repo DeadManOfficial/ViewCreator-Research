@@ -1,0 +1,299 @@
+[
+  {
+    "source": "Awesome Claude Skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "score": 25,
+    "matched_categories": [
+      "content_moderation",
+      "community_management",
+      "marketing_automation",
+      "content_strategy",
+      "brand_management",
+      "audience_analytics",
+      "social_media",
+      "copywriting",
+      "competitive_analysis",
+      "lead_generation"
+    ],
+    "individual_skills": [
+      "docx",
+      "pdf",
+      "pptx",
+      "xlsx",
+      "Markdown to EPUB Converter",
+      "artifacts-builder",
+      "aws-skills",
+      "Changelog Generator",
+      "Claude Code Terminal Title",
+      "D3.js Visualization",
+      "FFUF Web Fuzzing",
+      "finishing-a-development-branch",
+      "iOS Simulator",
+      "MCP Builder",
+      "move-code-quality-skill"
+    ],
+    "notable": "The **awesome-claude-skills** repository highlights several unique and powerful skills that extend Claude's capabilities beyond standard language processing, particularly in the areas of development, data analysis, and creative media.\n\nOne of the most notable is **artifacts-builder**, a comprehensive suite of tools designed for creating elaborate, multi-component Claude.ai HTML artifacts using modern frontend web technologies like React, Tailwind CSS, and shadcn/ui. This skill is significant as it allows Claude to generate complex, interactive web applications directly within the chat environm"
+  },
+  {
+    "source": "Awesome Claude Skills",
+    "url": "https://jimmysong.io/ai/awesome-claude-skills/",
+    "score": 23,
+    "matched_categories": [
+      "content_moderation",
+      "community_management",
+      "marketing_automation",
+      "content_strategy",
+      "brand_management",
+      "audience_analytics",
+      "social_media",
+      "copywriting",
+      "competitive_analysis",
+      "lead_generation"
+    ],
+    "individual_skills": [
+      "docx",
+      "pdf",
+      "pptx",
+      "xlsx",
+      "Markdown to EPUB Converter",
+      "artifacts-builder",
+      "aws-skills",
+      "Changelog Generator",
+      "Claude Code Terminal Title",
+      "D3.js Visualization",
+      "FFUF Web Fuzzing",
+      "finishing-a-development-branch",
+      "iOS Simulator",
+      "MCP Builder",
+      "move-code-quality-skill"
+    ],
+    "notable": "**artifacts-builder**: This skill provides a suite of tools specifically designed for creating elaborate, multi-component HTML artifacts within the Claude.ai environment. It leverages modern frontend web technologies such as React, Tailwind CSS, and shadcn/ui, allowing developers to build sophisticated, interactive outputs that go beyond simple text or markdown. This is notable for enabling complex, application-like results directly from Claude's output.\n\n**subagent-driven-development**: A unique skill that implements an advanced software development workflow by dispatching independent subagen"
+  },
+  {
+    "source": "claude-skills",
+    "url": "https://github.com/alirezarezvani/claude-skills",
+    "score": 22,
+    "matched_categories": [
+      "content_moderation",
+      "community_management",
+      "marketing_automation",
+      "content_strategy",
+      "brand_management",
+      "audience_analytics",
+      "social_media",
+      "copywriting",
+      "competitive_analysis",
+      "lead_generation"
+    ],
+    "individual_skills": [
+      "agile-product-owner",
+      "capa-officer",
+      "ceo-advisor",
+      "code-reviewer",
+      "content-creator",
+      "cto-advisor",
+      "fda-consultant-specialist",
+      "gdpr-dsgvo-expert",
+      "information-security-manager-iso27001",
+      "isms-audit-expert",
+      "marketing-demand-acquisition",
+      "marketing-strategy-pmm",
+      "mdr-745-specialist",
+      "product-manager-toolkit",
+      "product-strategist"
+    ],
+    "notable": "The **claude-skills** repository features a strong focus on specialized, high-level professional roles, particularly in the domains of **Engineering, Product Management, C-Level Advisory, and Regulatory/Quality Management (RA/QM)**. This specialization is a key differentiator, moving beyond general-purpose tools to offer deep, domain-specific expertise.\n\nA standout category is the **Regulatory Affairs and Quality Management (RA/QM) Team** skills, which are highly niche and valuable for HealthTech and MedTech companies. Skills like **MDR-745 Specialist** (EU Medical Device Regulation 2017/745),"
+  },
+  {
+    "source": "awesome-claude-skills",
+    "url": "https://github.com/VoltAgent/awesome-claude-skills",
+    "score": 15,
+    "matched_categories": [
+      "content_moderation",
+      "marketing_automation",
+      "content_strategy",
+      "brand_management",
+      "audience_analytics",
+      "copywriting",
+      "competitive_analysis"
+    ],
+    "individual_skills": [
+      "1. `anthropics/docx`",
+      "2. `anthropics/pptx`",
+      "3. `anthropics/xlsx`",
+      "4. `anthropics/pdf`",
+      "5. `anthropics/algorithmic-art`",
+      "6. `anthropics/canvas-design`",
+      "7. `anthropics/slack-gif-creator`",
+      "8. `anthropics/theme-factory`",
+      "9. `anthropics/web-artifacts-builder`",
+      "10. `anthropics/mcp-builder`",
+      "11. `anthropics/webapp-testing`",
+      "12. `anthropics/brand-guidelines`",
+      "13. `anthropics/internal-comms`",
+      "14. `anthropics/skill-creator`",
+      "15. `anthropics/template`"
+    ],
+    "notable": "The repository highlights several unique and powerful Skills, particularly those focused on advanced development workflows and creative generation.\n\n1.  **`anthropics/web-artifacts-builder`**: This is a standout skill for developers, enabling Claude to build complex HTML artifacts using modern web technologies like **React and Tailwind CSS**. This moves beyond simple HTML generation to creating fully structured, styled, and component-based web interfaces directly within the Claude environment. It signifies a high level of code generation capability.\n2.  **`obra/dispatching-parallel-agents`**: "
+  },
+  {
+    "source": "skills",
+    "url": "https://github.com/anthropics/skills",
+    "score": 12,
+    "matched_categories": [
+      "content_moderation",
+      "marketing_automation",
+      "content_strategy",
+      "brand_management",
+      "audience_analytics",
+      "copywriting",
+      "competitive_analysis",
+      "lead_generation"
+    ],
+    "individual_skills": [
+      "algorithmic-art",
+      "brand-guidelines",
+      "canvas-design",
+      "doc-coauthoring",
+      "docx",
+      "frontend-design",
+      "internal-comms",
+      "mcp-builder",
+      "pdf",
+      "pptx",
+      "skill-creator",
+      "slack-gif-creator",
+      "theme-factory",
+      "web-artifacts-builder",
+      "webapp-testing"
+    ],
+    "notable": "**Algorithmic Art**: This skill represents a highly specialized creative capability, guiding Claude to produce generative art using the p5.js library. Its uniqueness lies in its two-step process: first, the creation of an 'Algorithmic Philosophy'\u2014a manifesto detailing the computational aesthetic, such as 'Organic Turbulence' or 'Quantum Harmonics'\u2014and second, the meticulous implementation of this philosophy into a p5.js sketch. The skill emphasizes **process over product**, requiring the final code to reflect 'expert craftsmanship' and 'painstaking optimization,' ensuring the resulting art is "
+  },
+  {
+    "source": "Awesome Claude",
+    "url": "https://awesomeclaude.ai/",
+    "score": 12,
+    "matched_categories": [
+      "community_management",
+      "marketing_automation",
+      "audience_analytics",
+      "copywriting",
+      "competitive_analysis",
+      "lead_generation"
+    ],
+    "individual_skills": [
+      "Anthropic Academy",
+      "Anthropic Cookbook",
+      "Claude Quickstarts",
+      "Model Context Protocol Introduction",
+      "Claude Code",
+      "Claude Code Best Practices",
+      "hesreallyhim/awesome-claude-code",
+      "travisvn/awesome-claude-skills",
+      "BehiSecc/awesome-claude-skills",
+      "langgptai/awesome-claude-prompts",
+      "vijaythecoder/awesome-claude-agents",
+      "VoltAgent/awesome-claude-code-subagents",
+      "punkpeye/awesome-mcp-servers",
+      "AI Fluency: Framework & Foundations",
+      "Claude with the Anthropic API"
+    ],
+    "notable": "The Awesome Claude directory highlights several standout resources that represent key areas of the Claude ecosystem, particularly focusing on developer tools and advanced agentic capabilities.\n\n**claude-flow**: This is a leading agent orchestration platform designed to deploy intelligent multi-agent swarms, coordinate complex autonomous workflows, and construct sophisticated conversational AI systems. It features an enterprise-grade architecture, distributed swarm intelligence, and native support for Retrieval-Augmented Generation (RAG) integration, all built upon the Model Context Protocol (M"
+  },
+  {
+    "source": "awesome-claude-skills",
+    "url": "https://github.com/travisvn/awesome-claude-skills",
+    "score": 10,
+    "matched_categories": [
+      "community_management",
+      "marketing_automation",
+      "brand_management",
+      "audience_analytics",
+      "social_media",
+      "copywriting",
+      "competitive_analysis"
+    ],
+    "individual_skills": [
+      "docx",
+      "pdf",
+      "pptx",
+      "xlsx",
+      "algorithmic-art",
+      "canvas-design",
+      "slack-gif-creator",
+      "artifacts-builder",
+      "mcp-builder",
+      "webapp-testing",
+      "brand-guidelines",
+      "internal-comms",
+      "skill-creator",
+      "ios-simulator-skill",
+      "ffuf-web-fuzzing"
+    ],
+    "notable": "The `awesome-claude-skills` repository highlights several unique and powerful capabilities that extend Claude's functionality, particularly in creative, development, and document-handling domains.\n\n*   **artifacts-builder**: This skill is notable for enabling Claude to construct complex HTML artifacts directly within the `claude.ai` environment, leveraging modern web development frameworks like React, Tailwind CSS, and shadcn/ui components, which is crucial for creating interactive and polished outputs.\n*   **skill-creator**: A meta-skill, the `skill-creator` is an interactive tool designed to"
+  },
+  {
+    "source": "my_claude_skills",
+    "url": "https://github.com/brunoasm/my_claude_skills",
+    "score": 7,
+    "matched_categories": [
+      "content_moderation",
+      "audience_analytics",
+      "copywriting",
+      "competitive_analysis",
+      "lead_generation"
+    ],
+    "individual_skills": [
+      "biogeobears",
+      "extract-from-pdfs",
+      "busco-phylogeny",
+      "thinking-deeply"
+    ],
+    "notable": "The repository features two particularly notable skills that demonstrate the breadth of potential Claude applications: one focused on complex scientific data extraction and the other on internal cognitive structuring.\n\n1.  **`extract-from-pdfs` (Scientific Data Extraction Pipeline)**\n    This skill is a sophisticated, multi-step pipeline designed to solve the common scientific problem of extracting structured data from large collections of research papers (PDFs) for systematic reviews or meta-analyses. It goes far beyond simple summarization by enforcing a rigorous, quality-controlled workflow"
+  },
+  {
+    "source": "Claude Skills Marketplace - Browse Skills from GitHub | SkillsMP",
+    "url": "https://skillsmp.com/",
+    "score": 6,
+    "matched_categories": [
+      "community_management",
+      "marketing_automation",
+      "audience_analytics",
+      "copywriting",
+      "competitive_analysis"
+    ],
+    "individual_skills": [
+      "`at-dispatch-v2`",
+      "`add-uint-support`",
+      "`skill-writer`",
+      "`docstring`",
+      "`frontend-design`",
+      "`hook-development`",
+      "`command-development`",
+      "`agent-identifier`",
+      "`rule-identifier`",
+      "`mcp-integration`",
+      "`skill-development`",
+      "`command-name`"
+    ],
+    "notable": "The Skills Marketplace highlights several unique and powerful skills, particularly those related to the Claude Code ecosystem and advanced development tasks. The most notable skills found include:\n\n*   **`skill-writer`**: This is a meta-skill designed to assist users in the creation, writing, authoring, or design of new Agent Skills for Claude Code. It acts as a guide and template, streamlining the process of extending Claude's capabilities with custom tools. Its existence underscores the platform's focus on fostering a developer community.\n*   **`mcp-integration`**: This skill is crucial for "
+  },
+  {
+    "source": "Anthropic Cookbook Skills",
+    "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/skills",
+    "score": 6,
+    "matched_categories": [
+      "marketing_automation",
+      "brand_management",
+      "audience_analytics",
+      "competitive_analysis"
+    ],
+    "individual_skills": [
+      "Excel (`xlsx`)",
+      "PowerPoint (`pptx`)",
+      "PDF (`pdf`)",
+      "Word (`docx`)"
+    ],
+    "notable": "The Anthropic Cookbook's Skills section is notable for its comprehensive focus on **Built-in Document Generation Skills** and a practical, domain-specific application to **Financial Analysis and Reporting**.\n\nThe core feature highlighted is the set of four built-in skills: `xlsx` (Excel), `pptx` (PowerPoint), `pdf` (PDF), and `docx` (Word). These skills are unique in that they enable Claude to directly create and manipulate complex, professional file formats. This capability is a significant advancement for business automation, allowing the agent to generate Excel workbooks complete with formu"
+  }
+]

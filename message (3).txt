@@ -1,0 +1,43 @@
+PROMPT 1: MOVIE THEATER DEATH SCENE
+Format: 15 seconds, 1080p vertical (9:16), single continuous shot, 30 FPS
+Horror movie theater interior, nighttime. Nonna being extremely disruptive during romantic film screening, eating messily, talking loudly. Audience slowly turns violent, attacking her. She fights back briefly before being overwhelmed. Crowd applauds.
+Identity anchor:
+
+Nonna—99 years old, white hair in tight bun stays same, thick black-framed glasses locked on face, deep facial wrinkles consistent pattern, floral dress (pink roses white background) with sauce stains appearing, weathered spotted hands holding fried chicken drumstick then wooden spoon as weapon, stocky 5'2" build proportions constant, annoyed then angry expression
+Theater patrons (10 people)—mixed ages/genders, normal clothing, expressions shift from annoyed to murderous, holding various weapons (umbrellas, popcorn boxes, canes), proportions locked
+Ghostface killer—white ghost mask same shape, black robe consistent, sitting two seats away from Nonna, annoyed body language, knife in hand unused
+
+Camera rig: Static wide shot, 35mm lens, filming from back of theater row, no movement, no zoom, maintains full theater row in vertical frame, Nonna left-center, patrons surrounding, dramatic theater lighting from screen glow.
+Temporal locks:
+
+0-3s: Nonna eating chicken loudly, sauce on face and hands, slurping sounds, phone rings she answers loudly, patrons turning heads annoyed, Ghostface sitting still watching, movie screen glowing background
+3-6s: Nonna yelling at screen in Italian waving chicken leg, old man behind taps shoulder asking quiet, Nonna turns points chicken at him yelling, flash photography from her phone, more patrons turning fully around angry
+6-9s: Multiple patrons standing with weapons (umbrellas raised, cane lifted, popcorn box ready), Nonna pulling out wooden spoon defensively, Ghostface leaning back out of way, first patron swinging umbrella at Nonna
+9-12s: Full melee—multiple patrons attacking Nonna simultaneously, she fighting back hitting with spoon, patrons overwhelming her with numbers, weapons striking, Ghostface still just watching annoyed
+12-15s: Nonna slumped in seat defeated, patrons stepping back weapons lowered, entire group CLAPPING in unison, Ghostface joining applause, movie continuing on screen behind
+
+Physics constraints: Theater seats stay grounded, chicken leg stays rigid until dropped, wooden spoon rigid weapon, umbrellas/canes maintain form during swings, contact impacts realistic, people maintain human IK during fight, no floating, Nonna's glasses stay on face, blood splatter minimal (comedic not graphic), 5 distinct fingers on all characters, weapons don't phase through bodies, patrons maintain individual proportions.
+Keyframe anchors:
+
+t=0s: Nonna sitting center, chicken leg at mouth biting, left hand holding phone ringing, patrons in seats neutral, Ghostface sitting still two seats right
+t=3s: Nonna standing half-up yelling, chicken leg pointing forward at screen, phone to ear talking, old man behind her hand on her shoulder, three other patrons turned around glaring
+t=6s: Nonna standing full, wooden spoon raised defensive right hand, chicken dropped on floor, five patrons standing with weapons raised, Ghostface leaning back arms crossed
+t=9s: Nonna mid-swing with spoon hitting patron's umbrella, two other patrons striking from sides, she's surrounded, Ghostface watching with head tilted
+t=12s: Nonna collapsed in seat, head back, arms limp, wooden spoon on floor, eight patrons standing around her, Ghostface and all patrons mid-clap
+t=15s: All hands clapping synchronized, Nonna motionless slumped, movie screen bright behind them, theater audience satisfied
+
+Sound: Theater ambiance, romantic movie playing, Nonna loudly chewing and slurping, phone ringing then her loud talking, chicken sauce squishing, Italian yelling, patron complaints, umbrellas/canes whooshing, impact sounds, wooden spoon hitting, Nonna's grunt, final synchronized applause.
+Dialogue:
+Nonna: (chewing loudly) "Mmm! This chicken so good!"
+Phone: (rings)
+Nonna: "HELLO?! SPEAK UP I CAN'T HEAR YOU IN THIS MOVIE!"
+Screen: (romantic dialogue playing)
+Nonna: "NO! DON'T TRUST HIM STUPIDA! HE'S LYING!"
+Old Man: "Excuse me, could you please—"
+Nonna: "I PAID MY MONEY LIKE EVERYBODY ELSE HERE!"
+(flash photo sound)
+Woman: "That's it! GET HER!"
+Nonna: "YOU WANT SOME?! COME ON!"
+(fighting sounds, impacts)
+Nonna: "AHHH! NOT THE FACE!"
+(she goes down, silence, then synchronized clapping starts)

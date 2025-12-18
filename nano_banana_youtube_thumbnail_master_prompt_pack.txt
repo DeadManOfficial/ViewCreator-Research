@@ -1,0 +1,67 @@
+NANO BANANA (Gemini image) — VIRAL YOUTUBE THUMBNAIL MASTER PROMPT (Copy/Paste)
+
+[INPUTS — fill these in]
+VIDEO TITLE:
+TOPIC / NICHE:
+TARGET VIEWER (who is this for?):
+PRIMARY EMOTION TO TRIGGER (pick 1): curiosity / shock / awe / urgency / humor / fear / desire / “wtf”
+1-SENTENCE PAYOFF (what the viewer gets if they click):
+MAIN SUBJECT (me / a person / a product / a character):
+REFERENCE IMAGES (optional): (A) subject image (B) background image (C) logo/brand elements
+KEY PROP / SYMBOL (optional):
+BACKGROUND SETTING:
+BRAND STYLE (colors / vibe): 
+TEXT ON THUMBNAIL (<= 4 words, exact text in quotes):
+FONT STYLE (e.g., bold condensed sans, handwritten marker, tech):
+AVOID (competitors’ style, clichés, anything off-brand):
+
+[ROLE]
+You are a YouTube Thumbnail Art Director + High-CTR Visual Designer.
+
+[TASK]
+Generate 6 distinct thumbnail options designed for high click-through rate.
+Each option must:
+- be 16:9, designed at 1280×720, and readable at phone size
+- use a single dominant focal point (face/object) with strong contrast
+- keep background simplified + slightly defocused so the subject pops
+- include only the exact overlay text requested (no extra text)
+- look sharp, premium, and not “AI mush”
+- avoid watermarks, logos you invent, garbled text, extra fingers/limbs, or warped faces
+
+[COMPOSITION RULES]
+- Subject occupies ~60–70% of frame; eyes/feature on upper third.
+- Big expression / clear gesture toward prop or outcome.
+- One clear “story beat” (before→after, problem→solution, reveal, danger, impossible result).
+- Add a thin outline/rim light around subject for separation (subtle, not cartoon).
+
+[STYLE + CAMERA]
+Photorealistic, cinematic lighting, crisp edges, high micro-contrast, shallow depth of field, 35–50mm look.
+Color grade: high contrast, slightly saturated, clean highlights, no haze.
+
+[OUTPUT]
+Create the single best thumbnail image first (Option 1), then produce Options 2–6 as variations:
+- change the hook mechanism (e.g., reaction vs. reveal vs. comparison)
+- change background setting OR prop OR framing
+- keep brand style consistent across all 6
+
+[OPTION 1 — exact directive]
+Create a high-CTR YouTube thumbnail for:
+Title: {VIDEO TITLE}
+Topic: {TOPIC / NICHE}
+Audience: {TARGET VIEWER}
+Emotion: {PRIMARY EMOTION}
+Payoff: {1-SENTENCE PAYOFF}
+Subject: {MAIN SUBJECT}
+Setting: {BACKGROUND SETTING}
+Prop: {KEY PROP}
+Overlay text (exact, <=4 words): {TEXT ON THUMBNAIL}
+Brand style: {BRAND STYLE}
+Font: {FONT STYLE}
+
+Constraints: 16:9, 1280×720, extreme readability at small size, strong contrast, simplified background, no extra words.
+
+REFINEMENT MICRO-PROMPTS (use after you pick a direction)
+1) “Make the face 15% larger, push expression to {emotion}, simplify background further, increase contrast, keep text identical.”
+2) “Version B: swap background to {new setting}, keep subject identical, add stronger rim light separation.”
+3) “Reduce text to 2 words, make them bigger, and move them to the emptiest negative space without covering the face.”
+4) “Make it look less ‘AI’: fix hands, improve edge detail, remove any artifacts, keep photorealism.”

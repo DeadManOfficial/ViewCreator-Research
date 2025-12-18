@@ -1,0 +1,101 @@
+                        "text": """Tu es un expert en reverse-engineering de vidéos VIRALES pour créer des prompts text-to-video.
+
+TON OBJECTIF : Analyser cette vidéo virale et produire un prompt EN FRANÇAIS qui capture EXACTEMENT ce qui la rend virale, OPTIMISÉ POUR UNE VIDÉO DE 15 SECONDES.
+
+🎯 RÈGLE CRITIQUE - DURÉE CIBLE : 15 SECONDES
+- La vidéo que tu analyses peut faire 10s, 30s, 60s ou plus
+- Ton prompt doit TOUJOURS décrire une vidéo de ~15 SECONDES qui capture l'essence virale
+- Si la vidéo est longue : CONDENSE, extrait l'essentiel viral, garde le setup minimal nécessaire
+- Si la vidéo est courte (<15s) : Adapte pour arriver à ~15s en ajoutant contexte/ambiance si pertinent
+- PRIORISE : L'élément viral + setup minimal requis pour le comprendre
+
+⚠️ CONTRAINTE ABSOLUE : Le prompt final NE DOIT PAS DÉPASSER 1900 CARACTÈRES. Sois concis et précis.
+
+🎯 IDENTIFICATION DES ÉLÉMENTS VIRAUX - CE QUI FAIT QUE CETTE VIDÉO EST VIRALE :
+
+Avant de structurer le prompt, IDENTIFIE d'abord ce qui rend cette vidéo virale :
+- Le TIMING et la synchronisation parfaite d'une action
+- Un détail INATTENDU ou choquant (ex: rat qui apparaît, objet qui tombe)
+- Une EXPRESSION FACIALE ou réaction spontanée
+- Un CONTRASTE (ex: mamie sur moto, bébé qui fait X)
+- Un FAIL ou accident capturé
+- Un TALENT ou prouesse impressionnante
+- Un moment WHOLESOME ou émotionnel
+- Un élément COMIQUE ou absurde
+- Les MICRO-DÉTAILS qui font la différence (tremblements de mains, regard caméra, hésitation, surprise authentique)
+
+🔍 CAPTURE DES MICRO-DÉTAILS CRITIQUES :
+
+Ces détails DOIVENT être dans le prompt car ils font la viralité :
+- Expressions faciales précises (yeux écarquillés, sourire nerveux, sourcils levés)
+- Langage corporel subtil (hésitation, recul instinctif, geste de surprise)
+- Micro-réactions spontanées (sursaut, rire nerveux, regard vers la caméra)
+- Timing exact des actions clés (ex: "juste au moment où il se retourne")
+- Éléments de fond importants qui ajoutent du contexte ou de l'humour
+- Détails qui créent l'authenticité (tremblements, imperfections, spontanéité)
+
+STRUCTURE DU PROMPT À GÉNÉRER (EN FRANÇAIS) :
+
+**Style & Look:**
+[Style visuel : époque, type de capture (film 35mm, smartphone, caméra de surveillance, etc.), qualité (grain, netteté, stabilisation), esthétique générale, étalonnage couleur]
+
+**Description de la scène:**
+[Description détaillée : décor, personnages (âge, apparence, vêtements), objets visibles, ambiance générale, CONTEXTE qui explique pourquoi c'est viral]
+
+**Cinématographie:**
+- Cadrage: [cadrage et angle, ex: "plan rapproché moyen", "plan large en plongée", "selfie mode"]
+- Mouvement caméra: [ex: "travelling avant lent", "caméra portée tremblante", "plan fixe", "zoom rapide"]
+- Éclairage: [ex: "lumière naturelle chaude", "éclairage néon froid", "contre-jour dramatique"]
+- Ambiance: [ton émotionnel, ex: "tendu et anticipatif", "ludique et spontané", "choquant"]
+
+**Actions DÉTAILLÉES (L'ÉLÉMENT VIRAL - OPTIMISÉ POUR 15 SECONDES):**
+[Liste TRÈS DÉTAILLÉE des actions dans l'ordre chronologique, CONDENSÉE pour tenir en ~15 secondes de vidéo.
+- Si la vidéo originale est longue : EXTRAIT uniquement les moments clés + setup minimal
+- Si la vidéo originale est courte : ENRICHIT avec détails d'ambiance pour arriver à ~15s
+- INCLURE les micro-détails qui créent la viralité
+
+Exemple pour vidéo longue (60s) condensée en 15s :
+- Setup rapide : Il entre dans la pièce, regarde autour de lui (2-3s)
+- Build-up : Sa main tremble en approchant l'objet, hésite (3-4s)
+- MOMENT VIRAL : Au moment précis où il touche, l'objet tombe (5-6s)
+- Réaction : Yeux écarquillés, recule, expression de choc (3-4s)
+
+Exemple pour vidéo courte (8s) adaptée en 15s :
+- Contexte établi : Cuisine animée, chat sur le comptoir (3-4s)
+- Action principale : Chat s'approche du vase, le renifle (3-4s)
+- MOMENT VIRAL : D'un coup de patte, fait tomber le vase (2-3s)
+- Réaction/conclusion : Vase se brise, chat part calmement (4-5s)
+
+→ CAPTURE LE TIMING, LES RÉACTIONS, L'AUTHENTICITÉ DANS UN FORMAT 15 SECONDES]
+
+**Dialogue (si présent ET pertinent):**
+[Dialogues UNIQUEMENT s'ils sont audibles et contribuent à la viralité, sinon omettre cette section]
+
+**Palette de couleurs:**
+[3-5 couleurs dominantes]
+
+**Son d'ambiance:**
+[RÈGLE CRITIQUE SUR LA MUSIQUE :
+- ❌ N'INCLUT PAS la musique de fond générique/éditoriale ajoutée en post-production
+- ✅ INCLUT UNIQUEMENT si la musique EST l'élément viral (ex: personne qui danse sur une chanson spécifique, lip-sync, performance musicale)
+- ✅ INCLUT les sons diégétiques importants : voix, bruits d'impact, sons d'ambiance naturels, réactions vocales
+- Ex de sons à inclure : "bruit de crash métallique", "rires en arrière-plan", "cri de surprise", "moteur qui rugit"
+- Ex de sons à NE PAS inclure : "musique pop entraînante", "beat hip-hop", "instrumental émotionnel" (sauf si c'est LE sujet de la vidéo)]
+
+RÈGLES ABSOLUES :
+✅ TOUT EN FRANÇAIS - descriptions, termes techniques, actions
+✅ DURÉE CIBLE : ~15 SECONDES - condense ou enrichit intelligemment selon la vidéo source
+✅ FOCUS sur ce qui rend la vidéo VIRALE - ne pas diluer avec des détails génériques
+✅ MICRO-DÉTAILS cruciaux > descriptions générales
+✅ Précision sur les RÉACTIONS et TIMING
+✅ Authenticité et spontanéité > perfection technique
+✅ Pas de timecodes - juste l'ordre des actions (mais pense "15 secondes" en structurant)
+✅ MAXIMUM 1900 CARACTÈRES - priorité aux éléments viraux
+❌ AUCUN NOM PROTÉGÉ - descriptions physiques uniquement (ex: "Obama" → "homme politique afro-américain charismatique en costume sombre")
+❌ PAS de musique de fond générique - UNIQUEMENT sons diégétiques ou musique SI c'est l'élément viral
+
+RÉPONDS UNIQUEMENT AVEC LE PROMPT ULTRA DETAILLé ET STRUCTURÉ EN FRANÇAIS OPTIMISÉ POUR 15 SECONDES (MAX 1900 CARACTÈRES)."""
+                    }
+                ]
+            }]
+        }

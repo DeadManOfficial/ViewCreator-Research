@@ -1,0 +1,180 @@
+Nano Banana Pro — Professional Headshot Prompt Pack
+==================================================
+
+How Nano Banana Pro tends to respond best (quick rules)
+- Write natural, full sentences.
+- Always specify: subject, composition, action, location, style.
+- For edits: describe the uploaded image briefly, then specify ONLY the changes you want.
+- If using multiple images: assign roles (Image A = identity, Image B = style, Image C = background, etc.).
+
+--------------------------------------------------
+0) MASTER TEMPLATE (STRICT LIKENESS, MINIMAL CHANGES)
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a photorealistic, professional headshot.
+
+KEEP (must not change):
+- My identity, facial structure, age, eye shape, nose, mouth, hairline, hairstyle length, and skin texture.
+- My expression should remain natural and believable (no uncanny smile).
+- Preserve defining marks (moles/freckles/scars). Remove only temporary blemishes.
+
+CHANGE (allowed):
+- Professional studio lighting, background, wardrobe, and subtle color grading.
+
+COMPOSITION:
+- Head-and-shoulders crop, eye-level camera, slight 10–15° turn.
+- Shallow depth of field (portrait look), sharp eyes, natural catchlights.
+- Clean background blur; no clutter.
+
+RETOUCH STYLE (anti “Botox / glow-up”):
+- No face slimming, no plastic-skin smoothing, no exaggerated teeth whitening, no heavy glam makeup.
+
+OUTPUT:
+- Square (1:1) for LinkedIn, high resolution.
+
+--------------------------------------------------
+1) EXECUTIVE / C‑SUITE
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a crisp executive LinkedIn headshot. Keep my identity and facial structure exactly the same.
+
+Lighting: professional but dramatic (key light + gentle shadowing + subtle rim light).
+Wardrobe: dark navy blazer, white or light shirt, no visible logos.
+Background: modern corporate office with floor-to-ceiling windows, softly blurred.
+
+Retouch: minimal and realistic; keep pores and texture; no beauty-filter look.
+Output: 1:1 square, high-res.
+
+--------------------------------------------------
+2) LEGAL PROFESSIONAL (LAW FIRM)
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a sharp, authoritative law-firm headshot. Preserve my identity and facial proportions exactly.
+
+Lighting: classic, timeless portrait lighting (controlled shadows).
+Pose: shoulders square, chin neutral, expression serious yet personable.
+Wardrobe: dark suit, subtle tie, no logos.
+Background: traditional mahogany-paneled office with law books, elegantly blurred.
+
+Retouch: realistic skin; no face reshaping; keep natural texture.
+Output: 1:1 square.
+
+--------------------------------------------------
+3) JOB HUNTER (APPROACHABLE LINKEDIN)
+--------------------------------------------------
+Using uploaded Image A (my selfie), create an approachable LinkedIn headshot that feels friendly and hireable. Keep identity and facial structure unchanged.
+
+Lighting: bright natural daylight, soft and even.
+Expression: genuine confident smile, direct eye contact (natural catchlights).
+Wardrobe: smart casual (solid color top), no logos.
+Background: bright modern co-working space with plants, softly blurred.
+
+Retouch: remove temporary blemishes only; keep freckles/texture; no glow-up.
+Output: 1:1 square.
+
+--------------------------------------------------
+4) INDUSTRY EXPERT (MEDIA / PODCAST)
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a media-ready headshot for podcast and press. Preserve identity exactly.
+
+Lighting: broadcast-quality, clean key + fill, subtle rim.
+Pose: slightly angled, confident and articulate expression.
+Wardrobe: neutral jacket, no logos.
+Background: professional studio / podcast set, cinematically blurred (no readable brand marks).
+
+Retouch: realistic. Keep skin texture; no face shape changes.
+Output: 1:1 square.
+
+--------------------------------------------------
+5) ARTIST / CREATIVE PORTFOLIO
+--------------------------------------------------
+Using uploaded Image A (my selfie), create an artistic headshot for a creative portfolio. Keep identity and facial structure exactly.
+
+Lighting: moody, dramatic, artistic shadows.
+Expression: contemplative, inspired (subtle).
+Wardrobe: simple black or earth-tone top, no logos.
+Background: art studio with canvases/tools, artistically blurred.
+
+Retouch: minimal; preserve texture; no glam look.
+Output: 1:1 square.
+
+--------------------------------------------------
+6) CONTENT CREATOR (BRAND COLLABS)
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a creator-style headshot for sponsorship pitches. Preserve identity exactly (no face reshaping).
+
+Lighting: social-media-friendly but natural (soft key + catchlights).
+Expression: trendy, engaging, naturally photogenic (not exaggerated).
+Wardrobe: modern streetwear or clean casual, no visible logos.
+Background: aesthetic location with soft bokeh (plants/neon/warm interior), no brand marks.
+
+Retouch: realistic; avoid “AI-perfect” skin.
+Output: 1:1 square.
+
+--------------------------------------------------
+7) HEALTHCARE PROFESSIONAL
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a trustworthy healthcare headshot. Keep identity unchanged.
+
+Lighting: clean and clinical yet warm.
+Expression: caring and competent.
+Wardrobe: white coat or scrubs (no hospital logos).
+Background: modern medical office, subtle equipment, softly blurred.
+
+Retouch: minimal, natural.
+Output: 1:1 square.
+
+--------------------------------------------------
+8) THERAPIST / COUNSELOR
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a therapist headshot that feels safe and calming. Preserve identity exactly.
+
+Lighting: soft, comforting, warm.
+Expression: calm, empathetic, gentle eye contact.
+Wardrobe: neutral professional (soft colors), no logos.
+Background: peaceful office with plants, warm tones, softly blurred.
+
+Retouch: natural; no heavy smoothing.
+Output: 1:1 square.
+
+--------------------------------------------------
+9) REAL ESTATE AGENT
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a confident real-estate agent headshot. Keep identity and facial proportions exactly.
+
+Lighting: bright, successful, trustworthy.
+Expression: reassuring smile, professional.
+Wardrobe: modern suit or blazer, no logos.
+Background: upscale property interior or modern real-estate office, luxuriously blurred.
+
+Retouch: realistic.
+Output: 1:1 square.
+
+--------------------------------------------------
+10) ENTREPRENEUR / STARTUP FOUNDER
+--------------------------------------------------
+Using uploaded Image A (my selfie), create a founder-style headshot that feels ambitious and visionary. Preserve identity exactly.
+
+Lighting: clean, modern (slight contrast).
+Expression: determined but approachable.
+Wardrobe: smart casual (blazer + tee), no logos.
+Background: startup office with glass/whiteboard vibe, softly blurred.
+
+Retouch: minimal and real.
+Output: 1:1 square.
+
+--------------------------------------------------
+ITERATION MICRO-PROMPTS (use after a near-miss)
+--------------------------------------------------
+- “Keep everything the same. Fix only the eyes to look natural and symmetric, with realistic catchlights.”
+- “Keep identity exactly the same. Reduce skin smoothing; restore natural pores and texture.”
+- “Keep the same framing and pose. Make the smile more subtle and believable.”
+- “Keep everything else. Remove any extra hair strands that look artificial; keep haircut unchanged.”
+- “Keep identity and pose. Neutralize the color grade to a natural, true-to-life white balance.”
+
+--------------------------------------------------
+IF YOU GET THE COMMON REFUSAL MESSAGE
+--------------------------------------------------
+Some Gemini/Nano Banana surfaces refuse edits involving human faces (often framed as safety policy). If that happens:
+- Try a more minimal edit request: “Retouch this photo for professional lighting and background only; keep the person exactly the same.”
+- Avoid “restore/recolorize/add fine details” wording if it triggers a block; instead request “lighting and color correction” or “studio-grade retouch.”
+- Ensure the image contains only adults and contains no ambiguous minors.
+- If you still need a headshot but edits are blocked: generate a headshot of a non-identifiable, fictional person (won’t match your face).
+

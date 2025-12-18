@@ -1,0 +1,149 @@
+The Organizational Taxonomy of the Motion Picture Industry
+While the film industry shares a genetic lineage with television—using cameras, actors, and sets—the organizational structure differs fundamentally. In television, the Writer/Showrunner is the ultimate authority, managing a long-term brand. In film, the Director is typically the creative authoritarian, overseeing a singular, finite project, while the Producer manages the business logistics. Additionally, the film world includes unique ecosystems for Financing (completion bonds), Distribution (acquisitions), and Exhibition (theaters and festivals).
+
+The following is a comprehensive listing of positions within the feature film ecosystem, categorized by their operational phase.
+
+1. Corporate Studio and Financing Infrastructure
+At the "Major Studio" level (e.g., Warner Bros, Universal) or "Mini-Major" (e.g., A24, Lionsgate), an executive infrastructure exists to finance and distribute films.
+
+Studio CEO/Chairman: The highest authority, determining the studio's slate strategy (e.g., "more superhero movies" or "more prestige dramas") and greenlighting massive budgets.   
+
+Head of Production: Oversees the physical creation of the studio's entire slate of films, managing the production executives who supervise individual movies.   
+
+Acquisitions Executive: A role unique to film distribution. They attend film festivals (Sundance, Cannes) to scout independent films. They negotiate to buy the rights to finished movies to distribute them under the studio's banner.
+
+Head of Distribution: Determines the release strategy: how many theaters the film will play in, the release date, and the windowing strategy (when it moves from theaters to streaming).
+
+Theatrical Booker: Works under distribution. They physically book the screens with theater chains (exhibitors), negotiating the revenue split between the studio and the cinema.
+
+Completion Guarantor (Completion Bond): Crucial in independent film finance. These are insurers who guarantee to the bank that the film will be finished. If a production goes over budget or the director goes rogue, the Guarantor has the legal power to seize control of the film and fire the director to ensure delivery.
+
+2. Development: The "Above the Line" Creative Core
+The development phase involves packaging a script with talent and money.
+
+Producer: The primary champion of the film. They acquire the script rights, hire the director, secure financing, and manage the project from conception to release. Unlike TV, where they might be writers, film producers are often business/creative hybrids.
+
+Executive Producer (EP): In film, this title is often given to the financier (who provided the money) or the person who secured the rights to the intellectual property (e.g., the author of the book). It can also apply to a powerful actor's manager.
+
+Screenwriter: Writes the screenplay. In film, once the script is sold, the writer often has less power than in TV and may be replaced by other writers for "polishes" or "rewrites".   
+
+Director: The creative captain of the ship. They visualize the script, guide the actors' performances, and sign off on every creative decision from costume fabric to camera lenses. In film, their vision is paramount.
+
+Casting Director: Hired during pre-production to audition actors for all speaking roles. They negotiate deals with agents and present options to the Director and Producer.
+
+3. Physical Production: "Below the Line"
+Once filming begins, the crew is divided into specialized departments.
+
+Production Management
+Line Producer: The "CEO" of the physical set. They break down the script into a budget and schedule. They hire the crew and equipment vendors and are responsible for every dollar spent.
+
+Unit Production Manager (UPM): The on-the-ground manager of operations. They sign the checks, approve timecards, and handle union/guild compliance. They report to the Line Producer.
+
+Production Coordinator: Runs the production office (logistics central). They handle travel, accommodation, equipment shipping, and distribute the script revisions and call sheets.   
+
+The Director's Team (ADs)
+1st Assistant Director (1st AD): Runs the set. They create the shooting schedule and ensure the director stays on time. They call "Roll" and "Cut" and are responsible for on-set safety.   
+
+2nd Assistant Director: Creates the Call Sheet (the schedule for the next day) and manages the actors' prep (hair, makeup, wardrobe) to ensure they are ready for set.
+
+2nd 2nd AD: Manages the background actors (extras) and handles paperwork on set.
+
+Camera Department
+Director of Photography (DP) / Cinematographer: The head of the camera and lighting departments. They design the visual look (lighting, framing, color) in collaboration with the Director.   
+
+Camera Operator: Physically controls the camera during the shot.   
+
+1st Assistant Camera (Focus Puller): Responsible for keeping the image in focus, which is technically difficult as actors move.   
+
+2nd Assistant Camera (Clapper Loader): Operates the slate (clapperboard) and manages the camera media/film stock.   
+
+Digital Imaging Technician (DIT): Manages the digital data on set, ensuring exposure is correct and backing up footage.   
+
+Lighting and Grip
+Gaffer: The chief lighting technician. They execute the DP's lighting plan using electrical instruments.   
+
+Best Boy Electric: The Gaffer's administrative assistant and equipment manager.   
+
+Key Grip: The head of the Grip department. They handle all non-electrical support gear (camera dollies, cranes) and "shape" the light using flags, nets, and diffusion.   
+
+Dolly Grip: A specialist who operates the heavy camera dolly, pushing the camera smoothly along tracks.   
+
+Art Department
+Production Designer: Designs the visual world of the film. They oversee sets, props, and locations to create a cohesive aesthetic.   
+
+Art Director: The project manager for the art department, overseeing construction and budgeting.   
+
+Set Decorator: distinct from the designer, they dress the set with furniture, rugs, art, and practical lighting.   
+
+Property Master: In charge of any object an actor touches or handles (phones, weapons, food).   
+
+Armorer: A licensed specialist who handles real firearms and blank ammunition on set.   
+
+Construction Coordinator: Oversees the carpenters and painters building the physical sets.   
+
+Scenic Artist: Paints the sets to look like specific materials (e.g., painting wood to look like marble or aging a wall to look dirty).   
+
+Sound, Wardrobe, and Makeup
+Production Sound Mixer: Records the dialogue on set.   
+
+Boom Operator: Holds the microphone on a long pole (boom) to capture dialogue.   
+
+Costume Designer: Designs the clothing for the characters.   
+
+Costume Supervisor: Manages the wardrobe budget and logistics.   
+
+Key Makeup Artist / Hair Stylist: Designs and executes the hair and makeup for the cast.   
+
+SFX Makeup Artist: Specializes in prosthetics, wounds, and monster makeup.   
+
+Locations and Transportation
+Location Manager: Finds and secures locations for filming, manages permits, and liaises with the public.
+
+Transportation Coordinator: Manages the fleet of trucks (circus) and drivers.   
+
+Transportation Captain: Manages the drivers on set.   
+
+Picture Car Coordinator: Sources and maintains the cars that appear on screen.   
+
+4. Post-Production: The Assembly
+Editor: Assembles the footage into a story. In film, the Editor works closely with the Director to shape the narrative, pacing, and performance.
+
+Post-Production Supervisor: Manages the workflow and budget of the post process, coordinating between editing, sound, and VFX vendors.
+
+VFX Supervisor: Oversees the visual effects. There is often a "Client Side" supervisor (working for the director) and "Vendor Side" supervisors (working for the VFX companies like ILM or Weta).
+
+VFX Producer: Manages the VFX budget and schedule.
+
+Sound Designer: Creates the soundscape (sound effects, atmospheres).   
+
+Foley Artist: Records custom sound effects (footsteps, cloth rustle) in a studio to replace production audio.   
+
+ADR Mixer: Records "Automated Dialogue Replacement" (dubbing) when on-set audio is unusable.   
+
+Colorist: Adjusts the color and contrast of the final film for theatrical projection.   
+
+Music Supervisor: Licenses existing songs for the soundtrack.   
+
+Composer: Writes the original musical score.   
+
+5. Exhibition and Archives (Unique to Film)
+This sector deals with the film after it is finished, a distinct ecosystem from television broadcasting.
+
+Theaters (Exhibition)
+Theater General Manager: Runs the cinema operations.
+
+Projectionist: Historically operated film reels; now largely maintains digital projectors and ingests DCPs (Digital Cinema Packages).
+
+Floor Staff / Ushers: Check tickets, clean theaters, and manage crowd control.
+
+Film Festivals
+Festival Programmer: Watches thousands of submissions to select the films that will screen at festivals.
+
+Festival Director: Oversees the strategic vision and operations of a film festival.
+
+Print Traffic Coordinator: Manages the physical or digital shipment of films between filmmakers and the festival.
+
+Preservation
+Film Archivist: Works in museums or studios to preserve physical film reels and digitize them for future generations.
+
+Restoration Technician: Digitally cleans old film scans to remove scratches and dust for re-releases.

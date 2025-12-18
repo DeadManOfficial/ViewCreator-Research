@@ -1,0 +1,21 @@
+Xiaohongshu Profile: glidea
+URL: https://www.xiaohongshu.com/user/profile/5f7dc54d0000000001004afb
+
+Profile Info:
+- 小红书号: 1007217160
+- IP属地: 日本
+- Bio: 🐮字节退休牛马 💻Github 3k+ stars 发电爱好者
+- 🚀banana prompt quicker 疯狂更新中，点击关注不错过
+- 💬后续分享我的 AI 产品构建日记，想法与经验
+
+Visible Posts:
+1. BananaPro 案例集工具&我对生图的几个观察 (Pinned)
+2. 一键使用全网 Awesome Banana 🍌提示词！
+3. CEO吹风 Gemini3 很可能在22号及之前发布
+4. Gemini3掌管前端的神！c4.5都黯然失色
+5. AI 教育神器：用实验来学习任何概念！
+6. TinyGPT: 年轻人的第一个手搓大模型
+7. 良渚 AI 交友
+8. Github 周榜Top5 你的 AI 老婆；高颜值卡片
+
+Note: This is the same author as the Banana Prompt Quicker project. The profile contains posts about AI tools and Banana Prompt Quicker updates, but requires login to view full content and collections.

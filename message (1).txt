@@ -1,0 +1,38 @@
+PROMPT 3: STRONG HAND BUTLERFormat: 15 seconds, 1080p vertical (9:16), single continuous shot, 30 FPSGothic mansion interior, daytime. Nonna as elderly housekeeper with grotesque withered hand helps young couple with luggage. Constantly uses tiny deformed hand for tasks, spits in palm before handshake. Guests horrified but polite.Identity anchor:
+
+Nonna—99 years old, white hair in bun, thick glasses, wrinkled face pleasant expression, black housekeeper dress with white apron, LEFT hand normal weathered spotted hand same throughout, RIGHT hand TINY withered grotesque (3 inches long, gnarled fingers) consistent deformity, stocky 5'2' build locked
+Young couple—Man (30s) tall, suit, horrified expression trying to hide it; Woman (30s) dress, also disgusted trying smile, both maintain proportions
+Luggage—two large suitcases same size/color
+Camera rig: Static medium shot, 35mm lens, filming from entrance hallway angle, slight downward tilt capturing Nonna and couple, no movement, maintains vertical composition, mansion lighting (gothic candelabras).Temporal locks:
+
+0-3s: Couple entering with luggage, Nonna approaching, extending RIGHT tiny hand in greeting, couple seeing hand and faces showing disgust, Nonna smiling pleasant, hand suspended in air
+3-6s: Nonna SPITTING in tiny palm, rubbing hands together, re-extending tiny hand for shake, man reluctantly shaking tiny wet hand with two fingers, woman looking away disgusted, luggage still in couple's hands
+6-9s: Nonna reaching for heavy suitcase with tiny hand, struggling, suitcase barely budging, Nonna's face straining, couple watching concerned, tiny hand gripping handle
+9-12s: Nonna stopping, looking at tiny hand: "Let me use my STRONG hand!", switching to normal LEFT hand, easily lifting suitcase, couple confused, Nonna acting like this is normal
+12-15s: Nonna gesturing them to follow using tiny hand to point, couple following hesitantly, Nonna using tiny hand to wave them forward, scratching her face with tiny hand casually, couple increasingly disturbed
+Physics constraints: Tiny hand maintains grotesque shape consistently, normal hand regular size, spit visible briefly on palm, suitcase has weight (Nonna struggles with tiny hand, easy with normal), both hands follow skeletal limits, clothing drapes naturally, couple maintains human IK, no morphing, 5 fingers on normal hands, tiny hand has deformed digits, proportions locked.Keyframe anchors:
+
+t=0s: Nonna 3 feet from couple, right tiny hand extended forward waist-height, fingers splayed grotesquely, couple standing with luggage, man's eyes on tiny hand horrified
+t=3s: Nonna's tiny hand at mouth SPITTING, saliva visible, couple's faces maximum disgust, woman turning head away, man frozen staring
+t=6s: Tiny hand gripping large suitcase handle, Nonna leaning back pulling, suitcase barely lifted 2 inches off ground, tiny hand shaking from strain, couple watching
+t=9s: Nonna upright, normal left hand now gripping suitcase handle, suitcase 3 feet off ground easily, tiny right hand at side, couple looking at each other confused
+t=12s: Nonna walking forward, left hand carrying suitcase, tiny right hand pointing/waving them to follow, couple following 6 feet behind, both grimacing
+t=15s: Nonna turned sideways to couple, tiny hand touching her own face scratching cheek casually, couple visibly disturbed, woman covering mouth
+Sound: Door opening, footsteps on marble, Nonna's pleasant humming, spit sound (wet), reluctant handshake (wet squelch), suitcase scraping floor, Nonna grunting with strain, suitcase lifting easily, footsteps walking, couple's uncomfortable throat clearing.Dialogue:
+Nonna: "Welcome! Let me help with bags!"
+Man: "Oh that's very kind but we can—"
+Nonna: (extending tiny hand) "I'm Nonna, the housekeeper!"
+Woman: (whispering) "Oh my god..."
+Nonna: (SPITS in tiny palm) "Excuse me!"
+(rubs hands together)
+Nonna: "Now we shake properly!"
+Man: (shaking reluctantly) "...pleasure to meet you..."
+Nonna: (grabbing suitcase with tiny hand) "Let me get this for you!"
+(struggles)
+Nonna: "Ooh! That's heavy!"
+Nonna: "Wait—let me use my STRONG hand!"
+(switches to normal hand, lifts easily)
+Woman: (quietly to man) "Which one is the strong hand?!"
+Nonna: "Follow me! I show you to room!"
+(waves with tiny hand)
+Man: "...I think I need a drink."

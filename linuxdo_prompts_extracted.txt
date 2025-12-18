@@ -1,0 +1,8 @@
+LinuxDo AI Image Workspace - Extracted Prompts
+URL: https://linuxdo.xuleo.com/zh/workspace/ai-image
+
+Prompt 1: 时尚黑白肖像
+创建一个黑白的高时尚编辑肖像，保持参考图片中的真实面部特征（无滤镜、相机或无修饰），专栏杂志的封面形象，女人正面高质量肖像，目光深邃，直视镜头，背部的印花，创造戏剧性和神秘感的氛围，深黑背景以保持焦点在她的脸上，柔和深度景深对比，以强调她的轮廓，风格应该是 raw、光线、以及大胆和戏剧性的妆容，风格应该是 raw，光线
+
+---
+

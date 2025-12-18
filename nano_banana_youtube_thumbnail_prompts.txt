@@ -1,0 +1,108 @@
+Nano Banana (Gemini) — YouTube Viral Thumbnail Prompt Pack (Dec 2025)
+
+Primary sources referenced:
+- Google “7 tips to get the most out of Nano Banana Pro” (prompt elements + text integration + aspect ratio)
+- Google AI for Developers: Gemini image generation docs (models, aspect ratios, resolutions, API imageConfig)
+- GoogleAI DEV prompting guide (viral thumbnail example + identity locking)
+- YouTube Help: recommended thumbnail specs (1280×720, 16:9, <=2MB, JPG/PNG/GIF)
+
+============================================================
+1) MASTER PROMPT — Nano Banana Pro (gemini-3-pro-image-preview)
+============================================================
+
+You are a YouTube thumbnail art director.
+
+Goal: Design a high-CTR YouTube thumbnail that accurately represents the video.
+Video title: "{VIDEO_TITLE}"
+Video topic (1 sentence): "{TOPIC}"
+Niche/audience: "{AUDIENCE}"
+Emotional hook: "{EMOTION}" (e.g., shock / disbelief / excitement / fear-of-missing-out / curiosity)
+
+CANVAS / FORMAT
+- 16:9 YouTube thumbnail composition.
+- Leave the bottom-right corner clean (timestamp safe zone).
+- Designed for legibility at phone size (small feed).
+
+COMPOSITION (make it read in <1 second)
+- Place the creator face on the left third (tight crop, eyes sharp, strong expression: {FACE_EXPRESSION}).
+- Place the main object/scene on the right third (clearly recognizable: {HERO_OBJECT}).
+- Add ONE clear visual cue to connect them: {POINTER_ELEMENT} (e.g., big yellow arrow or red circle highlight).
+
+SUBJECT + ACTION + LOCATION + STYLE (be specific)
+- Subject: {SUBJECT_DESCRIPTION}
+- Action: {ACTION}
+- Location/background: {BACKGROUND_SCENE} (simple, blurred, high contrast)
+- Style: modern YouTube thumbnail, photorealistic or semi-illustrated cutout look, crisp edges, high contrast, vibrant but controlled saturation.
+
+LIGHTING / CAMERA
+- Strong key light + rim light on the face cutout, cinematic contrast.
+- Shallow depth of field, clean separation from background.
+
+TEXT (choose ONE option)
+Option A (recommended): NO embedded text. Leave clean negative space where text will be added in an editor.
+Option B (in-image text): Overlay EXACTLY this text and nothing else: "{HOOK_TEXT}"
+- Typography: bold sans-serif, all caps (unless specified), thick white outline + subtle drop shadow, centered in the reserved negative-space area.
+- Text must be large and readable at small size.
+
+BRANDING (optional)
+- Use these accent colors: {BRAND_COLORS}. Keep them consistent.
+- If a logo is provided, place it small in the top-left.
+
+REFERENCE IMAGES (if provided)
+- Image 1 = creator face. Face consistency: keep facial features exactly the same as Image 1.
+- Image 2 = style reference. Apply its color grading and graphic style.
+- Image 3 = product/object reference. Keep its shape and key details.
+
+EXCLUDE (natural-language “negative prompt”)
+Exclude: watermarks, logos, tiny/illegible text, extra words, cluttered background, distorted faces/hands, extra fingers/eyes, uncanny skin, messy composition, low contrast, muddy colors.
+
+OUTPUT
+Generate 3 distinct options (A/B/C) as separate images:
+A = most direct curiosity gap
+B = more cinematic/dramatic
+C = simpler/minimal with stronger contrast
+
+
+============================================================
+2) FAST PROMPT — Nano Banana (gemini-2.5-flash-image)
+============================================================
+
+Create a clean YouTube thumbnail background plate for: "{VIDEO_TITLE}".
+16:9 composition, high contrast, simple background, clear focal subject on the left third, empty space on the right third for big text. Vibrant but not oversaturated. Sharp, readable at phone size. Exclude watermarks/logos/text/clutter/distortions.
+
+(Then add your text in an editor for perfect legibility.)
+
+============================================================
+3) API CONFIG (Gemini API / AI Studio)
+============================================================
+
+REST payload snippet (set aspect ratio; use Pro for higher res):
+{
+  "contents": [{"parts": [{"text": "<PASTE_PROMPT_TEXT_HERE>"}]}],
+  "generationConfig": {
+    "imageConfig": {
+      "aspectRatio": "16:9",
+      "imageSize": "2K"
+    }
+  }
+}
+
+Model names:
+- Nano Banana: gemini-2.5-flash-image
+- Nano Banana Pro: gemini-3-pro-image-preview
+
+============================================================
+4) QUICK VARIABLE SET (fill this once per video)
+============================================================
+
+VIDEO_TITLE =
+TOPIC =
+AUDIENCE =
+EMOTION =
+FACE_EXPRESSION =
+HERO_OBJECT =
+POINTER_ELEMENT =
+BACKGROUND_SCENE =
+BRAND_COLORS =
+HOOK_TEXT =
+

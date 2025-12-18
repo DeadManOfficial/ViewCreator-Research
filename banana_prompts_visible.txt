@@ -1,0 +1,19 @@
+Visible Prompt Cards from Screenshot:
+
+1. 渐变玻璃风格 PPT (@op7418) - PPT, 文生图
+2. 根据已有食材做菜 (@AmirMuanich) - 美食, 编辑
+3. 手绘食谱烹饪流程图生成 (@LufzzLiz) - 美食, 文生图
+4. Q版角色LINE风格表情包生成 (LINUX DO@heiyub) - 表情包, 编辑
+5. 文章转卡通信息图 (@Lyn_Ford) - 总结, 文生图
+6. 照片放入复古诺基亚手机(Y2K千禧年风格) (@op7418) - 编辑
+7. Additional cards visible in the interface
+
+The page shows a gallery layout with multiple prompt cards, each containing:
+- Thumbnail image
+- Title
+- Author
+- Tags/Categories
+- "来源" (Source) button
+- "复制" (Copy) button
+
+Categories visible include: PPT, 美食, 表情包, 总结, 文生图, 编辑, 滤镜, 想象, 穿搭, 电商, 插画, 旅游, 装修, 封面, 头像, COSPLAY, 解构

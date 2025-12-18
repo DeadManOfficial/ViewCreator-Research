@@ -1,0 +1,212 @@
+﻿Strategic Organizational Assessment: Anthropic PBC
+Architecture, Leadership Hierarchy, and Human Capital Dynamics
+1. Corporate Genealogy and Strategic Positioning
+1.1 The Genesis of a Safety-First Challenger
+Anthropic emerged in 2021 not merely as a competitor in the artificial intelligence landscape, but as an ideological counter-weight to the prevailing trends of the industry. Founded by seven former executives and researchers from OpenAI—most notably the siblings Dario and Daniela Amodei—the company was born from a fundamental schism regarding the trajectory of Artificial General Intelligence (AGI) development.1 The founders departed OpenAI amidst concerns that commercial pressures from the Microsoft partnership were eroding the organization's commitment to safety, a narrative that has become central to Anthropic’s corporate identity and organizational design.1
+This genealogical split is not just historical trivia; it is the blueprint for Anthropic’s current organizational structure. The company is constituted as a Delaware Public Benefit Corporation (PBC), a legal distinction that permits the board of directors to prioritize the company’s "public benefit" mission—ensuring AI safety—over the maximization of shareholder value.1 This legal bedrock necessitates a governance structure that is fundamentally more complex and checked than that of a standard C-Corp. It influences everything from the composition of the "Long-Term Benefit Trust" to the hiring of "Members of Technical Staff" rather than traditional hierarchical engineering roles.
+1.2 The Capital-Governance Paradox
+Anthropic presents a unique paradox in modern corporate structure: it is a mission-driven safety organization that simultaneously requires arguably the most capital-intensive infrastructure in human history. To train frontier models like Claude 3 Opus and its successors, the company has secured over $8 billion in funding, primarily from Amazon ($4 billion) and Google ($2 billion+).1
+This capital influx has necessitated an organizational evolution from a pure research lab into a hybridized entity. On one side, it maintains the academic, flat hierarchy of a research institute, focused on "mechanistic interpretability" and "alignment science".3 On the other, it has rapidly built a commercial exoskeleton—a sales, finance, and product organization capable of satisfying the strategic imperatives of its cloud partners, AWS and Google Cloud.5 The tension between these two poles—the "Safety Lab" and the "SaaS Enterprise"—defines every aspect of the organizational chart, creating a matrixed structure where commercial speed is deliberately governed by safety protocols.
+________________
+2. Governance Architecture and Oversight Mechanisms
+The governance layer at Anthropic is designed to be the "kill switch" or the "steering wheel" that prevents the company from succumbing to pure profit motives. This is achieved through a bicameral power structure involving the Board of Directors and the Long-Term Benefit Trust (LTBT).
+2.1 The Board of Directors
+Unlike a traditional board, which answers primarily to common shareholders, Anthropic’s board has a fiduciary duty to the public benefit. The composition of the board reflects a deliberate triangulation between founder control, technical expertise, and strategic capital.6
+
+
+Board Member
+	Affiliation
+	Strategic Function & Insight
+	Dario Amodei
+	CEO & Co-Founder
+	Represents the technical and philosophical core of the company. His presence ensures that the CEO role remains fused with the Chief Scientist function, preventing a drift where business leadership overrides technical safety concerns.1
+	Daniela Amodei
+	President & Co-Founder
+	Represents the operational and human capital backbone. Her dual role on the board and as President ensures that the "people" and "policy" implications of board decisions are immediately operationalized.7
+	Reed Hastings
+	Director (Netflix Co-founder)
+	Brings "Blitzscaling" expertise. His addition to the board signals Anthropic’s intent to transition from a research lab to a consumer/enterprise giant. Hastings’ experience in navigating the "Qwikster" pivot and Netflix’s culture of "Freedom and Responsibility" likely influences Anthropic’s talent density philosophy.8
+	Jay Kreps
+	Director (Confluent CEO)
+	Provides deep infrastructure governance. As the creator of Apache Kafka, Kreps understands distributed systems at a fundamental level. His oversight is critical for a company whose primary expenditure is massive-scale compute clusters.8
+	Yasmin Razavi
+	Director (Spark Capital)
+	Represents the venture capital interest, ensuring that while safety is paramount, the company maintains the growth metrics necessary to justify its multi-billion dollar valuation.8
+	2.2 The Long-Term Benefit Trust (LTBT)
+The Long-Term Benefit Trust is the structural innovation that sets Anthropic apart. It is an independent body of five "Trustees" with no equity stake, whose sole responsibility is to ensure the company adheres to its mission. Crucially, the LTBT holds the power to elect a specific number of board seats, a mechanism designed to ultimately give the Trust majority control over the Board over a long time horizon.1
+This separation of powers creates a corporate "checks and balances" system. If the Board (influenced by investors) attempts to push for a dangerous deployment to meet revenue targets, the LTBT (composed of safety experts) has the structural authority to intervene by reshaping the board composition.
+* Neil Buddy Shah (Trustee): CEO of the Clinton Health Access Initiative. His background in global health and effective altruism suggests a focus on the distributional impacts of AI—ensuring the technology benefits the global south and marginalized populations, not just the West.1
+* Kanika Bahl (Trustee): CEO of Evidence Action. Her expertise lies in evidence-based policy interventions, aligning with Anthropic’s "empirical" approach to safety research.8
+* Zach Robinson (Trustee): Interim CEO of Effective Ventures US. This explicitly ties Anthropic’s governance to the Effective Altruism (EA) movement, prioritizing long-term existential risk reduction over short-term gains.1
+* Richard Fontaine (Trustee): CEO of the Center for a New American Security (CNAS). His presence introduces a geopolitical realism to the Trust, ensuring that "safety" includes national security considerations and American competitiveness against rival state actors.1
+________________
+3. Executive Leadership and The C-Suite
+The executive leadership team (ELT) at Anthropic has undergone a radical transformation in the 2024-2025 window. What began as a team of seven researchers has evolved into a suite of "best-in-class" operators hired from the world’s most successful tech companies. This recruitment strategy—hiring C-level executives from Instagram, Airbnb, Netflix, and Stripe—demonstrates a deliberate strategy to build an "all-star" management layer capable of executing at the scale of a FAANG company while retaining the agility of a startup.8
+3.1 Dario Amodei: The Architect (CEO)
+Dario Amodei is not a typical CEO; he is a scholar-executive. His background is in physics and computational neuroscience, and he previously led the research teams that developed GPT-2 and GPT-3 at OpenAI.1 His leadership style is characterized by "mechanistic interpretability"—he demands to know how the system works, not just that it works. This sets the cultural tone for the entire organization: empirical, rigorous, and intellectually honest. He remains deeply involved in the technical research, often co-authoring papers, which is rare for a CEO of a $60B+ company.9
+3.2 Daniela Amodei: The Operator (President)
+Daniela Amodei serves as the operational counterbalance to Dario’s technical focus. Her remit is vast, covering People, Legal, Policy, Communications, and Mission Operations.8 Her background in risk management at Stripe and political campaigning gives her a unique skill set for managing the "socio-technical" risks of AI. She is effectively the "Chief Operating Officer" in all but title, ensuring that the company’s culture remains cohesive during periods of hyper-growth.
+3.3 Mike Krieger: The Product Visionary (CPO)
+The hiring of Mike Krieger (co-founder of Instagram) as Chief Product Officer in May 2024 was a watershed moment.8 It signaled the end of Anthropic as purely a "research lab" and its emergence as a consumer product company. Krieger’s mandate is to take the raw intelligence of Claude and wrap it in user experiences that are intuitive and "delightful"—a quality often missing in developer-centric AI tools. He oversees Product Management, Product Design, and Product Engineering, bridging the gap between the model weights and the end-user.11
+3.4 Krishna Rao: The Financial Strategist (CFO)
+Krishna Rao joined from Fanatics and Airbnb, where he led corporate development and IPO preparations.8 His role is critical given Anthropic’s burn rate. Managing the economics of model training—where a single run can cost hundreds of millions of dollars—requires sophisticated financial engineering. Rao is likely architecting the company’s path to the public markets, balancing the massive capital expenditures (CapEx) of GPU clusters against the recurring revenue (ARR) of the Enterprise SaaS business.
+3.5 Rahul Patil: The Scaler (CTO)
+As the former CTO of Stripe, Rahul Patil brings experience in building "five nines" reliability (99.999% uptime) for critical financial infrastructure.8 His appointment acknowledges that AI models are no longer novelties; they are becoming critical infrastructure for banks and hospitals. Patil oversees the core engineering organization, distinct from the research teams, ensuring that the API platform is robust, secure, and scalable.8
+3.6 Vitaly Gudanets: The Guardian (CISO)
+Hired from Netflix, Gudanets represents the maturation of Anthropic’s security posture. His role is bifurcated: he must protect the company’s intellectual property (the model weights) from nation-state espionage while also securing the enterprise environment for customers.8 This is a shift from "academic security" to "defense-grade security."
+________________
+4. The Research Organization: The Core Engine
+In most tech companies, R&D is a support function. At Anthropic, Research is the product. The Research organization is structured not by product lines, but by scientific disciplines. It operates with a high degree of autonomy, often resembling a university department more than a corporate division.14
+4.1 Interpretability: The "Olah" Legacy
+This team is the philosophical heart of Anthropic. Led historically by figures like Chris Olah (a pioneer in visualization), the Interpretability team’s mission is to reverse-engineer neural networks.3
+* Mission: To transform AI from a "black box" into a "glass box."
+* Methodology: They use techniques like "Dictionary Learning" and "Sparse Autoencoders" to map specific neuron activations to human concepts (e.g., identifying a "Golden Gate Bridge" neuron).
+* Structure:
+   * Research Scientists: often theoretical physicists or mathematicians who focus on the high-level theory of feature extraction.
+   * Research Engineers: build the massive visualization tools and data pipelines required to inspect models in real-time.
+* Recent Output: "Signs of introspection in large language models" (Oct 2025) and "Circuit tracing".3
+4.2 Alignment Science: The "Leike" Wing
+Following the dissolution of OpenAI’s Superalignment team, Jan Leike joined Anthropic to lead "Alignment Science".2 This team is focused on the existential risks of AGI.
+* Mission: To ensure superintelligent systems remain aligned with human values.
+* Key Initiatives:
+   * Constitutional AI (CAI): Training models to follow a "constitution" of principles (e.g., the UN Declaration of Human Rights) rather than just human feedback.1
+   * Scalable Oversight: Developing AI systems that can assist humans in evaluating other, smarter AI systems.
+   * Alignment Faking Detection: Researching whether models can deceptively "pretend" to be aligned during training while harboring secret objectives.4
+* Sub-Teams: "Frontier Red Team" (adversarial testing) and "Societal Impacts" (bias and economic analysis) often collaborate closely with this group.
+4.3 Pre-Training and Scaling: The Engine Room
+This group is responsible for the creation of the models themselves. They manage the "training runs"—the multi-month processes where the model learns from the dataset.17
+* Roles:
+   * Research Engineer, Tokens: Optimizing how data is chunked and processed to maximize learning efficiency.
+   * Research Engineer, Pre-training: Managing the distributed systems logic that allows training to span tens of thousands of GPUs without failure.
+   * Capacity Planning: Working with the Finance and Infra teams to secure electricity and silicon.
+* Geography: Significant presence in London and San Francisco, indicating a distributed research capability.8
+4.4 Societal Impacts and Policy Research
+This team operates at the intersection of technology and sociology. They provide the empirical data that the Policy team uses to lobby governments.14
+* Focus: Analyzing how AI affects labor markets, disinformation spread, and biological risks.
+* Output: They produce "System Cards" that accompany model releases, detailing the safety evaluations and residual risks.
+________________
+5. Engineering and Product: The Applied Layer
+While Research builds the "brain," the Engineering and Product organizations build the "body" that allows the brain to interact with the world. This division has seen the most rapid growth in headcount and complexity.
+5.1 The "Member of Technical Staff" (MTS) Philosophy
+A defining feature of Anthropic’s engineering culture is the use of the "Member of Technical Staff" (MTS) job title. This title is used universally across Engineering and Research, from junior individual contributors to principal architects.18
+* Historical Context: Borrowed from Bell Labs and Oracle’s elite R&D units, the title is designed to flatten hierarchy and remove the status distinction between "Researcher" (PhD) and "Engineer" (B.S.).
+* Cultural Implication: It signals that "engineering" (making things work) is as intellectually prestigious as "research" (inventing theories).
+* Operational Reality: Despite the single external title, internal "Levels" exist for compensation purposes (L4, L5, L6, etc.). This allows for career progression without title inflation.20
+5.2 Product Structure: Verticals and Horizontals
+Under Mike Krieger, the product org has been structured to support specific user personas.22
+* Claude Consumer: Focuses on the Claude.ai web interface and mobile applications. They prioritize "delight," latency, and conversational fluency.
+* Claude Enterprise: Focuses on features like "Team Workspaces," "Admin Consoles," and SSO (Single Sign-On). This team is critical for the B2B revenue motion.
+* Claude Code (The Agentic Vertical): A specialized team building tools that allow Claude to act as an autonomous developer. This team operates almost as a startup-within-a-startup, building "agentic loops" that can debug, test, and deploy code autonomously.23
+* Developer Platform: Builds the API, SDKs, and the "Model Context Protocol" (MCP). They serve the external developer ecosystem.22
+5.3 Infrastructure Engineering: "The Machine"
+Reporting to the CTO, this group is the backbone of the company.
+* Compute Infrastructure: Manages the Kubernetes clusters on AWS and Google Cloud. They are responsible for the "interoperability" layer that allows Anthropic to train on Google TPUs while serving on Amazon Inferentia chips.
+* Data Infrastructure: Manages the ingestion and cleaning of the petabytes of data used for training. "Destructive book scanning" and other data acquisition projects feed into this pipeline.1
+* Internal Tools: Builds the "experimentation platforms" that researchers use to launch jobs. The efficiency of these tools directly correlates to the speed of research progress.
+________________
+6. Commercial and Go-To-Market (GTM) Organization
+Anthropic is aggressively pivoting to a B2B sales model. The GTM organization, led by CCO Paul Smith, is structured to compete directly with Microsoft/OpenAI in the enterprise segment.
+6.1 Sales Organization Structure
+The sales team is segmented by "vertical" and "size," a standard SaaS configuration.25
+* Strategic Accounts (The "Whales"): A dedicated team for the Global 2000 (e.g., Bridgewater, Pfizer). These roles require "Forward Deployed Engineers" who embed with the client to build custom integrations.
+* Enterprise Industries: Specialized sales teams for regulated industries:
+   * Financial Services: Selling to hedge funds and banks (requires deep knowledge of compliance/SEC rules).
+   * Healthcare & Life Sciences: Selling to pharma for drug discovery (requires HIPAA/Bio-safety knowledge).
+   * Public Sector: Selling to governments (requires clearance and FedRAMP knowledge).
+* Growth/Mid-Market: High-velocity sales teams targeting tech startups and "Digital Natives."
+6.2 Customer Success and Solutions Architecture
+Anthropic places a heavy emphasis on "Solutions Architecture" (SA). Because LLMs are non-deterministic and difficult to implement, SAs are required to hold the customer's hand.
+* Forward Deployed Engineers: A role borrowed from Palantir. These are engineers who sit in the Sales org, writing code for customers to prove value during the pilot phase.27
+* Customer Success Managers (CSMs): Responsible for "net revenue retention" (NRR)—ensuring customers renew and expand their contracts.
+6.3 International Expansion Strategy
+Anthropic is not US-bound. It has established a "multi-local" strategy.5
+* London (EMEA HQ): The center of gravity for Policy (due to the UK AI Safety Institute) and increasingly Research.
+* Dublin (Ops Hub): The headquarters for international finance, sales operations, and billing (likely for tax efficiency).
+* Tokyo (APAC Hub): A specific focus on Japan, likely driven by high enterprise adoption of AI in Japanese manufacturing and robotics sectors.5
+________________
+7. Human Capital Strategy: Compensation and Leveling
+To attract talent from Google DeepMind and Meta FAIR, Anthropic pays top-of-market compensation. The compensation structure is designed to reward "mission alignment" through long vesting periods.
+7.1 Compensation Levels and Bands
+Based on aggregated data, the compensation structure for Technical Staff is highly stratified despite the flat titles.17
+Internal Level
+	External Title Equivalent
+	Base Salary Range
+	Stock Grant (Annualized)
+	Total Compensation (TC)
+	Experience Profile
+	L4
+	Senior Engineer
+	$300k - $340k
+	$200k - $250k
+	$500k - $600k
+	4-7 years. Capable of owning features.
+	L5
+	Staff Engineer
+	$340k - $400k
+	$300k - $400k
+	$650k - $800k
+	8+ years. Leads technical strategy for a team.
+	L6
+	Principal Engineer
+	$400k+
+	$500k - $800k+
+	$900k - $1.2M+
+	12+ years. Industry recognized expert.
+	Research Scientist
+	(Variable)
+	$315k - $560k
+	Variable
+	$600k - $1M+
+	PhD + Citations. Pay is often higher due to scarcity.
+	7.2 Equity and Benefits
+* Vesting Schedule: Anthropic utilizes a 4-year vesting schedule with a 1-year cliff (standard), but offers "refreshers" to retain top talent.
+* Equity Donation Matching: A unique benefit where the company matches employee donations of their equity to charity (up to 25%). This is a direct artifact of the "Effective Altruism" culture, encouraging employees to pledge their wealth to high-impact causes.27
+* Office Culture: The company maintains a "hybrid" but "office-centric" culture, requiring staff in San Francisco, London, or New York 25% of the time, though key roles often require more presence to facilitate high-bandwidth collaboration.29
+________________
+8. Security and Trust: The Defensive Layer
+Security at Anthropic is not just about preventing data breaches; it is about preventing "model theft" and "catastrophic misuse." This necessitates a security organization that rivals a defense contractor.
+8.1 The Chief Information Security Officer (CISO) Structure
+Under Vitaly Gudanets, the security org is divided into:
+* Corporate Security: Protecting employee laptops, email, and offices.
+* Infrastructure Security: Protecting the AWS/GCP clusters. This is the most critical team, as they guard the model weights.
+* Model Security: A specialized discipline focused on preventing "model extraction" attacks (where a user queries the API to reconstruct the model).
+8.2 National Security and Public Sector
+Anthropic is actively building a "Public Sector" division to serve the US Intelligence Community (IC) and Department of Defense (DoD).
+* Roles: "Head of Public Sector Security," "National Security Lead."
+* Function: Ensuring compliance with NISPOM (National Industrial Security Program Operating Manual) and building SCIFs (secure rooms) for classified work. This indicates that Anthropic views the US government as a key partner and protector.30
+________________
+9. Conclusion: The "Safety Tax" as Competitive Advantage
+Anthropic’s organizational structure is a deliberate attempt to solve the "Safety vs. Speed" trade-off. By empowering the Research and Safety organizations (through the Interpretability and Alignment teams) and giving them structural independence from the Product organization, Anthropic accepts a "safety tax"—a deliberate slowing of product releases to ensure safety.
+However, the rapid build-out of the Sales and Product organizations under Paul Smith and Mike Krieger suggests that this tax is being lowered. The company is transitioning into a mature execution phase. The Long-Term Benefit Trust remains the ultimate safeguard, a "poison pill" against mission drift. Whether this unique governance structure can withstand the immense pressure of an eventual IPO or a conflict between the Board and the Trust remains the defining question of Anthropic’s future.
+For now, the organization stands as a hybrid: part academic monastery, part hyper-growth SaaS factory, and part national security asset, all held together by a unified "Member of Technical Staff" culture and a singular focus on the interpretability of intelligence.
+Works cited
+1. Anthropic - Wikipedia, accessed December 6, 2025, https://en.wikipedia.org/wiki/Anthropic
+2. Jan Leike - Wikipedia, accessed December 6, 2025, https://en.wikipedia.org/wiki/Jan_Leike
+3. Interpretability Research - Anthropic, accessed December 6, 2025, https://www.anthropic.com/research/team/interpretability
+4. Alignment Research \ Anthropic, accessed December 6, 2025, https://www.anthropic.com/research/team/alignment
+5. Anthropic expands global leadership in enterprise AI, naming Chris Ciauri as Managing Director of International, accessed December 6, 2025, https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of
+6. Company \ Anthropic, accessed December 6, 2025, https://www.anthropic.com/company
+7. List of Anthropic Executives & Org Chart - Clay, accessed December 6, 2025, https://www.clay.com/dossier/anthropic-executives
+8. 11 Executives Driving Anthropic's Meteoric Rise in the A.I. Boom | Observer, accessed December 6, 2025, https://observer.com/2025/11/11-executives-driving-anthropics-meteoric-rise-in-the-a-i-boom/
+9. Dario Amodei (Anthropic CEO) - $10 Billion Models, OpenAI, Scaling, & AGI in 2 years, accessed December 6, 2025, https://www.dwarkesh.com/p/dario-amodei
+10. Mike Krieger joins Anthropic as Chief Product Officer, accessed December 6, 2025, https://www.anthropic.com/news/mike-krieger-joins-anthropic
+11. Anthropic CPO Mike Krieger: Building AI Products From the Bottom Up, accessed December 6, 2025, https://inferencebysequoia.substack.com/p/anthropic-cpo-mike-krieger-building
+12. Krishna Rao joins Anthropic as Chief Financial Officer, accessed December 6, 2025, https://www.anthropic.com/news/krishna-rao-joins-anthropic
+13. Anthropic Expands Security Team With CISO Hire From Netflix - The National CIO Review, accessed December 6, 2025, https://nationalcioreview.com/cios-on-the-move/anthropic-expands-security-team-with-ciso-hire-from-netflix/
+14. Research - Anthropic, accessed December 6, 2025, https://www.anthropic.com/research
+15. The Urgency of Interpretability - Dario Amodei, accessed December 6, 2025, https://www.darioamodei.com/post/the-urgency-of-interpretability
+16. Auditing language models for hidden objectives - Anthropic, accessed December 6, 2025, https://www.anthropic.com/research/auditing-hidden-objectives
+17. Anthropic Salary Guide: Compensation, Equity & Pay Ranges 2024 - Nahc.io, accessed December 6, 2025, https://www.nahc.io/blog/anthropic-salary-overview-how-much-do-employees-get-paid
+18. Rebirth of the title: "Member of Technical Staff" - Scout AI, accessed December 6, 2025, https://scoutnow.ai/blog/rebirth-member-of-technical-staff
+19. Why Anthropic (Claude AI) Uses 'Member of Technical Staff' for All Engineers (Including Co-founders) : r/programming - Reddit, accessed December 6, 2025, https://www.reddit.com/r/programming/comments/1gahqww/why_anthropic_claude_ai_uses_member_of_technical/
+20. Leveling Up: Defining the Ladder of Software Engineer Levels - Terminal.io, accessed December 6, 2025, https://www.terminal.io/engineers/blog/defining-the-ladder-of-software-engineer-levels
+21. Anthropic Salaries - Levels.fyi, accessed December 6, 2025, https://www.levels.fyi/companies/anthropic/salaries
+22. Effective context engineering for AI agents - Anthropic, accessed December 6, 2025, https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+23. How Anthropic teams use Claude Code, accessed December 6, 2025, https://www.claude.com/blog/how-anthropic-teams-use-claude-code
+24. Anthropic studied its own engineers to assess how AI is changing workplace, and here's what they said on: If companies still need those hands-on coding skills, accessed December 6, 2025, https://timesofindia.indiatimes.com/technology/tech-news/anthropic-studied-its-own-engineers-to-assess-how-ai-is-changing-workplace-and-heres-what-they-said-on-if-companies-still-need-those-hands-on-coding-skills/articleshow/125735363.cms
+25. GTM Strategy & Operations (Industries), EMEA @ Anthropic | Menlo Ventures Job Board, accessed December 6, 2025, https://jobs.menlovc.com/companies/anthropic/jobs/61779459-gtm-strategy-operations-industries-emea
+26. GTM Strategy & Operations (Industries), EMEA at Anthropic - RevPath, accessed December 6, 2025, https://revpath.dealhub.io/jobs/173807880-gtm-strategy-operations-industries-emea
+27. Careers \ Anthropic, accessed December 6, 2025, https://www.anthropic.com/careers
+28. Anthropic Software Engineer Salary | $550K-$700K+ | Levels.fyi, accessed December 6, 2025, https://www.levels.fyi/companies/anthropic/salaries/software-engineer
+29. Research Engineer / Research Scientist, Finetuning @ Anthropic | Menlo Ventures Job Board, accessed December 6, 2025, https://jobs.menlovc.com/companies/anthropic/jobs/36601313-research-engineer-research-scientist-finetuning
+30. Head of Public Sector Security @ Anthropic | Menlo Ventures Job Board, accessed December 6, 2025, https://jobs.menlovc.com/companies/anthropic/jobs/46089279-head-of-public-sector-security

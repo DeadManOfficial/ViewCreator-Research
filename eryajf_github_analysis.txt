@@ -1,0 +1,45 @@
+GitHub Profile: eryajf (二丫讲梵)
+URL: https://github.com/eryajf
+
+Profile Summary:
+- Location: HangZhou
+- 1.5k followers, 296 following
+- 186 repositories
+- 1,787 contributions in the last year
+- Bio: 悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。
+
+Key Repositories Analyzed:
+
+1. **awesome-chatgpt-answer** ⭐ 25 | 🍴 2
+   URL: https://github.com/eryajf/awesome-chatgpt-answer
+   Description: 🙋 问得好，🗣 答得妙。那些值得记录的与ChatGPT的问答。
+   
+   Content Type: Q&A examples and ChatGPT interaction records
+   Structure: 
+   - answers/ folder (contains interaction examples)
+   - Categories: Linux相关, Go语言相关, 前端相关, GitHub相关, 写段代码, 写篇文章
+   
+   **Note**: This repository contains Q&A examples and interaction records, NOT a prompt collection. 
+   It documents good questions and excellent answers from ChatGPT interactions, but does not contain 
+   reusable prompts in the same format as Banana Prompt Quicker.
+
+2. **chatgpt-dingtalk** ⭐ 2.1k | 🍴 378
+   URL: https://github.com/eryajf/chatgpt-dingtalk
+   Description: 🎒 钉钉 & 🤖 GPT-3.5 让你的工作效率直接起飞 🚀
+   Contains: prompt.yml file with role-playing prompts for DingTalk bot
+
+3. **chatgpt-wecom** ⭐ (not shown) 
+   URL: https://github.com/eryajf/chatgpt-wecom
+   Description: 💬 基于GO语言实现的体验最好的企微应用集成ChatGPT项目 🚀
+   Similar to chatgpt-dingtalk but for WeChat Work
+
+Other Notable Repositories (not prompt-related):
+- learning-weekly: 学习周刊，开源项目,优秀博客
+- awesome-ops: 记录每一个与运维相关的优秀项目
+- go-ldap-admin: OpenLDAP后台管理项目
+- Thanks-Mirror: 各个包管理器，系统镜像，以及常用软件的镜像
+
+Conclusion:
+eryajf's repositories focus on DevOps, ChatGPT integration tools, and curated awesome lists. 
+The awesome-chatgpt-answer repository contains interaction examples rather than structured prompts.
+The chatgpt-dingtalk repository may contain some role-playing prompts in prompt.yml that could be extracted.

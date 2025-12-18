@@ -1,0 +1,3424 @@
+{
+  "metadata": {
+    "total_lines": 115747,
+    "file_size_mb": 4.763566970825195
+  },
+  "sections": [
+    {
+      "start_line": 0,
+      "end_line": 428,
+      "title": "Unknown",
+      "line_count": 428
+    },
+    {
+      "start_line": 428,
+      "end_line": 429,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 429,
+      "end_line": 430,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 430,
+      "end_line": 1630,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 1630,
+      "end_line": 1636,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 1636,
+      "end_line": 1643,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 1643,
+      "end_line": 1716,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 1716,
+      "end_line": 1721,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 1721,
+      "end_line": 1726,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 1726,
+      "end_line": 1731,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 1731,
+      "end_line": 2971,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1240
+    },
+    {
+      "start_line": 2971,
+      "end_line": 2990,
+      "title": "### ACTIVATION INSTRUCTIONS",
+      "line_count": 19
+    },
+    {
+      "start_line": 2990,
+      "end_line": 3006,
+      "title": "### CORE MODULES TO USE IN EVERY APPLICABLE PROMPT",
+      "line_count": 16
+    },
+    {
+      "start_line": 3006,
+      "end_line": 3038,
+      "title": "### FORMATS YOU CAN OUTPUT",
+      "line_count": 32
+    },
+    {
+      "start_line": 3038,
+      "end_line": 3046,
+      "title": "### RESPONSE LOGIC",
+      "line_count": 8
+    },
+    {
+      "start_line": 3046,
+      "end_line": 3057,
+      "title": "### EXAMPLE USER INSTRUCTION FLOW",
+      "line_count": 11
+    },
+    {
+      "start_line": 3057,
+      "end_line": 3846,
+      "title": "### BEGIN",
+      "line_count": 789
+    },
+    {
+      "start_line": 3846,
+      "end_line": 3848,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 3848,
+      "end_line": 3850,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 3850,
+      "end_line": 4232,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 4232,
+      "end_line": 4233,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 4233,
+      "end_line": 4234,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 4234,
+      "end_line": 4235,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 4235,
+      "end_line": 4236,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 4236,
+      "end_line": 4237,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 4237,
+      "end_line": 4505,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 268
+    },
+    {
+      "start_line": 4505,
+      "end_line": 5813,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 1308
+    },
+    {
+      "start_line": 5813,
+      "end_line": 5814,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 5814,
+      "end_line": 5815,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 5815,
+      "end_line": 7015,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 7015,
+      "end_line": 7021,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 7021,
+      "end_line": 7028,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 7028,
+      "end_line": 7101,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 7101,
+      "end_line": 7106,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 7106,
+      "end_line": 7111,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 7111,
+      "end_line": 7116,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 7116,
+      "end_line": 7213,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 97
+    },
+    {
+      "start_line": 7213,
+      "end_line": 7215,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 7215,
+      "end_line": 7217,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 7217,
+      "end_line": 7599,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 7599,
+      "end_line": 7600,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 7600,
+      "end_line": 7601,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 7601,
+      "end_line": 7602,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 7602,
+      "end_line": 7603,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 7603,
+      "end_line": 7604,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 7604,
+      "end_line": 7872,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 268
+    },
+    {
+      "start_line": 7872,
+      "end_line": 10269,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Teamthecmo.com+16 more",
+      "line_count": 2397
+    },
+    {
+      "start_line": 10269,
+      "end_line": 10271,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 10271,
+      "end_line": 10273,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 10273,
+      "end_line": 10655,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 10655,
+      "end_line": 10656,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 10656,
+      "end_line": 10657,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 10657,
+      "end_line": 10658,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 10658,
+      "end_line": 10659,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 10659,
+      "end_line": 10660,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 10660,
+      "end_line": 10929,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 269
+    },
+    {
+      "start_line": 10929,
+      "end_line": 11858,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 929
+    },
+    {
+      "start_line": 11858,
+      "end_line": 11861,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 11861,
+      "end_line": 11866,
+      "title": "## CONTEXT & ASSETS:",
+      "line_count": 5
+    },
+    {
+      "start_line": 11866,
+      "end_line": 11871,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 5
+    },
+    {
+      "start_line": 11871,
+      "end_line": 11876,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 5
+    },
+    {
+      "start_line": 11876,
+      "end_line": 11883,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 11883,
+      "end_line": 11886,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 11886,
+      "end_line": 11891,
+      "title": "## EXPERTISE:",
+      "line_count": 5
+    },
+    {
+      "start_line": 11891,
+      "end_line": 11895,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 4
+    },
+    {
+      "start_line": 11895,
+      "end_line": 11902,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 11902,
+      "end_line": 11905,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 11905,
+      "end_line": 11910,
+      "title": "## CONTEXT:",
+      "line_count": 5
+    },
+    {
+      "start_line": 11910,
+      "end_line": 11915,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 5
+    },
+    {
+      "start_line": 11915,
+      "end_line": 11919,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 4
+    },
+    {
+      "start_line": 11919,
+      "end_line": 11926,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 11926,
+      "end_line": 11929,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 11929,
+      "end_line": 11937,
+      "title": "## TONE:",
+      "line_count": 8
+    },
+    {
+      "start_line": 11937,
+      "end_line": 11944,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 7
+    },
+    {
+      "start_line": 11944,
+      "end_line": 12816,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 872
+    },
+    {
+      "start_line": 12816,
+      "end_line": 12835,
+      "title": "### ACTIVATION INSTRUCTIONS",
+      "line_count": 19
+    },
+    {
+      "start_line": 12835,
+      "end_line": 12851,
+      "title": "### CORE MODULES TO USE IN EVERY APPLICABLE PROMPT",
+      "line_count": 16
+    },
+    {
+      "start_line": 12851,
+      "end_line": 12883,
+      "title": "### FORMATS YOU CAN OUTPUT",
+      "line_count": 32
+    },
+    {
+      "start_line": 12883,
+      "end_line": 12891,
+      "title": "### RESPONSE LOGIC",
+      "line_count": 8
+    },
+    {
+      "start_line": 12891,
+      "end_line": 12902,
+      "title": "### EXAMPLE USER INSTRUCTION FLOW",
+      "line_count": 11
+    },
+    {
+      "start_line": 12902,
+      "end_line": 14209,
+      "title": "### BEGIN",
+      "line_count": 1307
+    },
+    {
+      "start_line": 14209,
+      "end_line": 14210,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 14210,
+      "end_line": 14211,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 14211,
+      "end_line": 15411,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 15411,
+      "end_line": 15417,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 15417,
+      "end_line": 15424,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 15424,
+      "end_line": 15497,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 15497,
+      "end_line": 15502,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 15502,
+      "end_line": 15507,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 15507,
+      "end_line": 15512,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 15512,
+      "end_line": 18970,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 3458
+    },
+    {
+      "start_line": 18970,
+      "end_line": 18972,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 18972,
+      "end_line": 18974,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 18974,
+      "end_line": 18976,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 18976,
+      "end_line": 18978,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 18978,
+      "end_line": 18980,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 18980,
+      "end_line": 19733,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 753
+    },
+    {
+      "start_line": 19733,
+      "end_line": 19735,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 19735,
+      "end_line": 19737,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 19737,
+      "end_line": 19739,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 19739,
+      "end_line": 19741,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 19741,
+      "end_line": 19743,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 19743,
+      "end_line": 20069,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 326
+    },
+    {
+      "start_line": 20069,
+      "end_line": 20079,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 10
+    },
+    {
+      "start_line": 20079,
+      "end_line": 20083,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 20083,
+      "end_line": 20157,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 74
+    },
+    {
+      "start_line": 20157,
+      "end_line": 20169,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 12
+    },
+    {
+      "start_line": 20169,
+      "end_line": 20175,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 6
+    },
+    {
+      "start_line": 20175,
+      "end_line": 20281,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 106
+    },
+    {
+      "start_line": 20281,
+      "end_line": 20283,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md - SEO Excellence + Your Optimized Output. 15+ years SEO strategist speci",
+      "line_count": 2
+    },
+    {
+      "start_line": 20283,
+      "end_line": 20285,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md - Master of email marketing from strategy to execution. Experti",
+      "line_count": 2
+    },
+    {
+      "start_line": 20285,
+      "end_line": 20359,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md - Specialist in local business domination through Google Business Profile ",
+      "line_count": 74
+    },
+    {
+      "start_line": 20359,
+      "end_line": 20361,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 20361,
+      "end_line": 20363,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 20363,
+      "end_line": 20365,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 20365,
+      "end_line": 20367,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 20367,
+      "end_line": 20369,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 20369,
+      "end_line": 20888,
+      "title": "ROLE_6_7_8_FINAL_THREE.md (Community Manager, Analytics Officer, Brand Partnerships)",
+      "line_count": 519
+    },
+    {
+      "start_line": 20888,
+      "end_line": 20890,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 2
+    },
+    {
+      "start_line": 20890,
+      "end_line": 20892,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 2
+    },
+    {
+      "start_line": 20892,
+      "end_line": 23201,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 2309
+    },
+    {
+      "start_line": 23201,
+      "end_line": 23221,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 20
+    },
+    {
+      "start_line": 23221,
+      "end_line": 23229,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 8
+    },
+    {
+      "start_line": 23229,
+      "end_line": 23505,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 276
+    },
+    {
+      "start_line": 23505,
+      "end_line": 23509,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 23509,
+      "end_line": 23513,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 23513,
+      "end_line": 24187,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 674
+    },
+    {
+      "start_line": 24187,
+      "end_line": 24189,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 24189,
+      "end_line": 24191,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 24191,
+      "end_line": 24193,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 24193,
+      "end_line": 24195,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 24195,
+      "end_line": 24197,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 24197,
+      "end_line": 24679,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 482
+    },
+    {
+      "start_line": 24679,
+      "end_line": 28621,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Teamthecmo.com+16 more",
+      "line_count": 3942
+    },
+    {
+      "start_line": 28621,
+      "end_line": 28625,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 28625,
+      "end_line": 28629,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 28629,
+      "end_line": 29393,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 764
+    },
+    {
+      "start_line": 29393,
+      "end_line": 29395,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 29395,
+      "end_line": 29397,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 29397,
+      "end_line": 29399,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 29399,
+      "end_line": 29401,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 29401,
+      "end_line": 29403,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 29403,
+      "end_line": 29939,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 536
+    },
+    {
+      "start_line": 29939,
+      "end_line": 31745,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 1806
+    },
+    {
+      "start_line": 31745,
+      "end_line": 31759,
+      "title": "## ROLE: CONTENT STRATEGIST (Call sign: \"Marcus\")## OBJECTIVE:You are the master architect for \"Dead",
+      "line_count": 14
+    },
+    {
+      "start_line": 31759,
+      "end_line": 31773,
+      "title": "## ROLE: CLIP ALCHEMIST (Call sign: \"Vex\")## OBJECTIVE:You are the viral engine. You take raw stream",
+      "line_count": 14
+    },
+    {
+      "start_line": 31773,
+      "end_line": 31787,
+      "title": "## ROLE: STREAM PRODUCTION SPECIALIST (Call sign: \"Cable\")## OBJECTIVE:Ensure the live broadcast is ",
+      "line_count": 14
+    },
+    {
+      "start_line": 31787,
+      "end_line": 34930,
+      "title": "## ROLE: COPY SPECIALIST (Call sign: \"Echo\")## OBJECTIVE:You are the voice of the Deadman. You write",
+      "line_count": 3143
+    },
+    {
+      "start_line": 34930,
+      "end_line": 34931,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 34931,
+      "end_line": 34932,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 34932,
+      "end_line": 36132,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 36132,
+      "end_line": 36138,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 36138,
+      "end_line": 36145,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 36145,
+      "end_line": 36218,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 36218,
+      "end_line": 36223,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 36223,
+      "end_line": 36228,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 36228,
+      "end_line": 36233,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 36233,
+      "end_line": 36628,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 395
+    },
+    {
+      "start_line": 36628,
+      "end_line": 36629,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 36629,
+      "end_line": 36630,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 36630,
+      "end_line": 37830,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 37830,
+      "end_line": 37836,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 37836,
+      "end_line": 37843,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 37843,
+      "end_line": 37916,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 37916,
+      "end_line": 37921,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 37921,
+      "end_line": 37926,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 37926,
+      "end_line": 37931,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 37931,
+      "end_line": 38113,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 182
+    },
+    {
+      "start_line": 38113,
+      "end_line": 38114,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 38114,
+      "end_line": 38115,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 38115,
+      "end_line": 39315,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 39315,
+      "end_line": 39321,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 39321,
+      "end_line": 39328,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 39328,
+      "end_line": 39509,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 181
+    },
+    {
+      "start_line": 39509,
+      "end_line": 39510,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 39510,
+      "end_line": 39511,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 39511,
+      "end_line": 40711,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 40711,
+      "end_line": 40717,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 40717,
+      "end_line": 40724,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 40724,
+      "end_line": 40797,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 40797,
+      "end_line": 40802,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 40802,
+      "end_line": 40807,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 40807,
+      "end_line": 40812,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 40812,
+      "end_line": 40994,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 182
+    },
+    {
+      "start_line": 40994,
+      "end_line": 40995,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 40995,
+      "end_line": 40996,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 40996,
+      "end_line": 42196,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 42196,
+      "end_line": 42202,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 42202,
+      "end_line": 42209,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 42209,
+      "end_line": 42391,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 182
+    },
+    {
+      "start_line": 42391,
+      "end_line": 42392,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 42392,
+      "end_line": 42393,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 42393,
+      "end_line": 43593,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 43593,
+      "end_line": 43599,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 43599,
+      "end_line": 43606,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 43606,
+      "end_line": 43679,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 43679,
+      "end_line": 43684,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 43684,
+      "end_line": 43689,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 43689,
+      "end_line": 43694,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 43694,
+      "end_line": 43992,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 298
+    },
+    {
+      "start_line": 43992,
+      "end_line": 43993,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 43993,
+      "end_line": 43994,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 43994,
+      "end_line": 45194,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 45194,
+      "end_line": 45200,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 45200,
+      "end_line": 45207,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 45207,
+      "end_line": 45280,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 45280,
+      "end_line": 45285,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 45285,
+      "end_line": 45290,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 45290,
+      "end_line": 45295,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 45295,
+      "end_line": 45477,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 182
+    },
+    {
+      "start_line": 45477,
+      "end_line": 45478,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 45478,
+      "end_line": 45479,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 45479,
+      "end_line": 46679,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 46679,
+      "end_line": 46685,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 46685,
+      "end_line": 46692,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 46692,
+      "end_line": 46875,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 183
+    },
+    {
+      "start_line": 46875,
+      "end_line": 46876,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 46876,
+      "end_line": 46877,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 46877,
+      "end_line": 48077,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 48077,
+      "end_line": 48083,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 48083,
+      "end_line": 48090,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 48090,
+      "end_line": 48163,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 48163,
+      "end_line": 48168,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 48168,
+      "end_line": 48173,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 48173,
+      "end_line": 48178,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 48178,
+      "end_line": 48205,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 27
+    },
+    {
+      "start_line": 48205,
+      "end_line": 48210,
+      "title": "## CORE PHILOSOPHY",
+      "line_count": 5
+    },
+    {
+      "start_line": 48210,
+      "end_line": 48238,
+      "title": "## ROLE 1: CONTENT STRATEGIST & GROWTH ARCHITECT",
+      "line_count": 28
+    },
+    {
+      "start_line": 48238,
+      "end_line": 48272,
+      "title": "## ROLE 2: CLIP & SHORT-FORM ALCHEMIST",
+      "line_count": 34
+    },
+    {
+      "start_line": 48272,
+      "end_line": 48308,
+      "title": "## ROLE 3: STREAM PRODUCTION SPECIALIST",
+      "line_count": 36
+    },
+    {
+      "start_line": 48308,
+      "end_line": 48344,
+      "title": "## ROLE 4: COPY & CAPTION SPECIALIST",
+      "line_count": 36
+    },
+    {
+      "start_line": 48344,
+      "end_line": 48381,
+      "title": "## ROLE 5: THUMBNAIL & VISUAL BRAND DESIGNER",
+      "line_count": 37
+    },
+    {
+      "start_line": 48381,
+      "end_line": 48417,
+      "title": "## ROLE 6: COMMUNITY MANAGER & ENGAGEMENT DRIVER",
+      "line_count": 36
+    },
+    {
+      "start_line": 48417,
+      "end_line": 48454,
+      "title": "## ROLE 7: ANALYTICS & OPTIMIZATION OFFICER",
+      "line_count": 37
+    },
+    {
+      "start_line": 48454,
+      "end_line": 48490,
+      "title": "## ROLE 8: BRAND PARTNERSHIPS & MONETIZATION STRATEGIST",
+      "line_count": 36
+    },
+    {
+      "start_line": 48490,
+      "end_line": 48522,
+      "title": "## TEAM COORDINATION PROTOCOLS",
+      "line_count": 32
+    },
+    {
+      "start_line": 48522,
+      "end_line": 48535,
+      "title": "## CRITICAL SUCCESS FACTORS",
+      "line_count": 13
+    },
+    {
+      "start_line": 48535,
+      "end_line": 48571,
+      "title": "## TOOLS & TECH STACK",
+      "line_count": 36
+    },
+    {
+      "start_line": 48571,
+      "end_line": 48595,
+      "title": "## SCALING STRATEGY",
+      "line_count": 24
+    },
+    {
+      "start_line": 48595,
+      "end_line": 48753,
+      "title": "## FINAL NOTE",
+      "line_count": 158
+    },
+    {
+      "start_line": 48753,
+      "end_line": 48754,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 48754,
+      "end_line": 48755,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 48755,
+      "end_line": 49955,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 49955,
+      "end_line": 49961,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 49961,
+      "end_line": 49968,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 49968,
+      "end_line": 50041,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 50041,
+      "end_line": 50046,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 50046,
+      "end_line": 50051,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 50051,
+      "end_line": 50056,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 50056,
+      "end_line": 50083,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 27
+    },
+    {
+      "start_line": 50083,
+      "end_line": 50089,
+      "title": "## Overview",
+      "line_count": 6
+    },
+    {
+      "start_line": 50089,
+      "end_line": 50091,
+      "title": "## THE TEAM",
+      "line_count": 2
+    },
+    {
+      "start_line": 50091,
+      "end_line": 50106,
+      "title": "### ROLE 1: MARCUS CHEN - Content Strategist & Growth Architect",
+      "line_count": 15
+    },
+    {
+      "start_line": 50106,
+      "end_line": 50121,
+      "title": "### ROLE 2: SOFIA \"CLIPS\" RIVERA - Clip & Short-Form Alchemist",
+      "line_count": 15
+    },
+    {
+      "start_line": 50121,
+      "end_line": 50136,
+      "title": "### ROLE 3: JAMES \"ZERO-DOWNTIME\" TORRES - Stream Production Specialist",
+      "line_count": 15
+    },
+    {
+      "start_line": 50136,
+      "end_line": 50151,
+      "title": "### ROLE 4: RACHEL \"THE HOOK\" KIM - Copy & Caption Specialist",
+      "line_count": 15
+    },
+    {
+      "start_line": 50151,
+      "end_line": 50166,
+      "title": "### ROLE 5: ALEX \"PIXEL-PERFECT\" SANTOS - Thumbnail & Visual Brand Designer",
+      "line_count": 15
+    },
+    {
+      "start_line": 50166,
+      "end_line": 50181,
+      "title": "### ROLE 6: MAYA \"COMMUNITY HEART\" RODRIGUEZ - Community Manager",
+      "line_count": 15
+    },
+    {
+      "start_line": 50181,
+      "end_line": 50196,
+      "title": "### ROLE 7: DR. SARAH \"DATA\" CHEN - Analytics & Optimization Officer",
+      "line_count": 15
+    },
+    {
+      "start_line": 50196,
+      "end_line": 50211,
+      "title": "### ROLE 8: MARCUS \"DEAL-MAKER\" JOHNSON - Brand Partnerships Strategist",
+      "line_count": 15
+    },
+    {
+      "start_line": 50211,
+      "end_line": 50213,
+      "title": "## INTEGRATION & COORDINATION",
+      "line_count": 2
+    },
+    {
+      "start_line": 50213,
+      "end_line": 50216,
+      "title": "### Daily Sync (15 minutes)",
+      "line_count": 3
+    },
+    {
+      "start_line": 50216,
+      "end_line": 50219,
+      "title": "### Weekly Strategy Session (60 minutes)",
+      "line_count": 3
+    },
+    {
+      "start_line": 50219,
+      "end_line": 50222,
+      "title": "### Monthly Review (2 hours)",
+      "line_count": 3
+    },
+    {
+      "start_line": 50222,
+      "end_line": 50227,
+      "title": "### Quarterly Planning (Half day)",
+      "line_count": 5
+    },
+    {
+      "start_line": 50227,
+      "end_line": 50240,
+      "title": "## CRITICAL SUCCESS FACTORS",
+      "line_count": 13
+    },
+    {
+      "start_line": 50240,
+      "end_line": 50242,
+      "title": "## IMPLEMENTATION GUIDE",
+      "line_count": 2
+    },
+    {
+      "start_line": 50242,
+      "end_line": 50247,
+      "title": "### Phase 1: Core Foundation (Months 1-3)",
+      "line_count": 5
+    },
+    {
+      "start_line": 50247,
+      "end_line": 50252,
+      "title": "### Phase 2: Production Enhancement (Months 4-6)",
+      "line_count": 5
+    },
+    {
+      "start_line": 50252,
+      "end_line": 50257,
+      "title": "### Phase 3: Intelligence & Community (Months 7-9)",
+      "line_count": 5
+    },
+    {
+      "start_line": 50257,
+      "end_line": 50264,
+      "title": "### Phase 4: Monetization (Months 10-12)",
+      "line_count": 7
+    },
+    {
+      "start_line": 50264,
+      "end_line": 50266,
+      "title": "## USAGE NOTES",
+      "line_count": 2
+    },
+    {
+      "start_line": 50266,
+      "end_line": 50269,
+      "title": "### For AI Implementation:",
+      "line_count": 3
+    },
+    {
+      "start_line": 50269,
+      "end_line": 50276,
+      "title": "### For Human Teams:",
+      "line_count": 7
+    },
+    {
+      "start_line": 50276,
+      "end_line": 50436,
+      "title": "### For Solo Creators:",
+      "line_count": 160
+    },
+    {
+      "start_line": 50436,
+      "end_line": 50437,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 50437,
+      "end_line": 50438,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 50438,
+      "end_line": 51638,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 51638,
+      "end_line": 51644,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 51644,
+      "end_line": 51651,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 51651,
+      "end_line": 51724,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 51724,
+      "end_line": 51729,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 51729,
+      "end_line": 51734,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 51734,
+      "end_line": 51739,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 51739,
+      "end_line": 51760,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 21
+    },
+    {
+      "start_line": 51760,
+      "end_line": 51766,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 6
+    },
+    {
+      "start_line": 51766,
+      "end_line": 51774,
+      "title": "## CORE IDENTITY",
+      "line_count": 8
+    },
+    {
+      "start_line": 51774,
+      "end_line": 51788,
+      "title": "## PERSONALITY TRAITS",
+      "line_count": 14
+    },
+    {
+      "start_line": 51788,
+      "end_line": 51790,
+      "title": "## EXPERTISE AREAS",
+      "line_count": 2
+    },
+    {
+      "start_line": 51790,
+      "end_line": 51802,
+      "title": "### Platform Algorithm Mastery",
+      "line_count": 12
+    },
+    {
+      "start_line": 51802,
+      "end_line": 51814,
+      "title": "### Growth Framework Architecture",
+      "line_count": 12
+    },
+    {
+      "start_line": 51814,
+      "end_line": 51821,
+      "title": "### Competitive Intelligence",
+      "line_count": 7
+    },
+    {
+      "start_line": 51821,
+      "end_line": 51831,
+      "title": "### Strategic Planning",
+      "line_count": 10
+    },
+    {
+      "start_line": 51831,
+      "end_line": 51833,
+      "title": "## WORKING STYLE",
+      "line_count": 2
+    },
+    {
+      "start_line": 51833,
+      "end_line": 51842,
+      "title": "### Daily Routine",
+      "line_count": 9
+    },
+    {
+      "start_line": 51842,
+      "end_line": 51850,
+      "title": "### Communication Style",
+      "line_count": 8
+    },
+    {
+      "start_line": 51850,
+      "end_line": 51862,
+      "title": "### Decision-Making Framework",
+      "line_count": 12
+    },
+    {
+      "start_line": 51862,
+      "end_line": 51864,
+      "title": "## STRATEGIC FRAMEWORKS YOU USE",
+      "line_count": 2
+    },
+    {
+      "start_line": 51864,
+      "end_line": 51877,
+      "title": "### The Growth Equation",
+      "line_count": 13
+    },
+    {
+      "start_line": 51877,
+      "end_line": 51886,
+      "title": "### The Content Matrix",
+      "line_count": 9
+    },
+    {
+      "start_line": 51886,
+      "end_line": 51894,
+      "title": "### The Viral Anatomy Checklist",
+      "line_count": 8
+    },
+    {
+      "start_line": 51894,
+      "end_line": 51907,
+      "title": "### The Platform Priority Model",
+      "line_count": 13
+    },
+    {
+      "start_line": 51907,
+      "end_line": 51909,
+      "title": "## SAMPLE OUTPUTS",
+      "line_count": 2
+    },
+    {
+      "start_line": 51909,
+      "end_line": 51941,
+      "title": "### Weekly Strategy Brief Format",
+      "line_count": 32
+    },
+    {
+      "start_line": 51941,
+      "end_line": 51974,
+      "title": "### Growth Sprint Planning Format",
+      "line_count": 33
+    },
+    {
+      "start_line": 51974,
+      "end_line": 51988,
+      "title": "## YOUR STANDARD QUESTIONS",
+      "line_count": 14
+    },
+    {
+      "start_line": 51988,
+      "end_line": 51990,
+      "title": "## RESPONSE PATTERNS",
+      "line_count": 2
+    },
+    {
+      "start_line": 51990,
+      "end_line": 51993,
+      "title": "### When asked for strategy:",
+      "line_count": 3
+    },
+    {
+      "start_line": 51993,
+      "end_line": 51996,
+      "title": "### When reviewing content:",
+      "line_count": 3
+    },
+    {
+      "start_line": 51996,
+      "end_line": 51999,
+      "title": "### When something underperforms:",
+      "line_count": 3
+    },
+    {
+      "start_line": 51999,
+      "end_line": 52002,
+      "title": "### When team asks for priorities:",
+      "line_count": 3
+    },
+    {
+      "start_line": 52002,
+      "end_line": 52007,
+      "title": "### When trends emerge:",
+      "line_count": 5
+    },
+    {
+      "start_line": 52007,
+      "end_line": 52025,
+      "title": "## CORE BELIEFS",
+      "line_count": 18
+    },
+    {
+      "start_line": 52025,
+      "end_line": 52027,
+      "title": "## HOW YOU HANDLE SITUATIONS",
+      "line_count": 2
+    },
+    {
+      "start_line": 52027,
+      "end_line": 52030,
+      "title": "### When streamer wants to try something \"different\":",
+      "line_count": 3
+    },
+    {
+      "start_line": 52030,
+      "end_line": 52033,
+      "title": "### When team is overwhelmed:",
+      "line_count": 3
+    },
+    {
+      "start_line": 52033,
+      "end_line": 52036,
+      "title": "### When growth stalls:",
+      "line_count": 3
+    },
+    {
+      "start_line": 52036,
+      "end_line": 52039,
+      "title": "### When success happens:",
+      "line_count": 3
+    },
+    {
+      "start_line": 52039,
+      "end_line": 52044,
+      "title": "### When platform algorithm changes:",
+      "line_count": 5
+    },
+    {
+      "start_line": 52044,
+      "end_line": 52210,
+      "title": "## YOUR VALUE TO THE TEAM",
+      "line_count": 166
+    },
+    {
+      "start_line": 52210,
+      "end_line": 52211,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 52211,
+      "end_line": 52212,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 52212,
+      "end_line": 53412,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 53412,
+      "end_line": 53418,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 53418,
+      "end_line": 53425,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 53425,
+      "end_line": 53498,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 53498,
+      "end_line": 53503,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 53503,
+      "end_line": 53508,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 53508,
+      "end_line": 53513,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 53513,
+      "end_line": 53534,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 21
+    },
+    {
+      "start_line": 53534,
+      "end_line": 53540,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 6
+    },
+    {
+      "start_line": 53540,
+      "end_line": 53548,
+      "title": "## CORE IDENTITY",
+      "line_count": 8
+    },
+    {
+      "start_line": 53548,
+      "end_line": 53562,
+      "title": "## PERSONALITY TRAITS",
+      "line_count": 14
+    },
+    {
+      "start_line": 53562,
+      "end_line": 53564,
+      "title": "## EXPERTISE AREAS",
+      "line_count": 2
+    },
+    {
+      "start_line": 53564,
+      "end_line": 53587,
+      "title": "### Thumbnail Psychology",
+      "line_count": 23
+    },
+    {
+      "start_line": 53587,
+      "end_line": 53618,
+      "title": "### The Visual Formula Library",
+      "line_count": 31
+    },
+    {
+      "start_line": 53618,
+      "end_line": 53645,
+      "title": "### Color Theory for Clicks",
+      "line_count": 27
+    },
+    {
+      "start_line": 53645,
+      "end_line": 53669,
+      "title": "### Typography for Thumbnails",
+      "line_count": 24
+    },
+    {
+      "start_line": 53669,
+      "end_line": 53697,
+      "title": "### Platform-Specific Requirements",
+      "line_count": 28
+    },
+    {
+      "start_line": 53697,
+      "end_line": 53699,
+      "title": "## WORKING STYLE",
+      "line_count": 2
+    },
+    {
+      "start_line": 53699,
+      "end_line": 53726,
+      "title": "### Production Speed System",
+      "line_count": 27
+    },
+    {
+      "start_line": 53726,
+      "end_line": 53756,
+      "title": "### Communication Style",
+      "line_count": 30
+    },
+    {
+      "start_line": 53756,
+      "end_line": 53786,
+      "title": "### Decision-Making Framework",
+      "line_count": 30
+    },
+    {
+      "start_line": 53786,
+      "end_line": 53788,
+      "title": "## SAMPLE OUTPUTS",
+      "line_count": 2
+    },
+    {
+      "start_line": 53788,
+      "end_line": 53821,
+      "title": "### Weekly Thumbnail Report",
+      "line_count": 33
+    },
+    {
+      "start_line": 53821,
+      "end_line": 53979,
+      "title": "## OPERATIONAL PROTOCOLS",
+      "line_count": 158
+    },
+    {
+      "start_line": 53979,
+      "end_line": 53980,
+      "title": "ROLE_01: SEXYO SEO Expert",
+      "line_count": 1
+    },
+    {
+      "start_line": 53980,
+      "end_line": 53981,
+      "title": "ROLE_06: Email Campaign Strategist",
+      "line_count": 1
+    },
+    {
+      "start_line": 53981,
+      "end_line": 55181,
+      "title": "ROLE_11: Local SEO Guru",
+      "line_count": 1200
+    },
+    {
+      "start_line": 55181,
+      "end_line": 55187,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 6
+    },
+    {
+      "start_line": 55187,
+      "end_line": 55194,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 7
+    },
+    {
+      "start_line": 55194,
+      "end_line": 55267,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 73
+    },
+    {
+      "start_line": 55267,
+      "end_line": 55272,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 55272,
+      "end_line": 55277,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 55277,
+      "end_line": 55282,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 55282,
+      "end_line": 55306,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 24
+    },
+    {
+      "start_line": 55306,
+      "end_line": 55379,
+      "title": "ROLE_11_LOCAL_SEO_Guru.mdBranding Roles_ Top-Down Taxonomy (1).txtElite AI Prompt Architect_ Gaming ",
+      "line_count": 73
+    },
+    {
+      "start_line": 55379,
+      "end_line": 55381,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 55381,
+      "end_line": 55383,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 55383,
+      "end_line": 55765,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 55765,
+      "end_line": 55766,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 55766,
+      "end_line": 55767,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 55767,
+      "end_line": 55768,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 55768,
+      "end_line": 55769,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 55769,
+      "end_line": 55770,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 55770,
+      "end_line": 56038,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 268
+    },
+    {
+      "start_line": 56038,
+      "end_line": 58435,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Teamthecmo.com+16 more",
+      "line_count": 2397
+    },
+    {
+      "start_line": 58435,
+      "end_line": 58437,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 58437,
+      "end_line": 58439,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 58439,
+      "end_line": 58821,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 58821,
+      "end_line": 58822,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 58822,
+      "end_line": 58823,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 58823,
+      "end_line": 58824,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 58824,
+      "end_line": 58825,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 58825,
+      "end_line": 58826,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 58826,
+      "end_line": 59095,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 269
+    },
+    {
+      "start_line": 59095,
+      "end_line": 60024,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 929
+    },
+    {
+      "start_line": 60024,
+      "end_line": 60027,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 60027,
+      "end_line": 60032,
+      "title": "## CONTEXT & ASSETS:",
+      "line_count": 5
+    },
+    {
+      "start_line": 60032,
+      "end_line": 60037,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 5
+    },
+    {
+      "start_line": 60037,
+      "end_line": 60042,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 5
+    },
+    {
+      "start_line": 60042,
+      "end_line": 60049,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 60049,
+      "end_line": 60052,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 60052,
+      "end_line": 60057,
+      "title": "## EXPERTISE:",
+      "line_count": 5
+    },
+    {
+      "start_line": 60057,
+      "end_line": 60061,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 4
+    },
+    {
+      "start_line": 60061,
+      "end_line": 60068,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 60068,
+      "end_line": 60071,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 60071,
+      "end_line": 60076,
+      "title": "## CONTEXT:",
+      "line_count": 5
+    },
+    {
+      "start_line": 60076,
+      "end_line": 60081,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 5
+    },
+    {
+      "start_line": 60081,
+      "end_line": 60085,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 4
+    },
+    {
+      "start_line": 60085,
+      "end_line": 60092,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 60092,
+      "end_line": 60095,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 60095,
+      "end_line": 60103,
+      "title": "## TONE:",
+      "line_count": 8
+    },
+    {
+      "start_line": 60103,
+      "end_line": 60110,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 7
+    },
+    {
+      "start_line": 60110,
+      "end_line": 60982,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 872
+    },
+    {
+      "start_line": 60982,
+      "end_line": 61001,
+      "title": "### ACTIVATION INSTRUCTIONS",
+      "line_count": 19
+    },
+    {
+      "start_line": 61001,
+      "end_line": 61017,
+      "title": "### CORE MODULES TO USE IN EVERY APPLICABLE PROMPT",
+      "line_count": 16
+    },
+    {
+      "start_line": 61017,
+      "end_line": 61049,
+      "title": "### FORMATS YOU CAN OUTPUT",
+      "line_count": 32
+    },
+    {
+      "start_line": 61049,
+      "end_line": 61057,
+      "title": "### RESPONSE LOGIC",
+      "line_count": 8
+    },
+    {
+      "start_line": 61057,
+      "end_line": 61068,
+      "title": "### EXAMPLE USER INSTRUCTION FLOW",
+      "line_count": 11
+    },
+    {
+      "start_line": 61068,
+      "end_line": 62534,
+      "title": "### BEGIN",
+      "line_count": 1466
+    },
+    {
+      "start_line": 62534,
+      "end_line": 62536,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 62536,
+      "end_line": 62538,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 62538,
+      "end_line": 62920,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 62920,
+      "end_line": 62921,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 62921,
+      "end_line": 62922,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 62922,
+      "end_line": 62923,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 62923,
+      "end_line": 62924,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 62924,
+      "end_line": 62925,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 62925,
+      "end_line": 63193,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 268
+    },
+    {
+      "start_line": 63193,
+      "end_line": 63896,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 703
+    },
+    {
+      "start_line": 63896,
+      "end_line": 63927,
+      "title": "## OPERATIONAL PROTOCOLS",
+      "line_count": 31
+    },
+    {
+      "start_line": 63927,
+      "end_line": 63930,
+      "title": "## FILE MANIFEST",
+      "line_count": 3
+    },
+    {
+      "start_line": 63930,
+      "end_line": 63931,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md      (18KB)",
+      "line_count": 1
+    },
+    {
+      "start_line": 63931,
+      "end_line": 63932,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md                       (18KB)",
+      "line_count": 1
+    },
+    {
+      "start_line": 63932,
+      "end_line": 63933,
+      "title": "ROLE_3_STREAM_PRODUCTION.md                    (20KB)",
+      "line_count": 1
+    },
+    {
+      "start_line": 63933,
+      "end_line": 63934,
+      "title": "ROLE_4_COPY_SPECIALIST.md                      (21KB)",
+      "line_count": 1
+    },
+    {
+      "start_line": 63934,
+      "end_line": 63935,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md                   (9KB)",
+      "line_count": 1
+    },
+    {
+      "start_line": 63935,
+      "end_line": 63941,
+      "title": "ROLE_6_7_8_FINAL_THREE.md                      (24KB)",
+      "line_count": 6
+    },
+    {
+      "start_line": 63941,
+      "end_line": 63972,
+      "title": "## FINAL NOTE",
+      "line_count": 31
+    },
+    {
+      "start_line": 63972,
+      "end_line": 63977,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 63977,
+      "end_line": 63982,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 63982,
+      "end_line": 63987,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 63987,
+      "end_line": 64063,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 76
+    },
+    {
+      "start_line": 64063,
+      "end_line": 64068,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 64068,
+      "end_line": 64073,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 64073,
+      "end_line": 64078,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 64078,
+      "end_line": 64111,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 33
+    },
+    {
+      "start_line": 64111,
+      "end_line": 64116,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 64116,
+      "end_line": 64121,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 64121,
+      "end_line": 64126,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 5
+    },
+    {
+      "start_line": 64126,
+      "end_line": 70515,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 6389
+    },
+    {
+      "start_line": 70515,
+      "end_line": 70523,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 8
+    },
+    {
+      "start_line": 70523,
+      "end_line": 70531,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 8
+    },
+    {
+      "start_line": 70531,
+      "end_line": 72059,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 1528
+    },
+    {
+      "start_line": 72059,
+      "end_line": 72063,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 72063,
+      "end_line": 72067,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 72067,
+      "end_line": 72071,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 72071,
+      "end_line": 72075,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 72075,
+      "end_line": 72079,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 72079,
+      "end_line": 73151,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 1072
+    },
+    {
+      "start_line": 73151,
+      "end_line": 76681,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 3530
+    },
+    {
+      "start_line": 76681,
+      "end_line": 76685,
+      "title": "## ROLE: CONTENT STRATEGIST (Call sign: \"Marcus\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 76685,
+      "end_line": 76691,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 76691,
+      "end_line": 76701,
+      "title": "## CONTEXT & ASSETS:",
+      "line_count": 10
+    },
+    {
+      "start_line": 76701,
+      "end_line": 76711,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 10
+    },
+    {
+      "start_line": 76711,
+      "end_line": 76721,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 10
+    },
+    {
+      "start_line": 76721,
+      "end_line": 76733,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 12
+    },
+    {
+      "start_line": 76733,
+      "end_line": 76737,
+      "title": "## ROLE: CLIP ALCHEMIST (Call sign: \"Vex\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 76737,
+      "end_line": 76743,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 76743,
+      "end_line": 76753,
+      "title": "## EXPERTISE:",
+      "line_count": 10
+    },
+    {
+      "start_line": 76753,
+      "end_line": 76761,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 8
+    },
+    {
+      "start_line": 76761,
+      "end_line": 76773,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 12
+    },
+    {
+      "start_line": 76773,
+      "end_line": 76777,
+      "title": "## ROLE: STREAM PRODUCTION SPECIALIST (Call sign: \"Cable\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 76777,
+      "end_line": 76783,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 76783,
+      "end_line": 76793,
+      "title": "## CONTEXT:",
+      "line_count": 10
+    },
+    {
+      "start_line": 76793,
+      "end_line": 76803,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 10
+    },
+    {
+      "start_line": 76803,
+      "end_line": 76811,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 8
+    },
+    {
+      "start_line": 76811,
+      "end_line": 76823,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 12
+    },
+    {
+      "start_line": 76823,
+      "end_line": 76827,
+      "title": "## ROLE: COPY SPECIALIST (Call sign: \"Echo\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 76827,
+      "end_line": 76833,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 76833,
+      "end_line": 76849,
+      "title": "## TONE:",
+      "line_count": 16
+    },
+    {
+      "start_line": 76849,
+      "end_line": 76863,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 14
+    },
+    {
+      "start_line": 76863,
+      "end_line": 79775,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 2912
+    },
+    {
+      "start_line": 79775,
+      "end_line": 79779,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 79779,
+      "end_line": 79783,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 79783,
+      "end_line": 80547,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 764
+    },
+    {
+      "start_line": 80547,
+      "end_line": 80549,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 80549,
+      "end_line": 80551,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 80551,
+      "end_line": 80553,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 80553,
+      "end_line": 80555,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 80555,
+      "end_line": 80557,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 80557,
+      "end_line": 81093,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 536
+    },
+    {
+      "start_line": 81093,
+      "end_line": 89011,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 7918
+    },
+    {
+      "start_line": 89011,
+      "end_line": 89019,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 8
+    },
+    {
+      "start_line": 89019,
+      "end_line": 89027,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 8
+    },
+    {
+      "start_line": 89027,
+      "end_line": 90555,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 1528
+    },
+    {
+      "start_line": 90555,
+      "end_line": 90559,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 90559,
+      "end_line": 90563,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 90563,
+      "end_line": 90567,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 90567,
+      "end_line": 90571,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 90571,
+      "end_line": 90575,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 90575,
+      "end_line": 91647,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 1072
+    },
+    {
+      "start_line": 91647,
+      "end_line": 95177,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 3530
+    },
+    {
+      "start_line": 95177,
+      "end_line": 95181,
+      "title": "## ROLE: CONTENT STRATEGIST (Call sign: \"Marcus\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 95181,
+      "end_line": 95187,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 95187,
+      "end_line": 95197,
+      "title": "## CONTEXT & ASSETS:",
+      "line_count": 10
+    },
+    {
+      "start_line": 95197,
+      "end_line": 95207,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 10
+    },
+    {
+      "start_line": 95207,
+      "end_line": 95217,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 10
+    },
+    {
+      "start_line": 95217,
+      "end_line": 95229,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 12
+    },
+    {
+      "start_line": 95229,
+      "end_line": 95233,
+      "title": "## ROLE: CLIP ALCHEMIST (Call sign: \"Vex\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 95233,
+      "end_line": 95239,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 95239,
+      "end_line": 95249,
+      "title": "## EXPERTISE:",
+      "line_count": 10
+    },
+    {
+      "start_line": 95249,
+      "end_line": 95257,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 8
+    },
+    {
+      "start_line": 95257,
+      "end_line": 95269,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 12
+    },
+    {
+      "start_line": 95269,
+      "end_line": 95273,
+      "title": "## ROLE: STREAM PRODUCTION SPECIALIST (Call sign: \"Cable\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 95273,
+      "end_line": 95279,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 95279,
+      "end_line": 95289,
+      "title": "## CONTEXT:",
+      "line_count": 10
+    },
+    {
+      "start_line": 95289,
+      "end_line": 95299,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 10
+    },
+    {
+      "start_line": 95299,
+      "end_line": 95307,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 8
+    },
+    {
+      "start_line": 95307,
+      "end_line": 95319,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 12
+    },
+    {
+      "start_line": 95319,
+      "end_line": 95323,
+      "title": "## ROLE: COPY SPECIALIST (Call sign: \"Echo\")",
+      "line_count": 4
+    },
+    {
+      "start_line": 95323,
+      "end_line": 95329,
+      "title": "## OBJECTIVE:",
+      "line_count": 6
+    },
+    {
+      "start_line": 95329,
+      "end_line": 95345,
+      "title": "## TONE:",
+      "line_count": 16
+    },
+    {
+      "start_line": 95345,
+      "end_line": 95359,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 14
+    },
+    {
+      "start_line": 95359,
+      "end_line": 98269,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 2910
+    },
+    {
+      "start_line": 98269,
+      "end_line": 98273,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 98273,
+      "end_line": 98277,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 98277,
+      "end_line": 99041,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 764
+    },
+    {
+      "start_line": 99041,
+      "end_line": 99043,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 99043,
+      "end_line": 99045,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 99045,
+      "end_line": 99047,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 99047,
+      "end_line": 99049,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 99049,
+      "end_line": 99051,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 99051,
+      "end_line": 99587,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 536
+    },
+    {
+      "start_line": 99587,
+      "end_line": 107505,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 7918
+    },
+    {
+      "start_line": 107505,
+      "end_line": 107513,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 8
+    },
+    {
+      "start_line": 107513,
+      "end_line": 107521,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 8
+    },
+    {
+      "start_line": 107521,
+      "end_line": 109049,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 1528
+    },
+    {
+      "start_line": 109049,
+      "end_line": 109053,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 109053,
+      "end_line": 109057,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 109057,
+      "end_line": 109061,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 109061,
+      "end_line": 109065,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 109065,
+      "end_line": 109069,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 4
+    },
+    {
+      "start_line": 109069,
+      "end_line": 110141,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 1072
+    },
+    {
+      "start_line": 110141,
+      "end_line": 110920,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 779
+    },
+    {
+      "start_line": 110920,
+      "end_line": 110922,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 110922,
+      "end_line": 110924,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 110924,
+      "end_line": 111306,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 111306,
+      "end_line": 111307,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 111307,
+      "end_line": 111308,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 111308,
+      "end_line": 111309,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 111309,
+      "end_line": 111310,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 111310,
+      "end_line": 111311,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 111311,
+      "end_line": 111579,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 268
+    },
+    {
+      "start_line": 111579,
+      "end_line": 113976,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Teamthecmo.com+16 more",
+      "line_count": 2397
+    },
+    {
+      "start_line": 113976,
+      "end_line": 113978,
+      "title": "ROLE_01_SEXYO_SEO_Expert.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 113978,
+      "end_line": 113980,
+      "title": "ROLE_06_EMAIL_Campaign_Strategist.md",
+      "line_count": 2
+    },
+    {
+      "start_line": 113980,
+      "end_line": 114362,
+      "title": "ROLE_11_LOCAL_SEO_Guru.md",
+      "line_count": 382
+    },
+    {
+      "start_line": 114362,
+      "end_line": 114363,
+      "title": "ROLE_1_CONTENT_STRATEGIST_MARCUS_CHEN.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 114363,
+      "end_line": 114364,
+      "title": "ROLE_2_CLIP_ALCHEMIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 114364,
+      "end_line": 114365,
+      "title": "ROLE_3_STREAM_PRODUCTION.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 114365,
+      "end_line": 114366,
+      "title": "ROLE_4_COPY_SPECIALIST.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 114366,
+      "end_line": 114367,
+      "title": "ROLE_5_THUMBNAIL_DESIGNER.md",
+      "line_count": 1
+    },
+    {
+      "start_line": 114367,
+      "end_line": 114636,
+      "title": "ROLE_6_7_8_FINAL_THREE.md",
+      "line_count": 269
+    },
+    {
+      "start_line": 114636,
+      "end_line": 115565,
+      "title": "### Detailed Job Descriptions for a Streamer Social Media Team",
+      "line_count": 929
+    },
+    {
+      "start_line": 115565,
+      "end_line": 115568,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 115568,
+      "end_line": 115573,
+      "title": "## CONTEXT & ASSETS:",
+      "line_count": 5
+    },
+    {
+      "start_line": 115573,
+      "end_line": 115578,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 5
+    },
+    {
+      "start_line": 115578,
+      "end_line": 115583,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 5
+    },
+    {
+      "start_line": 115583,
+      "end_line": 115590,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 115590,
+      "end_line": 115593,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 115593,
+      "end_line": 115598,
+      "title": "## EXPERTISE:",
+      "line_count": 5
+    },
+    {
+      "start_line": 115598,
+      "end_line": 115602,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 4
+    },
+    {
+      "start_line": 115602,
+      "end_line": 115609,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 115609,
+      "end_line": 115612,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 115612,
+      "end_line": 115617,
+      "title": "## CONTEXT:",
+      "line_count": 5
+    },
+    {
+      "start_line": 115617,
+      "end_line": 115622,
+      "title": "## RESPONSIBILITIES:",
+      "line_count": 5
+    },
+    {
+      "start_line": 115622,
+      "end_line": 115626,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 4
+    },
+    {
+      "start_line": 115626,
+      "end_line": 115633,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 7
+    },
+    {
+      "start_line": 115633,
+      "end_line": 115636,
+      "title": "## OBJECTIVE:",
+      "line_count": 3
+    },
+    {
+      "start_line": 115636,
+      "end_line": 115644,
+      "title": "## TONE:",
+      "line_count": 8
+    },
+    {
+      "start_line": 115644,
+      "end_line": 115651,
+      "title": "## INSTRUCTIONS:",
+      "line_count": 7
+    },
+    {
+      "start_line": 115651,
+      "end_line": 115747,
+      "title": "## INITIAL COMMAND:",
+      "line_count": 96
+    }
+  ],
+  "content_types": {
+    "social_media": 2493,
+    "documentation": 1483,
+    "code": 379,
+    "data": 3698,
+    "conversation": 506,
+    "analysis": 2928,
+    "streaming": 9826,
+    "ai_prompts": 11489
+  },
+  "key_topics": {
+    "streaming": 1104,
+    "gaming": 1569,
+    "AI": 8300,
+    "sora": 1195,
+    "social media": 625,
+    "content creation": 244,
+    "team roles": 123,
+    "SEO": 605,
+    "analytics": 470,
+    "viral": 730,
+    "algorithm": 560,
+    "deadman": 639,
+    "podcast": 269,
+    "prompt": 3990
+  },
+  "statistics": {
+    "total_characters": 4845214,
+    "average_line_length": 41.860385150371066,
+    "non_empty_lines": 58663,
+    "section_count": 564
+  }
+}

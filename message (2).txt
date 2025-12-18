@@ -1,0 +1,43 @@
+PROMPT 4: SAWS WRONG FOOT
+Format: 15 seconds, 1080p vertical (9:16), single continuous shot, 30 FPS
+Grimy industrial bathroom, dim lighting. Nonna and Giuseppe chained to pipes, Saw-style trap. Creepy puppet on TV instructs foot amputation. Nonna determinedly saws off wrong foot (unchained one). Realizes mistake, passes out. Giuseppe still trapped meowing.
+Identity anchor:
+
+Nonna—99 years old, white hair messy/disheveled, thick glasses on face, deeply wrinkled aged face determined then shocked, dirty floral dress, weathered hands gripping hacksaw (metal saw consistent), stocky 5'2" sitting on floor, LEFT ankle chained to pipe, RIGHT ankle gets sawed
+Giuseppe—orange tabby cat, chunky build locked, green eyes terrified, right front paw chained to separate pipe 6 feet away, sitting position, meowing frantically
+Jigsaw puppet—small creepy doll on TV screen, white face red spirals on cheeks, black suit, tricycle nearby, proportions locked
+Chains—metal links same thickness, attached to wall pipes, realistic weight
+
+Camera rig: Static security camera POV, 24mm wide lens, mounted high corner of bathroom looking down, slight fish-eye distortion, grainy horror film aesthetic, maintains both Nonna and Giuseppe in frame, flickering industrial lighting.
+Temporal locks:
+
+0-3s: TV screen showing puppet talking, Nonna and Giuseppe both chained sitting on dirty floor looking at TV, hacksaw between them, both listening, Nonna's face determined, Giuseppe terrified
+3-6s: Nonna grabbing hacksaw with both hands, lifting it to RIGHT ankle (unchained one), Giuseppe meowing loudly trying to warn her, Nonna ignoring him starting to saw, puppet still on TV watching
+6-9s: Nonna actively sawing RIGHT ankle, hacksaw moving back/forth, she's grimacing with effort, blood appearing, Giuseppe screaming louder, LEFT ankle still chained to pipe untouched
+9-12s: Nonna finishing cut, RIGHT foot completely severed, she's breathing heavy, looking at free RIGHT leg, then slowly turning head to look at LEFT leg still chained, eyes widening with realization
+12-15s: Nonna's face showing horror of mistake, saying "Merda...", eyes rolling back, falling backwards unconscious, hacksaw clattering on floor, Giuseppe still chained meowing desperately at her, TV puppet laughing
+
+Physics constraints: Chains stay rigid/metallic, hacksaw metal blade follows cutting physics, blood pools realistically (comedic amount not excessive gore), severed foot stays attached until fully cut, Nonna's body follows unconscious physics falling back, Giuseppe maintains cat skeletal structure, TV stays static on stand, pipes attached to wall, floor is concrete/tile, gravity affects all objects, 5 fingers on Nonna, no morphing.
+Keyframe anchors:
+
+t=0s: Both sitting 6 feet apart, Nonna upright facing TV, Giuseppe sitting facing TV, hacksaw on floor between them, chains taut to wall, TV puppet center screen
+t=3s: Nonna leaning forward, both hands gripping hacksaw handle, blade touching RIGHT ankle, Giuseppe's mouth open mid-meow, Nonna's face determined/squinting
+t=6s: Hacksaw mid-stroke sawing RIGHT ankle, Nonna's arms moving back-forth motion, blood starting to appear, Giuseppe standing on three legs (chained paw raised) meowing, TV puppet static watching
+t=9s: RIGHT foot fully detached laying on floor, Nonna holding leg up looking at it, LEFT leg extended showing chain still attached, Giuseppe still meowing frantically
+t=12s: Nonna's head turning left toward chained ankle, mouth opening in horror realization, eyes huge behind glasses, hacksaw still in right hand, severed foot visible
+t=15s: Nonna laying flat on back unconscious, arms spread, hacksaw dropped beside her, severed foot near body, Giuseppe still chained pawing at air meowing, TV puppet image frozen
+
+Sound: TV static then puppet's mechanical voice, chains rattling, Nonna picking up hacksaw (metal scrape), Giuseppe's frantic meowing throughout, hacksaw sawing (blade on bone sound), Nonna's heavy breathing and grunts, blood dripping, hacksaw completing cut (final crack), Nonna's sharp intake of breath, thud of body hitting floor, Giuseppe's desperate meows, puppet's mechanical laugh.
+Dialogue:
+Puppet: "You must saw through your ankle to escape. Live or die, make your choice."
+Nonna: "Fine! I do worse on Sundays! Giuseppe, watch and learn!"
+Giuseppe: "MEOW! MROW MROW MROW!" (trying to warn)
+Nonna: (sawing) "Almost... there... just a little... MORE!"
+Giuseppe: "MEEEOOOOWWW! NOOO! MROW!"
+Nonna: (finishing cut) "HA! See? Easy! I'm FREE—"
+(looks at chained foot)
+Nonna: "...wait..."
+Nonna: "...MERDA."
+(falls unconscious)
+Giuseppe: "MEEEOOOOWWW! NONNA! MEOW MEOW MEOW!"
+Puppet: "Game over."

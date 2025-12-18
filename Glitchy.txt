@@ -1,0 +1,80 @@
+PROMPT 1 :
+
+Style & Look:
+Esthétique "Found Footage" VHS de 1995. Qualité d'enregistrement magnétique dégradée : bruit de chroma (couleurs qui bavent), scanlines (lignes de balayage CRT) visibles, léger flou de mouvement, et distorsion "tracking" (bande statique) au bas de l'écran. Colorimétrie saturée typique des chaînes locales américaines 90s, virant au cauchemar psychédélique. Format 4:3 avec coins arrondis (effet tube cathodique).
+Description de la scène:
+Plateau JT (Channel 7) : Décor kitch avec boiseries claires et mur d'écrans CRT bleus affichant une carte du monde pixélisée. Présentatrice "Lena Torres" (femme afro-américaine, brushing volumineux style années 90, tailleur vert sarcelle, col roulé noir, maquillage mat).
+Le Duplex ("The Unseen") : Un studio sombre, fond grille technologique rouge/noir oppressant. L'invité "Deadman" (homme chauve, barbe noire épaisse, costume rouge sang brillant, cravate noire) est assis, immobile comme une statue de cire.
+Cinématographie:
+Cadrage : Plan taille institutionnel pour la présentatrice. Plan poitrine frontal et oppressant pour l'invité.
+Mouvement : Caméra fixe de studio, mais l'image tremble artificiellement (instabilité du signal). Zoom numérique brutal et sale pendant le glitch.
+Éclairage : Plateau JT : Plat, froid, télévisuel. Duplex : Contraste élevé, ombres dures sur les yeux de l'homme, lumière rouge menaçante.
+Actions DÉTAILLÉES (SÉQUENCE 15 SECONDES):
+Le Calme (0s-4s) : Lena Torres présente les nouvelles avec un sourire professionnel figé. Un bandeau bleu et or "CHANNEL 7 ANCHOR" apparaît au bas de l'écran avec une animation 3D rétro basique. L'image saute légèrement (mauvais tracking).
+L'Intrusion (4s-6s) : Coupe franche vers le duplex. Bandeau rouge "LIVE - CENTRAL STUDIO / DEADMAN". L'homme en rouge fixe l'objectif sans cligner des yeux, une intensité anormale et malaisante. Le son de fond diminue, remplacé par un bourdonnement électrique bas.
+LE CHAOS VIRAL (6s-11s) : BRUTALEMENT, le signal se corrompt.
+Visuel : Le visage de l'homme subit un "datamoshing" violent. Sa tête se démultiplie en échos décalés (rouge, vert, bleu - effet RGB Split extrême). Les pixels de son visage fondent et glissent vers le bas.
+Action : Il ouvre la bouche de manière exagérée (cri silencieux ou distordu), son image se superpose à elle-même en une mosaïque de visages hurlants et colorés qui envahissent tout l'écran, brisant le réalisme.
+Le Choc (11s-15s) : Coupure nette du glitch. Retour abrupt au plateau JT silencieux. Lena est figée, les yeux écarquillés, bouche entrouverte, brisant son personnage de présentatrice. Elle regarde hors champ (vers la régie) avec une terreur authentique, tremblement visible de la main sur ses fiches, avant que l'écran ne coupe au noir (effet TV éteinte).
+Palette de couleurs:
+Vert Sarcelle (Veste), Rouge Sang (Costume/Glitch), Bleu Électrique (Décor JT), Jaune (Texte Chyron), Noir Profond.
+Son d'ambiance:
+Jingle JT générique étouffé, suivi d'un "BZZZZT" strident et saturé de static audio synchronisé avec le glitch visuel, terminant sur un silence de studio lourd et une respiration paniquée audible.
+
+
+PROMPT 2:
+
+
+Voici le prompt ULTRA DÉTAILLÉ, conçu pour recréer fidèlement ce chaos visuel spécifique (Channel 6 News) avec une précision chirurgicale sur les types de glitchs et la structure "Analog Horror".
+Style & Look:
+Esthétique "Broadcast Signal Intrusion" typique de 1990-1995. Enregistrement VHS très dégradé : bruit vidéo neigeux, lignes de balayage (scanlines) épaisses, couleurs légèrement délavées mais saturées par endroits. Effets de compression numérique primitive (artefacts JPEG/MPEG). Format 4:3 bombé (simulation écran tube cathodique). Ambiance "Uncanny Valley" (vallée de l'étrange) et cauchemar technologique.
+Description de la scène:
+Le Plateau (Channel 6) : Décor de JT générique low-cost. Carte du monde bleu marine et or en fond. Deux présentateurs : "Dan Keller" (homme blanc, costume gris, cravate bordeaux, cheveux châtains style 90s) et "Monica Ray" (femme afro-américaine, tailleur violet, coupe courte).
+Le Terrain (Breaking News) : "Brad Weaver", reporter (homme blanc, trench-coat bleu marine), debout de nuit dans une rue urbaine floue avec des lumières de ville (bokeh).
+Cinématographie:
+Cadrage : Plan large fixe (bureau), puis zoom violent/cut sur le reporter, puis effet "miroir/kaléidoscope" psychédélique.
+Mouvement : La caméra ne bouge pas physiquement, c'est l'image elle-même qui saute, se décale (jitter) et se déchire.
+Éclairage : Éclairage de studio plat et artificiel qui contraste avec le "noir" du glitch numérique.
+Actions DÉTAILLÉES (SÉQUENCE 15 SECONDES):
+L'Amorce Normale (0s-3s) : Dan et Monica sont assis au bureau. Bandeau bleu/or "DAN KELLER / MONICA RAY" avec le logo "6". Dan parle, mais sa mâchoire se décale légèrement du reste de son visage (lag vidéo).
+Le "Stutter" (3s-6s) : L'image saute brutalement (jump cut). Monica sourit, mais ses yeux clignotent en désynchronisation (effet RGB Split : rouge et vert se séparent). Un logo "BREAKING NEWS" (globe rotatif doré) apparaît et disparaît en clignotant subliminalement.
+La Boucle Brad (6s-10s) : Cut violent vers le reporter Brad Weaver dehors. Il est coincé dans une "boucle temporelle" de 1 seconde : il ouvre la bouche pour parler, mais l'action se répète 3 fois très vite ("b-b-b-beugue"). Son visage se duplique horizontalement en transparence.
+Le Vortex Final (10s-15s) : Retour au plateau. Le chaos total. L'image de Dan et la carte du monde derrière lui sont aspirées dans un effet KALÉIDOSCOPE rotatif. Le visage de Dan se multiplie en un cercle concentrique qui tourne sur lui-même, créant une figure géométrique grotesque faite de chair et de pixels bleus/or, avant que l'écran ne vire au bruit statique pur.
+Dialogue (Effets Audio Visuels):
+Lèvres qui bougent de manière robotique. Le texte à l'écran "LIVE" tremble.
+Palette de couleurs:
+Bleu roi (Fond carte/Logo), Or (Titres/Globe), Violet (Veste Monica), Gris statique, Rouge/Vert (Aberrations chromatiques).
+Son d'ambiance:
+Voix de présentateur typique ("Tonight at 6...") qui se transforme immédiatement en "stutter" numérique (répétition de syllabes "t-t-t-tonight"), bruit de modem qui crisse, distorsion audio lourde et bourdonnement grave lors du vortex final.
+
+
+PROMPT 3:
+
+Style & Look:
+Mélange esthétique distinct :
+Studio TV : Look "Broadcast Local 2000s", qualité vidéo nette mais légèrement douce, éclairage de plateau standard.
+Caméra de porte (Doorbell Cam) : Look numérique, objectif Fisheye (grand angle déformant), haute définition mais avec une légère latence, horodatage numérique incrusté.
+Le Montage (The Edit) : Style "Deep Fried" ou "YTP" (YouTube Poop) : saturation extrême, filtres de couleur monochromes (vert/rouge) et transitions rotatives rapides.
+Description de la scène:
+Le Plateau (Channel 8) : Présentateur (homme blanc, cheveux châtains soignés, lunettes rectangulaires, costume bleu marine, cravate rayée rouge/bleue). Arrière-plan avec écrans affichant une carte du monde bleue.
+Le Viral (Doorbell Cam) : Une grand-mère (cheveux gris ébouriffés, lunettes fines, écharpe imprimé léopard, pull bordeaux) vue en très gros plan déformé par le judas. Elle a l'air confuse et agressive.
+Extérieur Maison : Plan rapide d'une maison de banlieue américaine en briques rouges sous un ciel bleu.
+Cinématographie:
+Cadrage : Plan moyen stable pour le présentateur. Plan "Fisheye" extrême (nez grossi) pour la grand-mère.
+Mouvement : Montage frénétique et saccadé. Zoom numérique agressif. Rotation de l'image (spin).
+Éclairage : Naturel et dur pour l'extérieur (soleil de midi). Artificiel et plat pour le studio.
+Actions DÉTAILLÉES (SÉQUENCE 15 SECONDES):
+L'Intro (0s-2s) : Le présentateur parle sérieusement face caméra. Bandeau "8 NEWS - MORNING EDITION". Il lance le sujet.
+Le Choc Visuel (2s-3s) : Cut brutal sur la "LIVE DOORBELL CAM". La grand-mère colle son visage à l'objectif. Texte incrusté : "DEC 09 2025 - 4:12 PM". Elle crie ou grimace vers la caméra.
+L'Effet "Meme" (3s-6s) : La vidéo déraille complètement pour un effet comique :
+L'image de la grand-mère devient soudainement VERT NÉON saturé (filtre vision nocturne intense).
+Cut immédiat sur le même visage devenu ROUGE INFERNAL (effet "deep fried" / saturation max).
+L'image de la grand-mère se met à tourner sur elle-même (rotation 360°) sur un fond de trame pointillée rouge/noir abstraite.
+La Réaction (6s-10s) : Retour plateau. Le présentateur brise le "quatrième mur". Il rit franchement, baisse la tête en souriant, essayant de reprendre son sérieux mais échouant ("The giggle").
+L'Outro (10s-15s) : Transition vers un logo final style émission pour enfants décalée : "YTP NEWS" avec une étoile jaune et un papillon bleu sur fond bleu, contrastant avec le sérieux du début.
+Dialogue (Suggestion d'ambiance):
+Voix off news sérieuse, bruit de distorsion audio ("Earrape") pendant les filtres vert/rouge, rire authentique de l'homme à la fin.
+Palette de couleurs:
+Bleu Marine (Studio), Rouge & Vert (Filtres meme), Beige/Brique (Maison), Jaune (Logo final).
+Son d'ambiance:
+Sonnette de porte "Ding Dong", son saturé/grésillant pendant les filtres colorés, rire clair du présentateur, petite musique de fin ludique.
