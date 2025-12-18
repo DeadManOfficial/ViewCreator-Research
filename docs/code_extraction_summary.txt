@@ -1,0 +1,158 @@
+================================================================================
+CODE EXTRACTION SUMMARY
+================================================================================
+
+📁 Total Unique Files Mentioned: 3
+
+File List:
+  • Nex.js
+  • agents.md
+  • skill.md
+
+🔧 Technical Stack Frequency:
+
+  AI MODELS:
+    • claude: 972 mentions
+    • gemini: 428 mentions
+    • whisper: 160 mentions
+    • gpt: 80 mentions
+    • flux: 3 mentions
+
+  AWS SERVICES:
+    • rds: 358 mentions
+    • ecs: 70 mentions
+    • s3: 12 mentions
+    • ec2: 9 mentions
+    • cloudfront: 3 mentions
+
+  DATABASES:
+    • postgres: 46 mentions
+    • mongodb: 6 mentions
+
+  FRAMEWORKS:
+    • react: 72 mentions
+    • nestjs: 6 mentions
+    • express: 6 mentions
+
+  LIBRARIES:
+    • typescript: 21 mentions
+    • ffmpeg: 6 mentions
+    • tailwind: 6 mentions
+
+  TOOLS:
+    • cursor: 837 mentions
+    • warp: 813 mentions
+    • github: 79 mentions
+    • docker: 42 mentions
+
+================================================================================
+TOP CODE PATTERNS BY VIDEO
+================================================================================
+
+
+0wDmvbZ0a-4:
+  Code patterns found: 2482
+  Files mentioned: 1
+  Sample code mentions:
+    • let me
+      Context: ... get</c><00:00:57.920><c> a</c><00:00:58.079><c> couple</c><00:00:58.239><c> things</c> being said, ...
+    • Let me
+      Context: ...57.680><c> we</c><00:06:57.919><c> Let</c><00:06:58.160><c> me</c> we've been like, you know, if we ...
+    • let it
+      Context: ...0><c> timer</c><00:07:08.960><c> so</c><00:07:09.280><c> expires</c><00:07:09.599><c> every</c> uh, ...
+    • import and
+      Context: ...59><c> users</c><00:20:54.320><c> to</c><00:20:54.480><c> import</c> and post it for other users to ...
+    • type they
+      Context: ...> they</c><00:26:18.000><c> are</c><00:26:18.240><c> they</c><00:26:18.480><c> are</c> which format ...
+
+
+2-68yoRNvZ8:
+  Code patterns found: 3056
+  Files mentioned: 1
+  Sample code mentions:
+    • let me
+      Context: ...1.360><c> Uh</c><00:01:31.680><c> let</c><00:01:31.840><c> me</c> Today's going to be a big one. Uh ...
+    • Let me
+      Context: ...9><c> quick.</c><00:03:50.480><c> Let</c><00:03:50.640><c> me</c> Um let me get this on real quick. ...
+    • let to
+      Context: ...c> today.</c><00:04:07.439><c> Um</c><00:04:07.760><c> let</c> to talk about a little bit today. Um ...
+    • let As
+      Context: ...60><c> let</c><00:04:58.400><c> me</c><00:04:58.720><c> let</c> As long as it takes. Um, but let me ...
+
+
+9F5q1odK2DY:
+  Code patterns found: 3304
+  Files mentioned: 1
+  Sample code mentions:
+    • Class said
+      Context: ...480><c> Gamer</c><00:02:28.800><c> Class</c><00:02:29.040><c> said</c> This is big, guys. Uh, Gamer ...
+    • let me
+      Context: ...239><c> to</c><00:03:12.319><c> my</c><00:03:12.560><c> account</c><00:03:12.800><c> inside</c> So, ...
+
+
+BS7ygvN-IOk:
+  Code patterns found: 2934
+  Files mentioned: 0
+  Sample code mentions:
+    • Let me
+      Context: ...0.080><c> Here.</c><00:01:10.240><c> Let</c><00:01:10.320><c> me</c> right, hold up. Hold up. Here. ...
+    • let me
+      Context: ...c><00:01:45.439><c> pull</c><00:01:45.600><c> up</c><00:01:45.759><c> the</c> with that being said, ...
+    • type is
+      Context: ...c> needed</c><00:09:54.560><c> right</c><00:09:55.120><c> and</c><00:09:55.760><c> let's</c> format ...
+    • type cuz
+      Context: ...pe</c><00:24:24.000><c> cuz</c><00:24:24.159><c> that's</c><00:24:24.400><c> really</c> the content ...
+    • type of
+      Context: ...24:25.679><c> what</c><00:24:25.919><c> type</c><00:24:26.000><c> of</c> important. Like, hey, what ...
+
+
+VPTy7dOt0x0:
+  Code patterns found: 3845
+  Files mentioned: 1
+  Sample code mentions:
+    • Let me
+      Context: ...9><c> the</c><00:02:55.760><c> uh</c><00:02:55.840><c> lowfi</c><00:02:56.400><c> chill</c> a poll. ...
+    • let me
+      Context: ...40><c> Chad</c><00:05:16.080><c> GBT</c><00:05:16.479><c> so</c><00:05:16.560><c> I</c> know, first ...
+    • type of
+      Context: ...><c> column</c><00:19:35.520><c> that</c><00:19:35.760><c> it</c><00:19:35.919><c> is.</c> B is the ...
+
+
+sB-kF-xOHGI:
+  Code patterns found: 1972
+  Files mentioned: 0
+  Sample code mentions:
+    • type of
+      Context: ...05:44.960><c> NS</c><00:05:45.840><c> NS</c><00:05:46.240><c> is</c><00:05:46.320><c> what</c> that ...
+    • let me
+      Context: ...<00:07:27.039><c> Let</c><00:07:27.199><c> me</c><00:07:27.280><c> see.</c> &gt;&gt; All right. Uh, ...
+    • Let me
+      Context: ...9><c> Let</c><00:07:27.199><c> me</c><00:07:27.280><c> see.</c> &gt;&gt; All right. Uh, let me see. ...
+    • type in
+      Context: ...03.919><c> a</c><00:27:04.080><c> day,</c><00:27:04.640><c> you</c><00:27:04.799><c> know.</c> proto...
+    • export it
+      Context: ...><c> export</c><00:27:06.880><c> it</c><00:27:06.960><c> to</c> &gt;&gt; it's And then you can just ...
+
+
+vDT_otLL5tA:
+  Code patterns found: 2602
+  Files mentioned: 0
+  Sample code mentions:
+    • let me
+      Context: ...80><c> let</c><00:01:51.840><c> me</c><00:01:51.920><c> get</c><00:01:52.000><c> the</c> All right, ...
+    • Let me
+      Context: ...urn</c><00:02:24.400><c> this</c><00:02:24.560><c> down</c><00:02:24.720><c> a</c> Dang. All right. ...
+    • Let guys
+      Context: ...80><c> me</c><00:02:27.360><c> pull</c><00:02:27.520><c> Let</c> guys? What's up, chat? Let me pull ...
+    • let everybody
+      Context: ...0.000><c> know</c><00:02:30.160><c> that</c><00:02:30.400><c> we</c><00:02:30.560><c> are</c> going ...
+
+
+w0lDEUwbhuY:
+  Code patterns found: 4503
+  Files mentioned: 1
+  Sample code mentions:
+    • Let me
+      Context: ...,</c><00:02:40.319><c> you</c><00:02:40.400><c> know,</c><00:02:40.560><c> drop</c> How's it going? ...
+    • let me
+      Context: ...19><c> mean,</c><00:04:11.599><c> let</c><00:04:11.760><c> me</c> you what I've been doing. I mean, ...

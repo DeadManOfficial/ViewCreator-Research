@@ -1,0 +1,80 @@
+================================================================================
+VIDEO ANALYSIS SUMMARY REPORT
+================================================================================
+
+Total Videos Analyzed: 10
+
+
+📌 Videos mentioning ViewCreator: 10
+  • Day 96 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $1,846.98
+    URL: https://www.youtube.com/watch?v=0wDmvbZ0a-4
+    Mentions: 37
+    Duration: 3:29:23
+
+  • Day 103 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $2,086.96
+    URL: https://www.youtube.com/watch?v=2-68yoRNvZ8
+    Mentions: 19
+    Duration: 4:14:27
+
+  • Day 99 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $1,926.96
+    URL: https://www.youtube.com/watch?v=9F5q1odK2DY
+    Mentions: 59
+    Duration: 5:28:58
+
+  • Day 98 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $1,876.96
+    URL: https://www.youtube.com/watch?v=BS7ygvN-IOk
+    Mentions: 22
+    Duration: 5:16:57
+
+  • Day 97 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $1,866.97
+    URL: https://www.youtube.com/watch?v=VPTy7dOt0x0
+    Mentions: 44
+    Duration: 6:02:52
+
+  • Day 100 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $1,996.96 | GPT 5.2 Release
+    URL: https://www.youtube.com/watch?v=p1ZE-3SMEzA
+    Mentions: 7
+    Duration: 10:03:41
+
+  • Day 95 – Vibe Coding an App Until I Make $1,000,000 | NS Edition
+    URL: https://www.youtube.com/watch?v=sB-kF-xOHGI
+    Mentions: 21
+    Duration: 2:37:35
+
+  • Day 101 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $2,016.96
+    URL: https://www.youtube.com/watch?v=vDT_otLL5tA
+    Mentions: 28
+    Duration: 3:51:27
+
+  • Day 102 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $2,066.96
+    URL: https://www.youtube.com/watch?v=w0lDEUwbhuY
+    Mentions: 47
+    Duration: 6:29:47
+
+  • Day 104 – Vibe Coding an App Until I Make $1,000,000 | Revenue: $2,106.96
+    URL: https://www.youtube.com/watch?v=zROZDi-hvtk
+    Mentions: 8
+    Duration: 5:38:48
+
+
+📊 Technology Stack Frequency:
+  BridgeMind: 10 videos
+  Claude: 10 videos
+  Clipping Agent: 10 videos
+  Next.js: 10 videos
+  ViewCreator: 10 videos
+  NestJS: 10 videos
+  Cursor: 10 videos
+  Gemini: 10 videos
+  AWS: 10 videos
+  Thumbnail: 10 videos
+  PostgreSQL: 10 videos
+  AI Agent: 5 videos
+  Warp: 5 videos
+  API: 5 videos
+  GPT: 3 videos
+  Database: 2 videos
+  Node.js: 1 videos
+  Python: 1 videos
+
+📝 Videos with transcripts: 8/10
