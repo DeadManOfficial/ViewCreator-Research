@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "input": "Accessibility Auditor - Focus on WCAG compliance, keyboard navigation, screen readers, color contrast, focus indicators, ARIA labels, alt text",
+      "output": {
+        "agent_name": "Accessibility Auditor",
+        "areas_tested": "Sign In Page",
+        "critical_issues": 1,
+        "high_issues": "",
+        "medium_issues": "",
+        "low_issues": "",
+        "positive_findings": 2,
+        "detailed_report": "/home/ubuntu/detailed_report/0_BN6ZZjXJUsisFMS20gQQBc_1766227063307_na1fn_L2hvbWUvdWJ1bnR1L2FjY2Vzc2liaWxpdHlfcmVwb3J0.md"
+      },
+      "error": ""
+    },
+    {
+      "input": "Performance Profiler - Focus on page load times, rendering performance, network requests, bundle sizes, memory usage, Core Web Vitals",
+      "output": {
+        "agent_name": "Performance Profiler",
+        "areas_tested": "Sign-in Page",
+        "critical_issues": 1,
+        "high_issues": 1,
+        "medium_issues": 1,
+        "low_issues": 1,
+        "positive_findings": 1,
+        "detailed_report": "/home/ubuntu/detailed_report/1_auFUIeWMuPz4Z5ud7Kw3uc_1766227170679_na1fn_L2hvbWUvdWJ1bnR1L2RldGFpbGVkX3JlcG9ydA.md"
+      },
+      "error": ""
+    },
+    {
+      "input": "Edge Case Explorer - Focus on boundary conditions, empty states, max limits, special characters, error states, network failures, unusual inputs",
+      "output": {
+        "agent_name": "Edge Case Explorer",
+        "areas_tested": "Login",
+        "critical_issues": 1,
+        "high_issues": "",
+        "medium_issues": 4,
+        "low_issues": 1,
+        "positive_findings": 1,
+        "detailed_report": "/home/ubuntu/detailed_report/2_X7ePArY4r3qa1sFdBFrjlC_1766227022547_na1fn_L2hvbWUvdWJ1bnR1L2RldGFpbGVkX3JlcG9ydA.md"
+      },
+      "error": ""
+    },
+    {
+      "input": "Mobile Maverick - Focus on responsive design, touch targets, mobile breakpoints, orientation changes, mobile-specific UI issues",
+      "output": {
+        "agent_name": "Mobile Maverick",
+        "areas_tested": "Sign In Page",
+        "critical_issues": 1,
+        "high_issues": "",
+        "medium_issues": "",
+        "low_issues": "",
+        "positive_findings": "",
+        "detailed_report": "/home/ubuntu/detailed_report/3_wnbnVI7E8xgWB0L1pModgX_1766227054800_na1fn_L2hvbWUvdWJ1bnR1L2RldGFpbGVkX3JlcG9ydA.md"
+      },
+      "error": ""
+    },
+    {
+      "input": "Security Sentinel - Focus on XSS vulnerabilities, input sanitization, token handling, sensitive data exposure, CORS, authentication flows",
+      "output": {
+        "agent_name": "Security Sentinel",
+        "areas_tested": "Login, Signup",
+        "critical_issues": "",
+        "high_issues": "",
+        "medium_issues": "",
+        "low_issues": 1,
+        "positive_findings": 2,
+        "detailed_report": "/home/ubuntu/detailed_report/4_8IRpBZVgnbnh2qvAtl1oeQ_1766227197155_na1fn_L2hvbWUvdWJ1bnR1L3NlY3VyaXR5X2F1ZGl0X3JlcG9ydA.md"
+      },
+      "error": ""
+    },
+    {
+      "input": "User Journey Mapper - Focus on end-to-end flows, onboarding experience, feature discoverability, navigation patterns, error recovery",
+      "output": {
+        "agent_name": "User Journey Mapper",
+        "areas_tested": "Login, Post Creation",
+        "critical_issues": "",
+        "high_issues": "",
+        "medium_issues": 2,
+        "low_issues": 2,
+        "positive_findings": 2,
+        "detailed_report": "/home/ubuntu/detailed_report/5_FIVlmel52w2sFLtng0Mvnt_1766226987763_na1fn_L2hvbWUvdWJ1bnR1L2RldGFpbGVkX3JlcG9ydA.md"
+      },
+      "error": ""
+    }
+  ]
+}
