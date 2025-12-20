@@ -7,9 +7,17 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Textarea } from "@/components/ui/textarea";
 import { Clock, Image as ImageIcon, Layout, Sparkles, Wand2 } from "lucide-react";
 import { useState } from "react";
+import { useLocation } from "wouter";
 
 export default function Create() {
   const [mode, setMode] = useState<'text' | 'image' | 'video'>('text');
+  const [prompt, setPrompt] = useState("");
+  const [_, setLocation] = useLocation();
+
+  const handleGenerate = () => {
+    if (!prompt) return;
+    setLocation(`/dashboard?start=true&prompt=${encodeURIComponent(prompt)}`);
+  };
 
   return (
     <div className="flex h-screen bg-[#05050a] text-white overflow-hidden font-sans">
@@ -125,6 +133,8 @@ export default function Create() {
               <Textarea 
                 placeholder="Describe what you want to create..." 
                 className="bg-transparent border-none resize-none min-h-[100px] focus-visible:ring-0 p-0 text-sm"
+                value={prompt}
+                onChange={(e) => setPrompt(e.target.value)}
               />
               <div className="mt-2 text-[10px] text-gray-500">
                 Be specific about your content goals and target audience for better results
@@ -132,7 +142,11 @@ export default function Create() {
             </div>
           </div>
           
-          <Button className="w-full bg-blue-600 hover:bg-blue-500 text-white py-6 text-lg font-bold shadow-[0_0_20px_rgba(37,99,235,0.3)]">
+          <Button 
+            className="w-full bg-blue-600 hover:bg-blue-500 text-white py-6 text-lg font-bold shadow-[0_0_20px_rgba(37,99,235,0.3)]"
+            onClick={handleGenerate}
+            disabled={!prompt}
+          >
             Generate <Sparkles className="ml-2 h-5 w-5" />
           </Button>
         </div>

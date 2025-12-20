@@ -13,7 +13,7 @@ export default function Home() {
             <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
               <Sparkles className="h-5 w-5 text-white" />
             </div>
-            <span>Nexus<span className="text-primary">AI</span></span>
+            <span>ViewCreator<span className="text-primary">AI</span></span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <a href="#features" className="hover:text-foreground transition-colors">Features</a>
@@ -74,7 +74,7 @@ export default function Home() {
               className="mx-auto max-w-[700px] text-lg md:text-xl text-muted-foreground mb-10"
             >
               Experience the next evolution of software development. 
-              NexusAI combines natural language processing with deep context awareness 
+              ViewCreatorAI combines natural language processing with deep context awareness 
               to turn your ideas into production-ready code instantly.
             </motion.p>
 
@@ -102,7 +102,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 via-transparent to-secondary/10 pointer-events-none"></div>
               <img 
                 src="/images/feature-dashboard.png" 
-                alt="NexusAI Dashboard" 
+                alt="ViewCreatorAI Dashboard" 
                 className="w-full h-auto rounded-xl opacity-90"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
@@ -189,7 +189,7 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl md:text-5xl font-bold mb-6">From Prompt to Product <br /> in Minutes</h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Stop wrestling with boilerplate and configuration. Focus on the logic and user experience while NexusAI handles the heavy lifting.
+                  Stop wrestling with boilerplate and configuration. Focus on the logic and user experience while ViewCreatorAI handles the heavy lifting.
                 </p>
                 
                 <div className="space-y-8">
@@ -197,7 +197,7 @@ export default function Home() {
                     {
                       step: "01",
                       title: "Describe Your Vision",
-                      desc: "Simply tell NexusAI what you want to build using natural language."
+                      desc: "Simply tell ViewCreatorAI what you want to build using natural language."
                     },
                     {
                       step: "02",
@@ -233,7 +233,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div>
-                      <div className="font-bold">Nexus Assistant</div>
+                      <div className="font-bold">ViewCreator Assistant</div>
                       <div className="text-xs text-green-400 flex items-center gap-1">
                         <span className="block w-1.5 h-1.5 rounded-full bg-green-400"></span>
                         Online
@@ -248,7 +248,7 @@ export default function Home() {
                     </div>
                     
                     <div className="bg-primary/10 rounded-lg p-4 rounded-tr-none border border-primary/20">
-                      <p className="text-primary mb-2">NexusAI</p>
+                      <p className="text-primary mb-2">ViewCreatorAI</p>
                       <p className="mb-3">I'm on it. Here's the plan:</p>
                       <ul className="list-disc list-inside space-y-1 text-white/80">
                         <li>Scaffolding Next.js 14 project with TypeScript</li>
@@ -278,7 +278,7 @@ export default function Home() {
               Ready to Build the Future?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-              Join thousands of developers who are already building faster and better with NexusAI.
+              Join thousands of developers who are already building faster and better with ViewCreatorAI.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" className="h-14 px-10 rounded-full text-lg bg-white text-black hover:bg-white/90 shadow-[0_0_40px_-10px_rgba(255,255,255,0.4)]">
@@ -298,7 +298,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 font-bold text-xl mb-4">
                 <Sparkles className="h-5 w-5 text-primary" />
-                <span>Nexus<span className="text-primary">AI</span></span>
+                <span>ViewCreator<span className="text-primary">AI</span></span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Empowering developers to build the future with AI-assisted coding.
@@ -334,7 +334,7 @@ export default function Home() {
           </div>
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted-foreground">
-              © 2025 NexusAI Inc. All rights reserved.
+              © 2025 ViewCreatorAI Inc. All rights reserved.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-white transition-colors">

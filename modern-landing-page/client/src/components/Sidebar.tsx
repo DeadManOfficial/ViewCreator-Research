@@ -58,9 +58,11 @@ export function Sidebar() {
               </Button>
             </CollapsibleTrigger>
             <CollapsibleContent className="pl-4 space-y-1 pt-1">
-              <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
-                <Youtube className="h-4 w-4" /> YouTube
-              </Button>
+              <Link href="/platform-tools">
+                <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
+                  <Youtube className="h-4 w-4" /> YouTube
+                </Button>
+              </Link>
               <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
                 <Instagram className="h-4 w-4" /> Instagram
               </Button>
@@ -84,9 +86,11 @@ export function Sidebar() {
             </Button>
           </Link>
           
-          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
-            <User className="h-4 w-4" /> Profiles
-          </Button>
+          <Link href="/profiles">
+            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/profiles') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
+              <User className="h-4 w-4" /> Profiles
+            </Button>
+          </Link>
           
           <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
             <Users className="h-4 w-4" /> Connect Socials

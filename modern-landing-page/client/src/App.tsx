@@ -7,6 +7,8 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Create from "./pages/Create";
+import Profiles from "./pages/Profiles";
+import PlatformTools from "./pages/PlatformTools";
 
 
 function Router() {
@@ -15,6 +17,8 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/dashboard"} component={Dashboard} />
       <Route path={"/create"} component={Create} />
+      <Route path={"/profiles"} component={Profiles} />
+      <Route path={"/platform-tools"} component={PlatformTools} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
