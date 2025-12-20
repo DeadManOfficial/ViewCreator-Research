@@ -1,0 +1,174 @@
+﻿Comprehensive Technical and Forensic Analysis of the Banana Prompt Quicker Ecosystem
+1. Introduction: The Evolution of Client-Side Prompt Engineering
+The advent of Large Language Models (LLMs) has precipitated a fundamental shift in human-computer interaction, transitioning from command-based interfaces to intent-based prompt engineering. In this rapidly evolving landscape, the "Banana Prompt Quicker" ecosystem has emerged as a significant case study in client-side optimization tools. Hosted primarily on GitHub under the repository glidea/banana-prompt-quicker, this project represents a sophisticated attempt to bridge the gap between raw model capabilities and end-user accessibility. By analyzing the repository's artifacts, code snippets, and metadata, we can deconstruct the mechanisms by which community-driven prompt libraries are structured, distributed, and injected into major AI platforms like Google Gemini and AI Studio.
+The "Banana Prompt Quicker" tool operates not merely as a static repository of text but as an active intervention in the browser's Document Object Model (DOM). It functions by injecting a "Gallery of Prompts" directly into the user interface of supported websites, thereby reducing the cognitive load associated with crafting effective prompts from scratch.1 This analysis reveals a project in transition, moving from hardcoded, brittle selection logic to a dynamic, configuration-driven architecture designed for resilience against the frequent UI updates of target platforms. Furthermore, the dual-distribution strategy—leveraging both the Chrome Web Store format and a raw Userscript via GreasyFork—demonstrates a keen awareness of the diverse security and usage preferences within the developer community.
+This report provides an exhaustive examination of the ecosystem, responding to the directive to harvest and analyze all available prompt data, source URLs, and configuration logic. Through forensic reconstruction of the prompts.json database and the config.json operational logic, we illuminate the technical prowess and the community dynamics driving this project. We will explore the theoretical and practical implications of its architecture, the specific linguistic strategies employed in its prompts, and the broader trends in "Prompt OS" development that this tool exemplifies.
+2. Repository Forensics and Architectural Evolution
+The structural integrity of a software project often reveals the developer's long-term intent and technical philosophy. A deep dive into the glidea/banana-prompt-quicker file system exposes a hybrid development environment that prioritizes modularity and cross-platform compatibility. The repository is not merely a container for code; it is a build environment designed to synthesize a unified product from disparate data and logic sources.
+2.1 The Hybrid File System
+The root directory of the repository acts as the central command center, orchestrating the interaction between data storage and application logic. The presence of distinct directories for extension and make suggests a sophisticated build pipeline.1 The extension directory contains the unpacked source code intended for the browser environment—manifest files, content scripts, and background workers that adhere to the WebExtension API standards. This isolation ensures that the browser-specific constraints, such as Content Security Policy (CSP) and permission scoping, are managed separately from the core business logic.
+Conversely, the make directory points to a compilation process. Given that the project distributes a Userscript version (script.user.js) alongside the extension, the make scripts are likely responsible for bundling the standalone JSON data files (prompts.json, config.json) into the JavaScript executable. This is a critical architectural decision. In a standard browser extension, data files can be loaded asynchronously via fetch requests relative to the extension's root. However, a Userscript injected into a hostile or secure page (like google.com) faces severe Cross-Origin Resource Sharing (CORS) restrictions if it attempts to load external resources. By "baking" the data directly into the script during the build process, the developers ensure that the Userscript functions autonomously, mirroring the capabilities of the full extension without triggering network security violations.
+The coexistence of README.md, LICENSE, and various configuration files in the root indicates a standard open-source governance model.1 The MIT License 2 explicitly permits modification and distribution, fostering a collaborative environment where the community can contribute both code and prompt data. This legal framework is essential for a project that relies on "crowdsourced" intelligence (the prompts) rather than proprietary algorithms.
+2.2 The Shift to Dynamic Configuration
+One of the most revealing artifacts in the repository is the file selectors.json, which is marked with a "Deprecated" comment in favor of config.json.3 This transition marks a maturity point in the project's lifecycle. In early-stage scraping or injection tools, developers often hardcode CSS selectors (e.g., #prompt-textarea) directly into the JavaScript logic. While simple, this approach is brittle; if the target website updates its class names—a common occurrence in modern React or Angular applications that use CSS modules—the tool breaks, requiring a code update and, in the case of extensions, a lengthy store review process.
+The move to config.json 4 implies a "Configuration over Code" philosophy. By externalizing the selector logic into a JSON file, the application becomes a generic engine. The code no longer "knows" about Google Gemini specifically; it merely knows how to read a configuration object that tells it: "On domain X, look for element Y, and insert text into Z." This architectural decoupling allows the developers to push updates to the selectors remotely. If Google changes the ID of the input box from textarea to input-area-v2, the developers update the remote JSON, and the extension picks up the change without a version increment.
+The deprecated selectors.json file 3 serves as a historical record, preserving the DOM state of AI Studio and Gemini at a specific point in time. It reveals that Gemini's interface relies on the Quill rich text editor (div.ql-editor), a complex component that utilizes contenteditable HTML elements rather than standard form inputs. This necessitates a more complex injection strategy than simple value assignment, likely involving the synthesis of InputEvent or ClipboardEvent sequences to trick the underlying React framework into registering the change.
+2.3 The "Make" Directory and Build Artifacts
+The presence of the make directory 1 is particularly significant when considering the "grab all prompts" requirement. In many open-source projects, the raw data (the JSON files) acts as the source of truth, while the build artifacts (the .user.js files or packed extensions) are derived. The make scripts likely function as the bridge between these states. They probably employ Node.js or Python scripts to read the prompts.json file, validate its schema, perhaps compress or minify the text, and then inject it into the script.user.js template.
+This implies that to "grab all prompts" comprehensively, one must look at the repository root's prompts.json. The Userscript hosted on GreasyFork is merely a snapshot of this file at the time of the last build. Therefore, the repository constitutes the "upstream" source, while the GreasyFork script is a "downstream" artifact. Any discrepancy between the two would suggest a lag in the release cycle, reinforcing the importance of the GitHub repository as the primary data source for researchers.
+3. Data Engineering: The Prompt Schema
+The core asset of the Banana Prompt Quicker ecosystem is its data—specifically, the structured library of prompts contained within prompts.json. While typical interaction with LLMs involves unstructured natural language, building a library of prompts requires a rigorous data schema to ensure discoverability, usability, and UI consistency. Forensic analysis of the repository's data snippets allows us to reconstruct this schema and understand the metadata strategy employed by the developers.
+3.1 Schema Reconstruction and Metadata Analysis
+Based on the raw data fragments extracted from the repository 5, the prompt objects adhere to a strict JSON schema. This schema is designed not just to store text, but to drive a rich user interface (the "Gallery") and to manage the behavioral properties of each prompt.
+The reconstructed object model is as follows:
+The Prompt Object Model:
+* title: A short, descriptive label used in the UI list view (e.g., "包裹快递" or "Package Delivery").
+* preview: A URL pointing to an image asset. This is crucial for the "Visual Generation" prompts, as it allows the user to see the style of the output (e.g., a photorealistic rendering) before committing to the prompt.
+* prompt: The payload text. This is the actual string injected into the LLM.
+* author: Attribution field (e.g., "Unknown" or specific usernames). This fosters a sense of community ownership and encourages contributions.
+* mode: A behavioral flag. The value "edit" 5 is particularly interesting. It signals to the extension that this prompt is a template rather than a finished command. When a user selects an "edit" mode prompt, the UI likely pauses or focuses the input field, inviting the user to fill in placeholders or modify the constraints. This aligns with the "Inspiration Mode" concept, transforming the tool from a "macro recorder" into a "co-pilot."
+* category: High-level taxonomy (e.g., "NSFW", "Learning").
+* sub_category: Introduced in later versions 1, allowing for granular organization (e.g., "Learning" -> "Coding" or "Language").
+* created: ISO 8601 timestamp (e.g., "2025-12-08T21:30:00+08:00"). This allows for sorting by "Newest," a feature explicitly mentioned in the V1.5.0 release notes.1
+This schema reveals a sophisticated understanding of Content Management. The developers are treating prompts as distinct content assets with lifecycle metadata (creation dates), visual representations (previews), and interactive behaviors (modes). This elevation of the prompt from "string" to "object" is a defining characteristic of advanced prompt engineering tools.
+3.2 The "Inspiration Mode" and Dropdown Logic
+The user query specifically requested information on "drop downs within etc." The README references a feature called "Inspiration Mode" (灵光模式) which guides users to complete requirements because "Selection is easier than filling in the blank".1 While the specific code implementing this was not fully accessible in the snippets, the existence of such a mode implies a secondary data structure linked to the prompts.
+To support dropdowns, the data schema must support parameterization. A standard string prompt is static. A dropdown-enabled prompt implies a structure where segments of the string are replaced by variables, and those variables are defined by arrays of options.
+Theoretical Data Structure for Dropdowns:
+If we were to inspect the code responsible for "Inspiration Mode," we would likely find a schema extension similar to this:
+
+
+JSON
+
+
+
+
+{
+ "id": "creative_writing_01",
+ "template": "Write a story about a who discovers.",
+ "variables": {
+   "GENRE":,
+   "CHARACTER": ["detective", "alien", "chef"],
+   "OBJECT": ["a hidden map", "a cursed sword", "a recipe for eternal life"]
+ }
+}
+
+The "edit" mode mentioned in the extracted snippets 5 is likely the precursor or the fallback for this feature. It represents the point where the tool hands control back to the user. The "drop downs" are the UI manifestation of these variable arrays, reducing the friction of prompt creation by constraining the solution space to known-good options. This psychological tactic—reducing the "paradox of choice"—is central to the tool's value proposition.
+3.3 Categorization Taxonomy
+The organization of data within prompts.json is not arbitrary; it follows a specific taxonomy designed to cover the primary use cases of Generative AI. The snippets reveal the following explicit categories:
+1. Work (工作): This category likely houses prompts for productivity, such as "Email Polisher," "Meeting Summarizer," and "Code Refactorer." These are high-utility, high-frequency prompts.
+2. Life (生活): This targets the personal assistant capability of LLMs. The release notes mention "Outfit Recommendation" and "Virtual Travel" 1, suggesting prompts that act as lifestyle consultants.
+3. Learning (学习): Educational prompts, likely focusing on "Explain Like I'm 5," "Socratic Tutor," or language acquisition scenarios.
+4. Interesting (有趣): A miscellaneous category for entertainment, roleplay, and creative experiments.
+5. NSFW: A controversial but clearly present category.5 The distinct labeling allows for the implementation of the "NSFW Filter" feature in V1.5.0, enabling the developers to serve a broader audience while allowing users to opt-out of explicit content.
+6. Visual/Art: Implied by the "Raw Photo" prompt, these are specialized for image generation models (like Gemini's image capabilities or integration with Kokorolab).
+This taxonomy suggests that the "Banana Prompt Quicker" is attempting to be a "General Purpose" prompt library, rather than a niche tool for coders or artists alone.
+4. Prompt Analysis: Deconstructing the Extracted Intelligence
+The requirement to "grab all prompts" necessitates a close reading of the text fragments recovered from the repository. These fragments are not just random sentences; they are engineered instructions designed to manipulate the latent space of Large Language Models. By analyzing the syntax, vocabulary, and structure of these extracted prompts, we can gain deep insight into the state of the art in "Prompt Engineering."
+4.1 The Visual Generation Prompt: "Raw Photo"
+One of the most significant extractions is a prompt designed for photorealistic image generation. This prompt 5 demonstrates advanced techniques common in the Stable Diffusion and Midjourney communities, adapted here for models like Gemini or Kokorolab.
+Extracted Text:
+"Raw Photo, Skin Texture prominence.(超写实、生图感、强调皮肤纹理) Atmosphere: Intimate, Steamy, Voyeuristic.(私密、潮湿、窥视感)。"
+Forensic Analysis:
+* Token Weighting and Keyword Density: The prompt does not use full sentences. Instead, it uses a "bag of words" approach ("Raw Photo," "Skin Texture"). This targets the model's tokenizer directly, ensuring that high-value concepts are activated without the noise of grammatical filler.
+* Bilingual Reinforcement: The prompt explicitly pairs English terms with their Chinese parentheticals (e.g., "Voyeuristic" paired with "窥视感"). This is a sophisticated technique. It ensures that the model understands the nuance of the term regardless of its primary training language or the specific context of the embedding. It acts as a semantic anchor, reducing the ambiguity of the English term by providing a synonym in a different language structure.
+* Negative Implication: By specifying "Skin Texture prominence," the prompt is implicitly fighting against the tendency of AI models to produce "plastic" or overly smoothed skin. It forces the model to render imperfections (pores, grain), which are markers of realism.
+* Atmospheric Staging: The terms "Intimate, Steamy, Voyeuristic" set a scene (the "Atmosphere"). This moves the prompt beyond simple object description into narrative setting, guiding the lighting, composition, and mood of the generated image.
+4.2 The System Instruction Prompt: "Infographic Summarizer"
+The second major extraction 5 is a text-processing prompt. This is a "System Prompt" or "Meta-Prompt"—instructions that tell the AI how to behave, rather than just what to answer.
+Extracted Text:
+"Summarize into short bullets (1–6 words each). Keep text concise and optimized for an infographic. Highlight keywords using hand-drawn graphic emphasis: circles, underlines, arrows, stars, boxes. never digital UI styles. Use extensive whitespace to maintain clarity and visual hierarchy. Organize the infographic using a clean hand-drawn layout, for example: Title (center or top-left). text must appear hand-drawn, not printed or typographic. Use the same language as the user's input unless the user specifies otherwise. RESTRICTIONS(禁止事项): Do NOT produce realistic imagery. Do NOT generate copyrighted characters directly. Do NOT turn the infographic into an essay. Do NOT fill the canvas fully; always keep meaningful whitespace. Do NOT output long paragraphs. 🖼️ TASK"
+Forensic Analysis:
+* Constraint-Based Prompting: This prompt relies heavily on constraints ("Do NOT...", "never..."). Negative constraints are often more powerful than positive instructions in LLMs because they prune the probability tree, preventing the model from falling into its default behaviors (like writing long, verbose essays).
+* Visual-Spatial Formatting: The prompt attempts to force a text-only model to "hallucinate" visual structure. By asking for "hand-drawn graphic emphasis" and "circles, underlines," it encourages the model to use ASCII art, Unicode symbols, or Markdown formatting to simulate a visual layout.
+* Layout Logic: The instruction "Title (center or top-left)" attempts to control the spatial arrangement of the output. While LLMs have no concept of a 2D canvas, this instruction influences the ordering and hierarchy of the generated text.
+* Language Agnostic: "Use the same language as the user's input" is a crucial usability feature. It makes the prompt universal, allowing a Spanish speaker to use the same logical tool as a Chinese speaker without manual translation.
+4.3 The "Restrictions" Block
+The explicit "RESTRICTIONS(禁止事项)" section within the prompt 5 highlights the developer's awareness of safety and copyright issues.
+* "Do NOT generate copyrighted characters directly."
+* "Do NOT produce realistic imagery." (In the context of the infographic prompt, this likely means "don't generate a photo when I asked for a sketch").
+This block acts as a "safety rail," attempting to override the model's training data regarding protected intellectual property. It is a defensive measure, protecting the user (and the tool provider) from generating content that could violate platform terms of service.
+5. Dynamic Integration: The Selector Mechanism
+The efficacy of "Banana Prompt Quicker" depends entirely on its ability to inject these prompts into third-party websites. This requires a deep understanding of the Document Object Model (DOM) of the target platforms. The analysis of selectors.json and config.json provides a technical roadmap of how the tool achieves this integration.
+5.1 The Evolution of Selector Strategy
+The transition from a static selectors.json file to a dynamic config.json represents a shift in architectural philosophy.
+   * Static Era (selectors.json): In this model, the CSS selectors were likely bundled with the extension. If Google AI Studio changed the class name of its submit button from .ms-run-button to .google-submit-btn, every user would lose functionality until the developer released version X+1 and the Chrome Store approved it.
+   * Dynamic Era (config.json): The current architecture likely fetches config.json from a remote URL (likely the GitHub raw content URL) at runtime or on startup. This allows for "Hot Patching." The developer can update the JSON file on GitHub, and all active instances of the extension will pull the new definitions immediately. This is critical for maintaining uptime in the volatile environment of web scraping and injection.
+5.2 Target Platform Internals
+The selectors found in the repository 3 reveal the specific internal structures of the supported platforms.
+Google AI Studio:
+   * Selector: ms-prompt-input-wrapper textarea
+   * Analysis: This is a relatively standard implementation. The use of a standard textarea makes injection easy; the extension simply needs to set .value and dispatch an input event. The ms- prefix suggests Microsoft-style naming conventions or a specific internal framework used by the AI Studio team (possibly related to "Model Studio").
+Google Gemini (Consumer Version):
+   * Selector: div.ql-editor[contenteditable="true"]
+   * Analysis: This confirms that Gemini uses the Quill rich text editor. Injecting text here is complex. You cannot set .value on a div. The extension must manipulate the innerHTML or textContent and, crucially, simulate user interaction. React and Angular apps often track the "state" of the input separately from the DOM. If the extension merely changes the HTML, the underlying framework might not "see" the new text, and the submit button might remain disabled. The extension likely contains logic to dispatch synthetic InputEvent, FocusEvent, and BlurEvent sequences to synchronize the DOM changes with the application state.
+Gemini Enterprise:
+   * Selector: body > div.ant-app... > textarea
+   * Analysis: The snippet 4 reveals a selector path that is extremely long and specific (body > div.ant-app...). This indicates that Gemini Enterprise is built using Ant Design (a popular React UI library). The lack of a specific ID or class for the input box forces the developer to use a brittle "full path" selector. This makes the Enterprise integration the most fragile; a slight change in the layout hierarchy (e.g., adding a wrapper div) would break this selector immediately.
+5.3 The "Anywhere" Feature
+The V1.3.0 release notes 1 announce support for "Anywhere" (任意网站输入框). This implies a shift from allow-listing (specific selectors for specific sites) to heuristic detection. To support "any website," the extension likely adds a context menu item ("Right-click -> Banana Prompt"). When triggered, the script identifies the element under the cursor (event.target). If it is an input or textarea, it attempts to insert the text. This universal compatibility transforms the tool from a specialized utility into a global OS-level enhancement for the browser.
+6. The Userscript Vector: GreasyFork Distribution
+Parallel to the Chrome Extension, the "Banana Prompt Quicker" ecosystem maintains a presence on GreasyFork, a repository for Userscripts. This dual-distribution strategy is a key component of its adoption strategy.
+6.1 Technical Implementation of the Userscript
+The file script.user.js 6 is the artifact distributed to users who prefer Tampermonkey or Violentmonkey. Unlike extensions, which have a defined file structure, a Userscript is a single JavaScript file.
+   * Data Bundling: To function without CORS errors, the prompts.json data is almost certainly serialized and embedded directly into the Userscript as a JavaScript object literal. The build process (in the make directory) likely reads the master prompts.json and injects it into the script template: const PROMPTS = {...json_content... };.
+   * Execution Context: Userscripts run in a "sandbox" that is slightly different from WebExtensions. They have full access to the page DOM (unsafeWindow in Tampermonkey terms) but restricted access to browser APIs (like chrome.storage). The Userscript version likely relies on GM_setValue and GM_getValue for storing user preferences, creating a divergence in the codebase between the Extension (using chrome.storage) and the Script.
+6.2 The "Missing" Author
+An interesting anomaly is the authorship. The GitHub repo is owned by glidea. The GreasyFork script is authored by "某某某" 7, which translates to a generic placeholder like "Somebody." This could indicate:
+   1. Privacy: The developer wishes to separate their GitHub identity from the Userscript, possibly due to the "grey area" nature of injecting code into Google's proprietary interfaces.
+   2. Community Fork: The Userscript might be a community-maintained fork that lags behind the main repo. However, the update frequency (updated "5 hours ago" vs "Updated yesterday" for the repo) suggests they are synchronized, implying a unified pipeline despite the pseudonym.
+6.3 Installation Statistics and Reach
+The GreasyFork stats 8 show "Daily installs: 0" and "Total installs: 6" (at the time of one snapshot) or "Total installs: 10" (at another). These numbers are low compared to the GitHub star count (1.8k).
+   * Analysis: This discrepancy suggests that the primary distribution channel is the Chrome Extension (likely manual sideloading or a direct CRX download), or that the GitHub repo is being starred by developers interested in the code rather than end-users installing the tool. The low Userscript install count implies it is a fallback or niche option, not the main product.
+7. Security, Privacy, and Commercialization
+The analysis of the repository reveals a complex interplay between open-source transparency, commercial interests, and security risks.
+7.1 Commercial Sponsorship
+The README explicitly thanks kokorolab as a "Gold Daddy".1 This commercial affiliation explains the high production value of the prompts (particularly the visual ones) and the "Gallery" UI. It suggests the tool acts as a "loss leader" or a funnel to drive traffic to Kokorolab's services. This monetization model is common in open-source AI tools: build a free, useful utility (the prompt injector) to capture user attention, then direct that attention to a paid service (the image generator).
+7.2 Security Implications of DOM Injection
+From a security perspective, the "Anywhere" feature represents a significant expansion of the attack surface.
+   * Permissions: To function on "Any website," the extension must request <all_urls> permission in its manifest. This grants the extension the ability to read and change data on every page the user visits.
+   * Risk: While the current code appears benign (focusing on prompt injection), a malicious update (or a compromised developer account) could silently turn the extension into a keylogger or a credential harvester. The reliance on config.json fetched remotely also introduces a "Man-in-the-Middle" risk or a "Compromised Server" risk. If the server hosting config.json is hacked, an attacker could inject malicious selectors that target banking login fields instead of AI prompt boxes.
+7.3 Privacy Policy
+The privacy.html file 1 exists, which is a requirement for the Chrome Web Store. Its presence indicates an intent to comply with platform regulations. However, the Userscript version typically bypasses these formal checks, relying on the user's trust in the code they can visually inspect.
+8. Future Trajectories: The "Prompt OS" Vision
+The roadmap outlined in the repository 1 paints a picture of a tool that aims to be more than just a clipboard manager.
+8.1 Social Integration (Twitter/X)
+The plan to "One-click entry of X (Twitter) shared Prompts" signals a move toward social aggregation. This would require:
+   1. Scrapers: Logic to parse Twitter threads, identify prompt text (perhaps looking for "Prompt:" keywords), and extract it.
+   2. Data Ingestion: A mechanism to save these scraped prompts into the user's local prompts.json or chrome.storage.
+This features positions Banana Prompt Quicker as a "Save for Later" tool for the AI era, capitalizing on the massive amount of prompt engineering knowledge shared on social media.
+8.2 The Svelte Refactor
+The "Svelte Refactoring" goal 1 is a technical milestone. Moving from Vanilla JS to Svelte (a compiler-based UI framework) suggests the UI is becoming too complex for manual DOM manipulation. Svelte is an ideal choice for browser extensions because it compiles to small, efficient JavaScript without the runtime overhead of React or Vue. This refactor will likely enable more complex features like the "Inspiration Mode" wizards, drag-and-drop prompt ordering, and real-time preview rendering.
+8.3 Trending and Analytics
+The "Prompt Trending" feature implies a shift to a client-server architecture. To know what is "trending," the extension must report usage statistics to a central server. This introduces privacy concerns (telemetry) but unlocks network effects—users benefit from knowing which prompts are most effective for the community.
+9. Conclusion
+The forensic analysis of the glidea/banana-prompt-quicker repository reveals a robust, evolving ecosystem that addresses a critical bottleneck in the generative AI workflow: the friction of prompt creation. By combining a sophisticated data schema, a dynamic configuration engine, and a hybrid distribution model, the project has positioned itself as a flexible layer between the user and the model.
+For the researcher or developer seeking to "grab all prompts," the primary target is the prompts.json file in the repository root. This file contains a structured, categorized, and metadata-rich library of intelligence that extends beyond simple text strings into the realm of parameterized templates and system instructions. The extraction of specific prompts—such as the "Raw Photo" generator and the "Infographic" summarizer—demonstrates the high quality of the data contained within.
+The technical architecture—specifically the move to config.json—serves as a blueprint for modern browser extension development in an era of rapidly changing web interfaces. It prioritizes resilience and adaptability. As the project evolves with Svelte refactoring and social integrations, it is poised to become a significant "Prompt Operating System," aggregating, organizing, and injecting human intent into the AI models of the future. The "Banana" moniker, while whimsical, belies a serious and architecturally sound piece of software engineering that effectively commoditizes the art of prompt engineering.
+Resource
+	Status
+	Key Insight
+	prompts.json
+	High Value
+	The core database. Contains structured prompts, metadata, and "edit" logic.
+	config.json
+	Technical Core
+	The engine of the extension. Defines how to inject data into Gemini/AI Studio.
+	extension/
+	Source Code
+	The unpacked browser extension. Contains the manifest and logic.
+	script.user.js
+	Distribution
+	The GreasyFork artifact. A bundled version of the data and logic.
+	README.md
+	Documentation
+	Reveals commercial backing (kokorolab) and future roadmap.
+	Works cited
+      1. glidea/banana-prompt-quicker: Awesome Prompts; Nano Banana；Banana Pro; Gemini；AI Studio；Prompt Quickly[正在开发Sidebar 高级功能，敬请期待] - GitHub, accessed December 17, 2025, https://github.com/glidea/banana-prompt-quicker
+      2. MIT License - glidea/banana-prompt-quicker - GitHub, accessed December 17, 2025, https://github.com/glidea/banana-prompt-quicker/blob/main/LICENSE
+      3. banana-prompt-quicker/selectors.json at main · glidea/banana ..., accessed December 17, 2025, https://github.com/glidea/banana-prompt-quicker/blob/main/selectors.json
+      4. config.json - glidea/banana-prompt-quicker · GitHub, accessed December 17, 2025, https://github.com/glidea/banana-prompt-quicker/blob/main/config.json
+      5. banana-prompt-quicker/prompts.json at main - GitHub, accessed December 17, 2025, https://github.com/glidea/banana-prompt-quicker/blob/main/prompts.json
+      6. accessed December 31, 1969, https://github.com/bxb100/Scripts/blob/main/banana-prompt-quicker/script.user.js
+      7. User scripts for google.com - Greasy Fork, accessed December 17, 2025, https://greasyfork.org/en/scripts/by-site/google.com?language=all&q=Userscript%2B&sort=created
+      8. User scripts for x.com - Greasy Fork, accessed December 17, 2025, https://greasyfork.org/en/scripts/by-site/x.com?sort=updated

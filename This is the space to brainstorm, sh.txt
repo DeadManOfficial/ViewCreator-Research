@@ -1,0 +1,1979 @@
+This is the space to brainstorm, share, and optimize your prompts. Here’s what you can do: 🖼️ Share your transformations – Post your creations. 🔍 Explore techniques – Discover the best practices for smooth transitions. 🤓 Learn & grow – Ask questions and help others improve their results. Let’s turn images into stories in motion! 🚀🧪
+
+This is the start of the #🧪│prompts-lab channel. This is the space to brainstorm, share, and optimize your prompts.
+💚Image Prompt：a minimalistic smartphone product showcase, a single smartphone standing upright, plain solid background (white/black/light gray), no distractions, sharp product details, realistic metal and glass textures, soft studio lighting, professional commercial photography style
+💚Video Prompt：A product showcase video of a smartphone. From the first frame, the camera smoothly pushes forward and rotates around the device, while the phone subtly turns to match the camera movement. Gradually reveal both front and side details with realistic reflections on metal and glass materials. The final frame locks on the complete front view of the phone against a clean solid background. Natural and seamless transitions, realistic soft lighting, professional commercial ad style
+# 🚗 How to Use Motion Brush in KLING1.0 for Enhanced Scene Control?
+## 🎨This is an example to have advanced scene control when making real commercial ads by using the motion brush in Kling1.0.
+## 🏞️ If you want this car to drive on winding mountain roads.
+## 🛤️First, click on the motion brush icon.You can select the car easily with auto-segmentation. Click on Track 1 and draw a car’s travel path with motion brush.You get the car to drive on the road safely.
+## 👧 In the second example, if you want this girl to look to the left,select her head and draw a path to the left.Add a static area to her body.The girl does look to the left without moving her body.
+## 🎬 That’s it! Hope you can create your own scenes and share them with us.
+Simply replace the subject with your own product and try it!
+Here’s what you can do:
+🖼️ Share your transformations – Post your creations.
+🔍 Explore techniques – Discover the best practices for smooth transitions.
+🤓 Learn & grow – Ask questions and help others improve their results.
+
+Let’s turn images into stories in motion! 🚀🧪
+3Daizy🌼
+
+ — 11/21/2024 11:02
+Transform static images into dynamic videos! Join the conversation on creating motion from visuals.
+Here’s what you can do:
+🖼️ Share your transformations – Post your image-to-video creations.
+🔍 Explore techniques – Discover the best practices for smooth transitions.
+🤓 Learn & grow – Ask questions and help others improve their results.
+
+Let’s turn images into stories in motion! 🚀
+DavideV — 11/21/2024 23:48
+After several attempts I can't generate a video where the boy in the photo lowers his hand with the phone slowly. Does anyone have any suggestions? Thanks in advance
+Image
+mjsvideo2412 — 11/22/2024 16:38
+Did you try: "man ending an intense phone call" or "man looks [[[emotion]]] as he (ends a phone call) or (hangs up the phone)?
+DavideV — 11/22/2024 23:51
+Thank you I’ll try
+Abithunder — 11/23/2024 4:05
+Hey, new here! Do you know why I am receiving constantly this error (at bottom-left in the screenshot) when try to enable lip sync for my character? I have a premiere subscription. Thanks in advance! 
+Image
+3Daizy🌼
+
+ — 11/23/2024 4:53
+Lip sync works only on human faces atm. 😉
+Abithunder — 11/23/2024 5:19
+oh really? 😦 is it on roadmap? Any tip to fake the lip sync in my scenes? I mean by using the prompt 
+3Daizy🌼
+
+ — 11/23/2024 5:19
+I have no insight on the roadmap 😦
+But I assume it is tbh
+Abithunder — 11/23/2024 5:20
+Any tip to fake the lip sync in my scenes? I mean by using the prompt
+thanks for your answer btw
+3Daizy🌼
+# 🎉 Welcome to Kling Workshop!
+# 🌟How to Control Camera Movements in Image-to-Text?
+## 📕Are you struggling with camera control in image-to-video generation? In this video, it was shot at the Shanghai Film Studio.The key is to envision a character in the main position of the photo.
+## 📕Today, our collaborator Simon will show you how easy it is to specify camera movements.
+## 📕That is, using text prompts “Pull down lens” With Kling AI, you can simply describe your desired camera movements, Our model will accurately decode your prompts, and transform them into precise camera movements.
+## 📕Here are the prompts: Pull down lens、Pull up lens、Rotating lens、Zoom in......
+## ✨ Really simple, isn’t it?
+
+Kling Workshop｜How to create high-fidelity virtual character AI videos?
+Kling AI
+
+
+OP
+ — 9/11/2024 3:52
+🎉 Welcome to Kling Workshop!
+🌟Today, Director Michael Johnson will share the production of his work "Cheongsam Tribute".We see a virtual character set against a backdrop of retro Shanghai.
+📕First, take a photo.
+In this video, it was shot at the Shanghai Film Studio.The key is to envision a character in the main position of the photo.
+📕Next, we need to insert a virtual character into the scene.
+Use traditional DCC software, like 3D MAX,  to make a virtual character.Use V-RAY in 3D MAX to adjust the colors of the model to match the photo environment.Adjust the model’s details.Input this semi-finished image into STABLE DIFFUSION for redrawing.
+📕Now hand the image over to KLING AI!
+Input prompts and wait a few seconds!Bingo! She’s moving! Our virtual character comes to life! To enrich the video content, use AI Image.Prepare a reference image, and input Prompts.My prompt here is: Crimson shot-sleeved cheongsam with gold trim, Velvet material, photography effect,light movement, Fabric close-up, button close-up, collar close-up, Backlight.Click Generate.Generate a few more images.The reference strength can also be adjusted.Pick some of your favourites.
+📕Lastly, go to AI Videos.Enter prompts.Add music to the video.
+🌟There it is! A short film about a woman in a 90s Shanghai style!
+ — 11/23/2024 5:21
+I use an opensource option which works well for me. Live portrait. 
+It has 2 options. One for human and oen for animals.
+GitHub
+GitHub - KwaiVGI/LivePortrait: Bring portraits to life!
+Bring portraits to life! Contribute to KwaiVGI/LivePortrait development by creating an account on GitHub.
+GitHub - KwaiVGI/LivePortrait: Bring portraits to life!
+You can use it on videos too. Not only images.
+Abithunder — 11/23/2024 5:21
+and simulates lip sync? 😮
+3Daizy🌼
+
+ — 11/23/2024 5:22
+Absolutly. It works different though. You do not give it text, you give it a "target video". Just record your own face, and it will translate your expressions and talking to the video of the animal.
+Abithunder — 11/23/2024 8:33
+One question, If I am using an image as a reference. Can I change the expression of the character? I put as a reference a character that is smiling with an open mouth and now I am asking in the prompt to close the mouth. No changes, it remains with the mouth open 😦
+RajaSekhar — 11/23/2024 14:48
+hey guys can i use kling.ai in discord?
+3Daizy🌼
+
+ — 11/23/2024 14:55
+No, only on their website https://klingai.com/
+KLING AI
+KLING AI, tools for creating imaginative images and videos, based on state-of-art generative AI methods.
+RajaSekhar — 11/23/2024 15:07
+Thank you Daizy.
+KutluS — 11/27/2024 3:07
+I have a photo of a statue infront of a wall i never make it to walk with any prompt that i wrote..
+Is it for some reason AI thinks it will not move since itiis a statue?
+I am able to move it with minimax but i want a better result with kling
+Any ideas for a proper rpomt or what can i do
+BobBirmbaum — 11/27/2024 14:33
+Anyone know how to stop the video from outputting slow motion? Everytime I want someone walking, it outputs them walking but in slow motion
+ansonding81 — 11/28/2024 3:52
+image to video
+Image
+3Daizy🌼
+
+ — 11/28/2024 3:53
+You can do this only on their website: https://klingai.com/
+This is for prompt chat.. not creating via discord.
+KLING AI
+KLING AI, tools for creating imaginative images and videos, based on state-of-art generative AI methods.
+SapphireBjoern — 11/30/2024 2:46
+uhhhh anyone else having problems?
+its stuck at 99
+for 2 hours now
+adilson — 12/1/2024 12:46
+Does anyone have tips for adding motion to the elements/character of an image in a reliable way? No matter how many techniques I try, my images remain almost static. I’d also like to add more movement to particles/smoke effects, etc. I’d be grateful for any advice. Thank you!
+Info — 12/1/2024 19:22
+are there any good prompting tutorials on image to video?
+adilson — 12/2/2024 4:57
+I didnt find anything 😦 I need them too beacuse iim spending so much credits experimenting :/ A single word in the prompt can drasticly improve the result, or make the video unusable 
+Deleted User — 12/2/2024 9:57
+HI i want create very simple turn around camera movement around my character like orbit camera movement using image input but every time the result not good or follow my prompt, any prompt advice to do this simple camera movement?
+ppmmme
+
+ — 12/3/2024 0:05
+can anyone help me, why does this keep heppening. this is my prompt
+
+Using a rotating lens, the camera circles Dartrix as a warm green aura envelops it. Its body grows taller and sleeker, the green aura intensifying around its wings. The leafy fringe on its head extends into a hood, and its feathers darken to reveal Decidueye. The aura dissipates as Decidueye opens its wings, standing tall and composed.
+Info — 12/3/2024 17:31
+there doesn't seem to be much in the way of support or instructions.
+ppmmme
+
+ — 12/3/2024 20:20
+even when i remove the prompt, it still does this sometimes
+Harry Kim — 12/5/2024 21:47
+anybody help me please
+When using image to video in Kling AI, I want to create a video using start frame and end frame where there's only camera movement in between, without people or animals appearing. How can I ensure that people, animals, etc. don't appear?
+katamaris4ever — 12/6/2024 7:58
+You could put that in the negative prompt, and make sure that both pictures don’t have people or animals in them.
+Kling Horror Tip: 3 Cinematic Camera Moves to Create Tension
+Shikoba_86
+OP
+ — Yesterday at 13:13
+True horror isn't just about jumpscares or scary monsters—it's about tension.
+
+How you move the camera dictates how the audience feels. A still subject can become terrifying if filmed with the right, unsettling movement.
+
+Here are 3 cinematic camera movement techniques in Kling designed to build dread and unease, complete with universal templates! ⬇️
+Shikoba_86
+OP
+ — Yesterday at 13:14
+The Slow Approach & Orbital Drift (Building Tension)
+
+This isn't just a simple zoom. It's a slow, predatory push towards the subject combined with a subtle sideways drift. It feels unnatural, like an unseen observer circling prey.
+
+Universal Template (Fixed): slow cinematic camera movement creating tension, camera slowly approaching the subject with a subtle lateral drift, partial orbit that never completes, unnatural pacing, subject almost still, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood
+
+Variables to add: SUBJECT: {SUBJECT}, LOCATION: {LOCATION}
+
+Example (Ready-to-use): slow cinematic camera movement creating tension, camera slowly approaching the subject with a subtle lateral drift, partial orbit that never completes, unnatural pacing, subject almost still, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood. SUBJECT: a young woman standing still, back facing the camera, subtle breathing. LOCATION: abandoned hospital corridor, flickering lights, dirty walls
+Lateral Tracking behind Obstacles (Creepy Occlusion)
+Fear often comes from what you can't fully see. This move tracks sideways behind foreground elements (like pillars, trees, or doorways), constantly hiding and revealing the subject. It simulates the feeling of spying or being stalked from cover.
+
+Universal Template (Fixed): slow lateral cinematic camera movement creating unease, camera tracking sideways behind foreground obstacles that partially block the view, subject revealed and hidden intermittently, unnatural calm pacing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood
+
+Variables to add: SUBJECT: {SUBJECT}, LOCATION: {LOCATION}
+
+Example (Ready-to-use): slow lateral cinematic camera movement creating unease, camera tracking sideways behind foreground obstacles that partially block the view, subject revealed and hidden intermittently, unnatural calm pacing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood. SUBJECT: a woman standing still at the end of the hallway, slight head tilt, minimal movement, slow breathing. LOCATION: narrow apartment corridor, door frames in the foreground, dim warm light, deep shadows between rooms
+Delayed Camera-Driven Reveal (Psychological Horror)
+This is masterful psychological horror. The camera holds on empty space for most of the shot, letting the viewer's anxiety build. The subject is only revealed at the very end, brought into frame by the camera's slow movement, not a sudden appearance.
+
+Universal Template (Fixed): slow cinematic camera movement, frame remains empty for most of the shot, subject completely outside the frame at the beginning, camera moving backward or laterally through empty space, delayed reveal near the end of the shot, subject gradually entering the frame due to camera motion, no sudden appearance, no teleporting, natural timing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic psychological horror mood
+
+Variables to add: SUBJECT: {SUBJECT}, LOCATION: {LOCATION}
+
+Example (Ready-to-use): slow cinematic camera movement, frame remains empty for most of the shot, subject completely outside the frame at the beginning, camera slowly moving backward through an empty corridor, delayed reveal near the end of the shot, subject gradually entering the frame from behind the camera due to camera motion, no sudden appearance, no teleporting, natural timing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic psychological horror mood. SUBJECT: a young woman standing still, back facing the camera, subtle breathing. LOCATION: abandoned hospital corridor, long empty hallway at first, flickering lights, dirty walls, deep shadowsHow to Win 330 Credits! 💥
+Kling AI_Jessica
+OP
+ — 11/18/2025 20:01
+Hey everyone, 👋
+
+Welcome to the Kling Pro Tips channel! 🎉
+
+Here, you'll find tips on how to write effective prompts under each themed post. 📝✨
+Meanwhile, we encourage you to share your creations using the tips, or feel free to share your own tips or tricks under the original post! 🎨👇
+
+By participating, you’ll have a chance to win 330 credits! 💥💰
+
+Let’s get creative and share some awesome ideas! 🚀💡@everyone 
+Kling AI_Jessica
+ changed the post title: How to Win 330 Credits! 💥 — 11/23/2025 23:44
+Vladimir PRO
+
+ — 12/1/2025 15:18
+The "Portal Loop" Hack (Clean Scene Transformation) 🌀👁️
+
+Instead of forcing a messy object morph, try transforming the entire scene by using a "Portal" transition. This creates a seamless, hypnotic loop that skyrockets retention.
+
+The Trick:
+Use a dark, central focal point (like an Eye Pupil, Camera Lens, or Cave) as a "gate". Fly the camera into it to trigger the transition.
+
+Prompt Structure:
+[Camera flies rapidly into the pupil of a giant eye] + [As it enters, it seamlessly transitions into another identical spiral] + [Infinite loop]
+
+Why it works:
+The AI handles "flying forward" much better than "morphing shape". By hiding the cut inside the dark pixel of the pupil, you get a perfect, glitch-free transformation.
+
+Result: A viral-ready infinite zoom.Kling Horror Tip: 3 Cinematic Camera Moves to Create Tension
+Shikoba_86
+OP
+ — Yesterday at 13:13
+True horror isn't just about jumpscares or scary monsters—it's about tension.
+
+How you move the camera dictates how the audience feels. A still subject can become terrifying if filmed with the right, unsettling movement.
+
+Here are 3 cinematic camera movement techniques in Kling designed to build dread and unease, complete with universal templates! ⬇️
+Shikoba_86
+OP
+ — Yesterday at 13:14
+The Slow Approach & Orbital Drift (Building Tension)
+
+This isn't just a simple zoom. It's a slow, predatory push towards the subject combined with a subtle sideways drift. It feels unnatural, like an unseen observer circling prey.
+
+Universal Template (Fixed): slow cinematic camera movement creating tension, camera slowly approaching the subject with a subtle lateral drift, partial orbit that never completes, unnatural pacing, subject almost still, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood
+
+Variables to add: SUBJECT: {SUBJECT}, LOCATION: {LOCATION}
+
+Example (Ready-to-use): slow cinematic camera movement creating tension, camera slowly approaching the subject with a subtle lateral drift, partial orbit that never completes, unnatural pacing, subject almost still, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood. SUBJECT: a young woman standing still, back facing the camera, subtle breathing. LOCATION: abandoned hospital corridor, flickering lights, dirty walls
+Lateral Tracking behind Obstacles (Creepy Occlusion)
+Fear often comes from what you can't fully see. This move tracks sideways behind foreground elements (like pillars, trees, or doorways), constantly hiding and revealing the subject. It simulates the feeling of spying or being stalked from cover.
+
+Universal Template (Fixed): slow lateral cinematic camera movement creating unease, camera tracking sideways behind foreground obstacles that partially block the view, subject revealed and hidden intermittently, unnatural calm pacing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood
+
+Variables to add: SUBJECT: {SUBJECT}, LOCATION: {LOCATION}
+
+Example (Ready-to-use): slow lateral cinematic camera movement creating unease, camera tracking sideways behind foreground obstacles that partially block the view, subject revealed and hidden intermittently, unnatural calm pacing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic horror mood. SUBJECT: a woman standing still at the end of the hallway, slight head tilt, minimal movement, slow breathing. LOCATION: narrow apartment corridor, door frames in the foreground, dim warm light, deep shadows between rooms
+Delayed Camera-Driven Reveal (Psychological Horror)
+This is masterful psychological horror. The camera holds on empty space for most of the shot, letting the viewer's anxiety build. The subject is only revealed at the very end, brought into frame by the camera's slow movement, not a sudden appearance.
+
+Universal Template (Fixed): slow cinematic camera movement, frame remains empty for most of the shot, subject completely outside the frame at the beginning, camera moving backward or laterally through empty space, delayed reveal near the end of the shot, subject gradually entering the frame due to camera motion, no sudden appearance, no teleporting, natural timing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic psychological horror mood
+
+Variables to add: SUBJECT: {SUBJECT}, LOCATION: {LOCATION}
+
+Example (Ready-to-use): slow cinematic camera movement, frame remains empty for most of the shot, subject completely outside the frame at the beginning, camera slowly moving backward through an empty corridor, delayed reveal near the end of the shot, subject gradually entering the frame from behind the camera due to camera motion, no sudden appearance, no teleporting, natural timing, subject barely moving, heavy atmosphere, low light, deep shadows, realistic motion, cinematic psychological horror mood. SUBJECT: a young woman standing still, back facing the camera, subtle breathing. LOCATION: abandoned hospital corridor, long empty hallway at first, flickering lights, dirty walls, deep shadowsDeadMan
+official.deadman
+
+Hey everyone, 👋
+
+Welcome to the Kling Pro Tips channel! 🎉
+
+Here, you'll find tips on how to write effective prompts under each themed post. 📝✨
+Meanwhile, we encourage you to share your creations using the tips, or feel free to share your own tips or tricks under the original post! 🎨👇
+
+By participating, you’ll have a chance to win 330 credits! 💥💰
+
+Let’s get creative and share some awesome ideas! 🚀💡@everyone 
+True horror isn't just about jumpscares or scary monsters—it's about tension.
+
+How you move the camera dictates how the audience feels. A still subject can become terrifying if filmed with the right, unsettling movement.
+
+Here are 3 cinematic camera movement techniques in Kling designed to build dread and unease, complete with universal templates! ⬇️
+Before KLING O1, using an image meant starting from a static frame and letting the model continue from there.
+That limitation is gone.
+
+KLING O1 introduces Elements — images that become real digital props: reusable, consistent, movable, and fully interactive inside your scene.
+
+In this tutorial we’ll use super simple examples, so even creators who still don’t fully understand the power of O1 can clearly see the upgrade in action.
+
+📌 Reminder:
+You can use up to 7 Elements at the same time, combine them, mix workflows, and build scenes like a real director.
+In the next clips we’ll explore how to blend Elements together and create more advanced setups.
+
+For now, let’s start easy.
+A child eating ice cream.
+And a lantern used as our Element.
+
+Three basic examples — and trust me, even these will show how much our workflow just changed.
+Instead of introducing a character immediately, we anchor the scene on an object and let the character emerge through, This approach is extremely effective for:
+
+ cinematic storytelling
+
+advertising shots
+
+thriller / drama scenes
+
+subtle character reveals
+
+Below are 3 object-driven cinematic templates, optimized for Kling O1 + Elements.
+
+💡 Key advice
+Always generate multiple angles of the same Element (front, 3/4, side and back).
+More angles = more spatial understanding = better motion, better coherence.
+KLINGO1 TIPS: Stop thinking in Start Frames: finally lets you use images as real cinematic props
+Shikoba_86
+OP
+ — 12/5/2025 6:32
+Before KLING O1, using an image meant starting from a static frame and letting the model continue from there.
+That limitation is gone.
+
+KLING O1 introduces Elements — images that become real digital props: reusable, consistent, movable, and fully interactive inside your scene.
+
+In this tutorial we’ll use super simple examples, so even creators who still don’t fully understand the power of O1 can clearly see the upgrade in action.
+
+📌 Reminder:
+You can use up to 7 Elements at the same time, combine them, mix workflows, and build scenes like a real director.
+In the next clips we’ll explore how to blend Elements together and create more advanced setups.
+
+For now, let’s start easy.
+A child eating ice cream.
+And a lantern used as our Element.
+
+Three basic examples — and trust me, even these will show how much our workflow just changed.
+Shikoba_86
+OP
+ — 12/5/2025 6:32
+EXAMPLE 1 — The Element as a scene prop
+
+Prompt:
+“Close-up of a child eating ice cream at a small wooden table, with @Element placed on the table beside him, softly glowing.”
+
+Here, KLING O1 places the lantern directly into the shot as a secondary prop, perfectly integrated into the scene while keeping the focus on the child’s action.
+EXAMPLE 2 — Interacting with the Element
+
+Prompt:
+“The child finishes his ice cream, stands up, grabs @Element from the table, and walks out of the room. Keep consistent design and materials from the element.”
+
+Now the Element becomes part of the action.
+The child interacts with it, picks it up, and leaves.
+The object stays visually consistent, like a real prop on a film set.
+EXAMPLE 3 — Introducing the Element later in the scene
+
+Prompt:
+“Start with an empty kitchen table. A moment later, the child enters the frame holding @Element, walks to the table, and gently places it down.”
+
+Here, the Element does not exist in the initial frame.
+The character enters the scene carrying it and places it exactly where the prompt directs.
+
+It’s a perfect demonstration of how O1 allows dynamic object introduction without relying on a start frame.
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 12/5/2025 6:39
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 12/5/2025 6:39
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 12/5/2025 6:39
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 12/5/2025 6:39
+cat.55 — 12/5/2025 9:02
+Please talk about the aspect ratio, and when would it be better to use the different options
+Shikoba_86
+ changed the post title: KLINGO1 TIPS: Stop thinking in Start Frames: finally lets you use images as real cinematic props — 12/8/2025 1:59
+caumagel
+
+ — 12/8/2025 5:42
+I can create a continuous action event sequence based on up to 10 images with kling O1, right? @Shikoba_86
+Shikoba_86
+OP
+ — 12/16/2025 3:36
+Sorry, I didn't see the tag, so multiple consecutive images with precise references, let's say that directly it is still possible. But you can use KlingO1 start & end frame, using it via O1 you can select a minimum of 3 seconds and a maximum of 10 seconds, this way you have good control over the various transitions and you can connect your 10 images
+caumagel
+
+ — 12/16/2025 5:59
+I find that using image sequences yields very impressive results; it's truly amazing when the details are clear and the prompt I write flows smoothly between scenes.KLIG01 TIP: Object-First Cinematic Reveals (Using Elements)
+Shikoba_86
+OP
+ — 12/12/2025 9:52
+Instead of introducing a character immediately, we anchor the scene on an object and let the character emerge through, This approach is extremely effective for:
+
+ cinematic storytelling
+
+advertising shots
+
+thriller / drama scenes
+
+subtle character reveals
+
+Below are 3 object-driven cinematic templates, optimized for Kling O1 + Elements.
+
+💡 Key advice
+Always generate multiple angles of the same Element (front, 3/4, side and back).
+More angles = more spatial understanding = better motion, better coherence.
+Shikoba_86
+OP
+ — 12/12/2025 9:53
+1️⃣ Foreground Anchor + Blurred Cross Walk
+
+Concept
+The object is the only thing in focus.
+The character exists only as motion, never as identity.
+
+Example Prompt (Kling O1)
+
+Start with a locked close-up on the @bottle placed on a table, perfectly sharp and visually dominant in the foreground. The camera remains completely static with shallow depth of field. No character is visible at the beginning. After a brief pause, a @character enters the frame from the right side in the background, fully out of focus. The character walks slowly behind the @bottle, crosses the frame from right to left, and exits the scene. The @bottle remains the only element in focus throughout the entire shot.
+
+Universal Template
+
+Start with a locked close-up on the @object placed on a [surface type, material, and position], perfectly sharp and visually dominant in the foreground. The camera remains static with shallow depth of field and no focus shift. No character is visible at the beginning. After a brief pause, a @character enters the frame from the [entry side], stays fully out of focus, walks behind the @object, crosses the frame from [movement direction], and exits. The @object remains the visual anchor.
+Shikoba_86
+OP
+ — 12/12/2025 10:04
+2️⃣ Object Interaction — Hand → Action
+
+Concept
+Storytelling through interaction, not exposition.
+
+Example Prompt (Kling O1)
+
+Start with a close-up on the @bottle placed on a table, centered and in sharp focus. The camera is static with shallow depth of field.  character is visible at the beginning. After a short pause, a @character’s hand enters the frame from the side, slightly out of focus. As the hand approaches the @bottle, it gradually becomes sharper. The hand grabs the @bottle, lifts it from the table, and brings it toward the mouth. The action is slow, controlled, and cinematic.
+
+Universal Template
+
+Start with a close-up on the @object placed on a [surface type and environment], centered and in sharp focus. The camera remains static with shallow depth of field. character is visible at the beginning. After a short pause, a @character’s hand enters the frame from the [entry side], initially slightly out of focus. As the hand approaches the @object, it gradually sharpens. The hand interacts with the @object and performs a clear action: [describe the physical interaction and final action in detail]. The character remains mostly out of frame.
+3️⃣ Hidden Presence + Tilt + Rack Focus
+
+Concept
+The character was already there.
+You just didn’t know it yet.
+
+Example Prompt (Kling O1)
+
+Start with a close-up on the @bottle placed in the foreground, perfectly sharp. The camera is static with shallow depth of field. In the background, barely visible and fully out of focus, the body of a seated @character is present, with the face outside the initial framing. After a brief pause, the camera performs a slow upward tilt. During the tilt, execute a smooth rack focus from the @bottle to the @character’s face, bringing the face into sharp focus while the bottle becomes softly blurred.
+
+Universal Template
+
+Start with a close-up on the @object placed in the foreground, perfectly sharp. The camera is static with shallow depth of field. In the background, the blurred body of a seated @character is present, with the face outside the initial framing. After a brief pause, the camera performs a slow upward tilt while executing a smooth rack focus from the @object to the @character’s face, shifting attention from object to character.KLING O1 TIPS: Different Ways To Use References
+Shikoba_86
+OP
+ — 12/9/2025 14:03
+In this thread, we explore 3 powerful ways to use references inside KLING O1.
+We start with a simple style transfer, move to a full scene built with 7 elements, and finish with a more experimental (but very interesting) example: using a 3D floorplan as a spatial guide to generate a realistic interior shot from a specific point in the house.
+Shikoba_86
+OP
+ — 12/9/2025 14:04
+1️⃣ Using a Reference as STYLE
+
+KLING O1 can adopt the full visual identity of a single image:
+color palette, texture, linework, mood, and artistic tone.
+
+Prompt:
+“Generate an image of a child eating ice cream at a small wooden table in the kitchen, rendered entirely in the visual style of Image.
+Adopt its color palette, texture, linework, and artistic tone, without including the original subject from the element.”
+Image
+This is where O1 becomes truly multimodal.
+A single coherent scene built from character references, props, interior style, exterior view, and design elements.
+
+Prompt:
+“Generate a new scene of a child sitting at a small wooden table eating ice cream, combining the following 7 elements in one coherent scene:
+– Use the child’s appearance from Image2 as the main character reference.
+– Add a second character seated beside the child, using the full appearance of Image1 as reference (pose, features, hairstyle, proportions).
+– Add the object from Image7 on the table near the main child.
+– Add the secondary object from Image4 on the opposite side of the table.
+– Render the interior of the room using the visual style and design of Image3.
+– Show the outside view through the window using the environment from Image5.
+– Replace the ice cream bowl with the version shown in Image6, matching shape, materials, and colors.
+Blend all elements naturally without including the original subjects from the reference images other than the intended characters.”
+Image
+Shikoba_86
+ changed the post title: KLING O1 TIPS: Different Ways To Use References — 12/9/2025 14:13
+Shikoba_86
+OP
+ — 12/9/2025 14:15
+3️⃣ Using a 3D FLOORPLAN as a Spatial Reference (experimental but very interesting)
+
+Here, the floorplan is NOT recreated.
+It only serves as a layout guide to reconstruct the room from a real-world point of view.
+
+This is one of the most impressive demonstrations of O1’s multimodal understanding.
+
+Prompt:
+“Use @ Grumpy Kid as the subject and Image only as a spatial layout reference.
+Do NOT recreate or show the floorplan image, and avoid any top-down view.
+Generate a realistic eye-level close-up of the child sitting at the kitchen table, with the tabletop in the foreground and the kitchen wall visible behind him.
+Rebuild the kitchen layout based on the floorplan: dining table positioned in front of the kitchen island, island located centrally with stools, white cabinets and stove on the back wall, overhead lights above the island.
+Keep the child in sharp focus while the background remains softly detailed, matching the perspective suggested by the room’s layout in Image.”Kling Pro-Tip: Mastering "Universal Metamorphosis" (Shape-Shifting Physics)
+Shikoba_86
+OP
+ — 11/29/2025 9:26
+We received a great question about transforming tanks and planes into "mechanical beasts." The challenge is that standard prompts often create a messy blur.
+
+To get a clean, epic transformation (whether it's a robot growing or a creature shrinking), you must describe the physical behavior of the body as it changes. Don't just say "it transforms." Describe HOW the mass extends, shrinks, or reconfigures.
+
+Here are some Universal Templates that focus on the physics of the morph, suitable for Start Frame -> End Frame transitions or just creating the animation from scratch
+Shikoba_86
+OP
+ — 11/29/2025 9:30
+The "Modular Sliding Plates" (Mechanical/Complex)
+
+Best for: Robots, Vehicles, Heavy Machinery. Concept: The surface splits into plates that slide over each other to change the object's size and shape.
+
+Example Prompt: The gritty desert ninja warrior's surface segments into thousands of intricate, interlocking modular plates. These plates visibly slide, rotate, and shift positions with mechanical precision. The main body hydraulics hiss as the limbs telescope outwards as the internal structure reconfigures. The plates lock firmly back into place to form the new silhouette of a Heavy Armored Mech. Seamless engineering, hyper-realistic, 8k resolution.
+
+Universal Template: The [Start Subject]'s surface segments into thousands of intricate, interlocking modular plates. These plates visibly slide, rotate, and shift positions with mechanical precision. The main body [Action] as the internal structure reconfigures. The plates lock firmly back into place to form the new silhouette of a [End Subject]. Seamless engineering, hyper-realistic, 8k resolution.
+
+💡 Unique Action Tokens:
+
+[pistons extend and heavy gears grind loudly]
+
+[armor panels slide back to reveal missile pods]
+
+[tracks unfold and lock into a bipedal stance]
+The "Liquid Nanotech Flow" (Sleek/Futuristic)
+
+Best for: Sleek Cars, Sci-Fi Armor, Smooth Creatures. Concept: The solid matter turns into a viscous liquid that can easily grow or shrink before hardening again.
+
+Example Prompt: The solid surface of the gritty desert ninja warrior ripples and destabilizes, turning into a reflective, viscous liquid metal (nanotech). This liquid mass flows fluidly, rapidly surging forward like a metallic tidal wave to match the new proportions. The liquid metal contours perfectly to the new shape and instantly solidifies and hardens into the sleek details of a Sleek Chrome Cyborg. Glossy reflections, smooth motion.
+
+Universal Template: The solid surface of the [Start Subject] ripples and destabilizes, turning into a reflective, viscous liquid metal (nanotech). This liquid mass flows fluidly, rapidly [Action] to match the new proportions. The liquid metal contours perfectly to the new shape and instantly solidifies and hardens into the sleek details of a [End Subject]. Glossy reflections, smooth motion.
+
+💡 Unique Action Tokens:
+
+[surges forward like a metallic tidal wave]
+
+[splashes upwards against gravity]
+
+[rapidly reshaping like mercury in zero-G]
+3.. The "Origami Unfolding" (Geometric/Artistic)
+
+Best for: Paper, intricate metalwork, stylized animation. Concept: The object unfolds and refolds like complex geometry. Great for changing size drastically.
+
+Example Prompt: The gritty desert ninja warrior begins a complex geometric transformation. The outer layers unfold like intricate origami, revealing a complex internal lattice. The structure twists and refolds upon itself, changing its volume by creasing continuously in a recursive fractal pattern. The geometric planes align perfectly to create the sharp, angular silhouette of a Geometric Artifact. Precision animation, sharp edges.
+
+Universal Template: The [Start Subject] begins a complex geometric transformation. The outer layers unfold like intricate origami, revealing a complex internal lattice. The structure twists and refolds upon itself, changing its volume by [Action]. The geometric planes align perfectly to create the sharp, angular silhouette of a [End Subject]. Precision animation, sharp edges.
+
+💡 Unique Action Tokens:
+
+[creasing continuously in a recursive fractal pattern]
+
+[flattening into 2D sheets before refolding]
+
+[tessellating into thousands of tiny triangles]
+The "Crystalline Refraction" (Mystical/Ethereal)
+
+Best for: Magical Creatures, Energy Beings, Teleportation. Concept: The subject breaks into light and crystal to change shape without physical limitations.
+
+Example Prompt: The gritty desert ninja warrior's physical form dissolves into millions of translucent, glowing crystal shards. These shards levitate and swirl rapidly, defying gravity to explode outwards into a spiraling vortex. The crystals magnetically snap back together in a brilliant flash of light, fusing seamlessly to construct the majestic form of a Mystical Djinn. Ethereal lighting, magical atmosphere.
+
+Universal Template: The [Start Subject]'s physical form dissolves into millions of translucent, glowing crystal shards. These shards levitate and swirl rapidly, defying gravity to [Action]. The crystals magnetically snap back together in a brilliant flash of light, fusing seamlessly to construct the majestic form of a [End Subject]. Ethereal lighting, magical atmosphere.
+
+💡 Unique Action Tokens:
+
+[explode outwards into a spiraling vortex]
+
+[condense into a singularity point]
+
+[orbit rapidly in a golden Fibonacci spiral]
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/29/2025 9:33
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/29/2025 9:33
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/29/2025 9:33
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/29/2025 9:33
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/29/2025 9:34
+caumagel
+
+ — 11/29/2025 19:18
+They look really cool, but this transformation style feels more like nano-metal or liquid-metal, similar to the Terminator movies. I’m hoping we can also have a mechanical, assembly-style transformation — where the machine parts unfold and interlock, like vehicles or mechanical beasts transforming in Transformers. That would be amazing.
+HK — 12/1/2025 14:23
+This would be great! I wonder if it could be achieved by using an "exploded" or broken down image as a reference.
+Vladimir PRO
+
+ — 12/1/2025 16:47
+Test receipt
+caumagel
+
+ — 12/1/2025 19:29
+I think as the data stream is gradually increased it could create some pretty cool transformations
+Shikoba_86
+OP
+ — 12/1/2025 23:46
+the horse animation is awesomeKling Pro-Tip: From Boring landscape to Blockbuster (Text-to-Video VFX)
+Shikoba_86
+OP
+ — 11/27/2025 5:21
+Want to turn a simple landscape into a viral CGI clip? The secret isn't just saying "an explosion happens." You need to describe the sequence of events, the physics of destruction, and the camera's physical reaction to create a realistic reveal.
+
+We are taking a boring "empty road" and destroying it in three radically different, Hollywood-level ways using Text-to-Video.
+
+Here are the detailed prompts and the Universal Templates so you can apply these effects to any setting!
+Shikoba_86
+OP
+ — 11/27/2025 5:22
+The "Subterranean Emergence" (Slow & Textured) - recommended 10s
+
+Instead of a fast pop-up, this technique creates a slow, terrifying emergence that emphasizes scale and heavy textures. We need to see the ground fighting back.
+
+Kling Prompt Example: Wide cinematic shot of a desolate asphalt road at dusk. The ground begins to quake violently, causing cracks to spiderweb across the tarmac. Massive chunks of realistic asphalt, concrete, and dense earth slowly explode upwards in thick, heavy clouds of dust and smoke. A colossal, grotesque subterranean kaiju slowly pushes its way out of the widening crater, its armored scales covered in dirt and debris, roaring silently. Debris rains back down. Hyper-realistic textures, dramatic low-angle lighting, immense scale.
+
+Universal Template:
+
+Fixed: Wide cinematic shot of a [Setting]. The ground begins to quake violently, causing cracks to spiderweb. Massive chunks of [Ground Material] slowly explode upwards in thick, heavy clouds of dust. A [Colossal Monster/Object] slowly pushes its way out of the widening crater, [Description of Details/Debris]. Hyper-realistic textures, dramatic low-angle lighting, immense scale.
+
+Variables: [Setting], [Ground Material], [Colossal Monster/Object], [Description of Details/Debris] 
+The "Crash Sequence" (Visceral Impact & Reveal)
+
+This script focuses on the sheer violence of the impact hitting the camera. We describe the shockwave as a physical force of wind and debris that blinds the lens, followed by a tense push into the unknown.
+
+Kling Prompt Example: Wide cinematic shot of a quiet road. Suddenly, a massive alien spacecraft plunges from the sky and violently impacts the center of the road. A cataclysmic shockwave of hurricane-force wind, dense dust, and debris blasts directly into the camera lens. The camera shakes uncontrollably and is momentarily blinded by the thick, choking dust cloud. As the shaking subsides, the camera slowly pushes forward into the near-zero visibility fog. The massive, smoking metallic hull of the alien ship embedded in a deep crater looms slowly out of the dense dust. Visceral, chaotic, hyper-realistic physics.
+
+Universal Template:
+
+Fixed: Wide cinematic shot of a [Setting]. Suddenly, a [Falling Object] plunges from the sky and violently impacts the center. A cataclysmic shockwave of hurricane-force wind, dense dust, and debris blasts directly into the camera lens. The camera shakes uncontrollably and is momentarily blinded. As the shaking subsides, the camera slowly pushes forward into the near-zero visibility fog. The [Object's Details] embedded in a deep crater looms slowly out of the dense dust. Visceral, chaotic, hyper-realistic physics.
+
+Variables: [Setting], [Falling Object], [Object's Details]
+Shikoba_86
+OP
+ — 11/27/2025 5:31
+The "Ambush Jump Scare" (Whip Pan to Threat)
+
+Here we use a dynamic camera move to create a shock. The "Whip Pan" simulates a sudden realization, ending instantly on a terrifying, screen-filling threat.
+
+Kling Prompt Example: Eye-level shot of a quiet road. Suddenly, the camera executes a lightning-fast, blurred lateral whip-pan to the right. The movement stops abruptly to reveal a colossal T-Rex roaring directly into the lens. The dinosaur's gaping mouth, massive sharp teeth, and shaking uvula fill the entire screen, creating a terrifying sense of being eaten alive. Hyper-realistic saliva textures, aggressive motion, extreme fear.
+
+Universal Template:
+
+Fixed: Eye-level shot of a [Setting]. Suddenly, the camera executes a lightning-fast, blurred lateral whip-pan to the right. The movement stops abruptly to reveal a [Terrifying Creature/Threat] [Action: roaring/attacking] directly into the lens. The [Threat's Scary Features] fill the entire screen, creating a terrifying sense of danger. Hyper-realistic textures, aggressive motion, extreme fear.
+
+Variables: [Setting], [Terrifying Creature/Threat], [Action], [Threat's Scary Features]
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/27/2025 5:31
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/27/2025 5:31
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/27/2025 5:31
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/27/2025 5:31
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/27/2025 5:31
+caumagel
+
+ — 11/27/2025 7:32
+Wide cinematic shot of a modern city street at dusk. A shinobi in an Akatsuki cloak stands at the center, one hand tucked inside his sleeve forming a ninjutsu-sign pose as purple chakra swirls around his feet and cracks the ground beneath him. Suddenly, a gigantic blazing fireball materializes in the stormy sky and plunges toward the city. When it slams into the ground, it carves out a massive deep crater as a cataclysmic shockwave of fire, dust, and debris blasts outward, violently striking the camera. The camera shakes uncontrollably, momentarily blinded by the explosion’s intense light and hurricane-force wind. As the shaking subsides, the camera slowly pushes forward into the dense dust-filled fog. The part of the sphere in the hole slowly appeared. Visceral, chaotic, hyper-realistic physics
+This is the first time I used this prompt and I got a great result right away.
+King Gin
+
+ — 11/27/2025 8:00
+King Gin
+
+ — 11/27/2025 8:10
+Shikoba_86
+OP
+ — 11/27/2025 8:18
+with just one prompt you have already done the film's skeleton 😅
+Shikoba_86
+OP
+ — 11/27/2025 8:28
+very nice! You can also experiment with start and frame
+caumagel
+
+ — 11/27/2025 8:41
+Do you mean that I can use this prompt for S/E Frame as well, right?
+Shikoba_86
+OP
+ — 11/27/2025 8:43
+Yes you have to be very precise in creating the end frame but it can give you satisfaction
+caumagel
+
+ — 11/27/2025 8:48
+Nice! I’ll try creating it with the other two promt as well
+caumagel
+
+ — 11/27/2025 20:40
+I tried combining the 3rd promt and deepseek with S/E Frame and it was amazing. :blobOoh:
+Mark_5678 — 11/27/2025 22:28
+Cool! I'll be giving these a try. Thank you @Shikoba_86
+Shikoba_86
+OP
+ — 11/28/2025 5:43
+great test! If you have any suggestions for future topics you are free to suggest
+caumagel
+
+ — 11/28/2025 21:18
+I tried using the third prompt combined with a bit of DeepSeek and S/E Frames. Oh wow, what a surprise; this kind of result usually only happens when editing in CapCut :blobOoh:
+caumagel
+
+ — 11/28/2025 21:27
+caumagel
+
+ — 11/29/2025 0:51
+Variation from prompt number 1 (For me 5s is still the best)
+Shikoba_86
+OP
+ — 11/29/2025 4:32
+Great tests, transitions inside the eye will come soon as a guide.
+caumagel
+
+ — 11/29/2025 6:30
+@Shikoba_86  I accidentally tried one of DeepSeek’s suggestions and got an amazing description for the magical eyes. But what I really like is the last 2 seconds, where the demonic portal rises from beneath the water — it perfectly showcases the magic effect from the video above. I’ll adjust it in CapCut; it looks absolutely incredible
+Shikoba_86
+OP
+ — 11/29/2025 8:40
+It's good but we can do even better, I'll take inspiration from it for the next tips, the new tip on transformations will be released soon 😉
+caumagel
+
+ — 11/29/2025 8:47
+awesome, I'm thinking of creating a transformation style like a superhero or a bankai-style slash, or abilities from some famous anime like Bleach and Jujutsu Kaisen. I think it could become a huge trend in the future if combined with high-quality VFX effects.Kling Tip: Mastering Fantasy Flight
+Shikoba_86
+OP
+ — 11/24/2025 0:14
+Based on community requests, here is how to control the "Velocity" of your flying scenes.
+
+The secret to great flying shots in Image-to-Video is Camera Locking. We don't want the character to fly away from us; we want the camera attached to them like a GoPro, while the world moves.
+
+Here are 3 Universal Templates ranging from "Cruising" to "Acrobatics."
+Shikoba_86
+OP
+ — 11/24/2025 0:15
+LEVEL 1: The "Scenic Glide" (Low Velocity)
+
+Best for: Establishing shots, emotional moments, looking at the view.
+The movement is slow and smooth. The background moves gently, allowing the viewer to appreciate the details of the landscape.
+
+Prompt Example:
+The charachter ride a cloud.  A slow, smooth tracking shot moves forward at a gentle cruising speed. The character hovers effortlessly, hair floating gently in the breeze. The clouds in the background pass by slowly with zero motion blur. Peaceful atmosphere.
+
+Universal Template:
+
+Fixed: [Subject/Vehicle]. A slow, smooth tracking shot moves forward at a gentle cruising speed. The character hovers effortlessly. The [Background Elements] pass by slowly with zero motion blur. Peaceful atmosphere.
+
+Variable: [Subject/Vehicle], [Background Elements]
+LEVEL 2: The "Supersonic Lock" (High Velocity)
+
+Best for: Chases, escapes, battle charges.
+Here we introduce "Directional Blur". The background turns into streaks of color because the speed is so high.
+
+Prompt Example:
+The character ride a cloud. The character ride a cloud. The camera is rigidly locked to the character. Suddenly, they accelerate to supersonic speed. Only The background si comprime due to the extreme velocity.  the character's clothes and hair move for heavy Wind preassure . 
+
+Universal Template:
+
+Fixed: [Subject/Vehicle]. The character ride a cloud. The camera is rigidly locked to the character. Suddenly, they accelerate to supersonic speed. Only The background si comprime due to the extreme velocity.  the character's clothes and hair move for heavy Wind preassure . 
+
+Variable: [Subject/Vehicle], [Background Environment]
+LEVEL 3: Stunt Variation C - "The Slalom"
+
+Acrobatic Maneuver: Weaving left and right.
+This creates a zigzag motion, banking heavily to dodge invisible obstacles.
+
+Prompt Example:
+The character rides a magic cloud. The camera follows tight behind as they perform a high-speed slalom maneuver. The camera banks sharply left, then sharply right, weaving through the air. The horizon tilts aggressively with each turn, creating a dynamic "banking" sensation.
+
+Universal Template:
+
+Fixed: [Subject/Vehicle]. The camera follows tight behind as they perform a high-speed slalom maneuver. The camera banks sharply [Direction A], then sharply [Direction B], weaving through the air. The horizon tilts aggressively with each turn.
+
+Variable: [Subject/Vehicle], [Direction A/B] (e.g., Left/Right, Up/Down)
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/24/2025 0:19
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/24/2025 0:19
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/24/2025 0:19
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/24/2025 0:19
+Kling AI_Jessica — 11/24/2025 0:31
+It's cute!:BlobCuddle:
+Shikoba_86
+OP
+ — 11/24/2025 0:33
+with Kling, everything is cute ! 🫶🏻
+caumagel
+
+ — 11/24/2025 3:13
+This is a prompt I’m testing with level 3, sometimes it seems the sword part still gets distorted. If it’s possible to adjust so that the weapon and character are consistent, that would be great.
+My promt: A swordsman riding a glowing blue flying sword through the sky. The camera follows tight behind as he performs a high-speed slalom maneuver. The sword slices through the clouds at extreme velocity. The camera banks sharply left, then sharply right, weaving through the air just a few meters behind him. The horizon tilts aggressively with each turn, emphasizing the rapid banking motions. His long robes and hair stream violently backward from the intense wind pressure as he cuts impossibly sharp arcs through the sky, leaving a blue energy trail from the sword’s edge.
+Shikoba_86
+OP
+ — 11/24/2025 3:19
+Try to remove : emphasizing The rapid banking motions 
+
+You always have to customize the prompt a bit based on the starting image, if there are visual effects such as the trail, you have to add an instruction also to the trail 
+caumagel
+
+ — 11/24/2025 3:22
+Okay, I’ll give it a try, but I notice that the sword part often has errors, adding some details that make it different from the original.
+This is me testing with level 2, but I notice that when making 4 videos, the camera always moves away from the character, and the character disappears because of the background speed.
+A swordsman riding a glowing flying sword. The camera is rigidly locked to the character. Suddenly, he accelerates to supersonic speed. Only the background compresses and warps due to the extreme velocity. The character’s robes and long hair whip violently backward from the heavy wind pressure while the sword emits a blazing blue energy trail beneath his feet.
+caumagel
+
+ — 11/24/2025 3:52
+@Shikoba_86
+Shikoba_86
+OP
+ — 11/24/2025 6:25
+with this type of image you can remove: "and warps"
+caumagel
+
+ — 11/24/2025 6:54
+After recreating it 3 times with this prompt, I feel like this version is the most satisfying. If I keep the ‘warp/distortion’ style, the result always turns out like the examples above
+my promt: A swordsman riding a glowing flying sword, speeding forward at extreme velocity. The camera is rigidly locked to the swordsman and the entire length of the flying sword under his feet, keeping both perfectly centered in the frame. Suddenly, he accelerates to supersonic speed. The background blurs rapidly into long motion streaks due to the extreme velocity. The swordsman’s robes and long hair whip violently backward from the heavy wind pressure while the sword emits a blazing blue energy trail beneath him.
+Shikoba_86
+OP
+ — 11/24/2025 7:10
+Nice ! Unfortunately it is difficult to give 100% universal templates, you have to start from the base and adapt a little. But we are here on purpose to find a solution 😉
+caumagel
+
+ — 11/24/2025 7:14
+I think if there were a negative prompt feature, back in the day I could describe things with very few mistakes by requesting to avoid issues like the camera angle going too far or the image getting noisy.
+King Gin
+
+ — 11/27/2025 8:39
+Shikoba_86
+OP
+ — 11/27/2025 9:25
+great set ! work very well :blobcheer:
+caumagel
+
+ — 11/28/2025 5:41
+Shikoba_86
+OP
+ — 11/28/2025 5:42
+very clean!!
+caumagel
+
+ — 11/28/2025 5:42
+@Shikoba_86 I’ve noticed that if there is only one main subject along with accessories, the actions become smoother and the video turns out more accurate, compared to using multiple subjects in the same frame
+@Shikoba_86 If I choose the next topic I think I can teach about the topic of transforming robots from vehicles or mechanical animals like transformer.
+I wanted a variation of some of the sleek modular transforming mechanical beasts. I find that most of my videos are pretty good with supercars, but not so good with tanks or planes.
+Shikoba_86
+OP
+ — 11/28/2025 7:10
+ok ok I'll prepare something, it definitely helps to increase the video to 10 seconds but I'll prepare some epic transformationKling Tip: Master the "Digital Supermodel": How to Direct AI Photoshoot Poses
+Shikoba_86
+OP
+ — 11/18/2025 18:00
+Want to turn your AI characters into high-fashion models? The real secret isn't just the outfit, it's the "Micro-Posing"!
+
+Instead of generic prompts like "posing for camera," we use the "Directed Movement" technique. We describe specific body geometry (angles, chin tilts, shoulder placements) and how the model interacts with the light or the lens.
+
+This gives you that editorial, high-end magazine look and avoids stiff, robotic standing.
+
+Here are 4 ways to control your character's modeling skills, from sensual close-ups to the runway strut, complete with detailed prompts and templates
+Shikoba_86
+OP
+ — 11/18/2025 18:01
+The "Sensual Neck" Reveal (Soft Elegance)
+
+This prompt focuses on slow, fluid hand movements and exposing the neck line to create a delicate, intimate atmosphere.
+
+Prompt Example: The [subject] slowly tilts their head back and to the side, exposing the long line of their neck to the light. They slowly run their fingertips down from their ear to their collarbone in a gentle, lingering caress. They keep their eyes half-closed in a moment of pure feeling, then [glance at the camera].
+
+Prompt Template:
+
+Fixed: The [Subject] slowly tilts their head back and to the side, exposing the long line of their neck to the light. They slowly run their fingertips down from their ear to their collarbone in a gentle, lingering caress. They keep their eyes half-closed, then [Final Action].
+
+Variables: [Subject] (e.g., supermodel, woman in red dress), [Final Action] (e.g., glance at the camera, smile softly, bite their lip)
+The "Mysterious Shoulder" (Diagonal Composition)
+
+Perfect for portraits. We create a diagonal line by raising the shoulder, adding a "coquettish" or mysterious vibe while hiding part of the face.
+
+Prompt Example: The [subject] slowly raises their left shoulder high, bringing it close to their cheek. They tilt their head slightly to tuck their chin behind the raised shoulder, creating a diagonal composition. They look at the camera from this protected, mysterious angle with a [soft smile].
+
+Prompt Template:
+
+Fixed: The [Subject] slowly raises their [Side] shoulder high, bringing it close to their cheek. They tilt their head slightly to tuck their chin behind the raised shoulder, creating a diagonal composition. They look at the camera from this protected, mysterious angle with a [Expression].
+
+Variables: [Subject], [Side] (e.g., left, right), [Expression] (e.g., soft smile, intense gaze, neutral look)
+The "Statue Profile" (Sharp Editorial)
+
+This uses a sharp, sudden movement followed by a freeze. It mimics high-fashion photography where the model "hits" a pose and holds it.
+
+Prompt Example: The [subject] sharply turns their head 90 degrees to the right, showcasing their side profile. They freeze in this pose like a statue. The wind blows their hair back horizontally. The lighting emphasizes the silhouette of the [nose and jawline]. High-fashion editorial vibe.
+
+Prompt Template:
+
+Fixed: The [Subject] sharply turns their head 90 degrees to the [Direction], showcasing their side profile. They freeze in this pose like a statue. The wind blows their hair back horizontally. The lighting emphasizes the silhouette of the [Features]. High-fashion editorial vibe.
+
+Variables: [Subject], [Direction] (e.g., right, left), [Features] (e.g., nose and jawline, cheekbones, eyelashes)
+The "Runway Strut" (Dynamic Approach)
+
+This reverses the movement: instead of the subject staying still, the camera pulls back while the model marches forward aggressively.
+
+Prompt Example: The camera rapidly pulls back and zooms out. The [subject] instantly starts walking forward towards the camera with a confident, rhythmic runway strut. Their shoulders move with attitude. The frame expands to show their [outfit] in motion as they march forward.
+
+Prompt Template:
+
+Fixed: The camera rapidly pulls back and zooms out. The [Subject] instantly starts walking forward towards the camera with a confident, rhythmic [Walk Style]. Their shoulders move with attitude. The frame expands to show their [Clothing Detail] in motion as they march forward.
+
+Variables: [Subject], [Walk Style] (e.g., runway strut, power walk), [Clothing Detail] (e.g., outfit, long coat, silk dress)
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/18/2025 18:06
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/18/2025 18:06
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/18/2025 18:06
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/18/2025 18:07
+Mark_5678 — 11/18/2025 22:28
+I gave the first one a try, "Sensual Neck Reveal."  This one was generated with 2.5 Turbo/Standard. It works pretty well!   I'll be trying some of the others soon as well. Thank you for providing these tips.
+Mark_5678 — 11/18/2025 22:49
+Second prompt, "Mysterious Shoulder, 2.5 Turbo/Standard. This one also worked nicely. Thanks again.
+Shikoba_86
+OP
+ — 11/19/2025 0:48
+Thanks for sharing your tests, and I'm glad you find it useful
+Mark_5678 — 11/19/2025 22:38
+I've done the other two.  Here is the one for "Statue Profile. " The prompt worked well!
+Here is the last one, "Runway Strut".  Because I am making a country western line dancing video, I'll use these various clips as b-roll.  In this case, it came out a little bit more "cheekier" than expected, so I put a spoiler tag.  If you are underage or easily offended, it is recommended to not watch it.  I had extended it to 10s, and had the cowgirl turn around.  Here is the full prompt if you are interested...
+Warning, it turned out kind of "cheeky" but not too bad. Hence the spoiler tag. Kling VIDEO 2.5 Turbo Standard, 10s, prompt: 
+
+The camera rapidly pulls back and zooms out. The fashion model instantly starts walking forward towards the camera with a confident, rhythmic runway strut. Their shoulders move with attitude. The frame expands to show their blue denim shirt and black cutoff jeans shorts in motion as they march forward. Next, the model turns, and walks back several steps, showing off the back of the clothing. The camera follows the subject moving. Next, the model stops, puts her hands on her hips, turns and looks back at the camera 
+Mark_5678 — 11/19/2025 22:43
+Thank you for the great set of prompts!
+Shikoba_86
+OP
+ — 11/19/2025 22:46
+Excellent changes! I like to give simple but effective bases and then see additions and creative use of other users, great work
+Shikoba_86
+OP
+ — 11/19/2025 22:46
+Thanks to you 😉
+Mark_5678 — 11/19/2025 22:46
+Thank you!  Cool stuff!
+Mark_5678 — 11/21/2025 8:55
+Thank you.  I ended up re-doing the runway strut video so that it will be "suitable for all audiences" for my project.  I just changed the prompt to regular blue jeans instead of cutoff shorts. Works well.
+Shikoba_86
+OP
+ — 11/21/2025 9:06
+Great job!Kling Tip: Beyond "Smile": How to Control Any Character Expression in Kling
+Shikoba_86
+OP
+ — 11/10/2025 6:24
+Want to control every micro-expression of your AI characters in Kling? The real magic isn't just what they do, but how they feel!
+
+The "Sequential Emotional Prompting" technique is perfect for this. Instead of just telling Kling to "make them laugh," you describe the physical sequence of the emotion, frame by frame, starting from a neutral expression.
+
+This gives you incredible control and avoids those "jumpy," unnatural AI expressions.
+
+Here are 4 ways to control a character's expressions, from simple joy to emotional hysteria, complete with detailed prompts and templates! ⬇️
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/10/2025 6:24
+Shikoba_86
+OP
+ — 11/10/2025 6:24
+The "Gentle Smile" Escalation (Natural Joy)
+
+We start with a neutral expression and describe the small, natural muscle movements of a simple, happy smile.
+
+Prompt Example: A close-up of a [person's face] with a neutral expression. Slowly, their lips begin to curve upwards into a gentle, soft smile. Their eyes crinkle slightly at the corners, showing genuine happiness. The expression grows naturally and softly.
+
+Prompt Template:
+
+Fixed: A close-up of a [Subject's Face] with a neutral expression. Slowly, their lips begin to curve upwards into a gentle, soft smile. Their eyes crinkle slightly at the corners. The expression grows naturally and softly.
+
+Variable: [Subject's Face] (e.g., person's face, character's face, old person's face) 
+The "Hysterical Laugh" Escalation (Uncontrolled Joy)
+
+This prompt escalates the emotion, describing how laughter becomes overwhelming, physical, and almost uncontrolled.
+
+Prompt Example: A close-up of a [character's face] with a neutral expression. A small smile appears, which then breaks. Their mouth opens wide as they erupt into a hysterical, full-bellied laugh. Their eyes squint shut, their cheeks rise, and their head [tilts back slightly]. Their shoulders shake with the force of the laughter.
+
+Prompt Template:
+
+Fixed: A close-up of a [Subject's Face], neutral expression. A smile appears, then breaks. Their mouth opens wide, erupting into a hysterical laugh. Their eyes squint, cheeks rise, and their head [Action]. Their shoulders shake with laughter.
+
+Variables: [Subject's Face], [Action] (e.g., tilts back, shakes side to side)
+The "Awkward Laugh" (Social Discomfort)
+
+New template! Perfect for showing embarrassment. We describe a forced laugh while avoiding eye contact.
+
+Prompt Example: A close-up of a [person's face], neutral expression. They suddenly realize they are being watched. Their eyes widen slightly and [dart away to the side]. A forced, awkward smile stretches their lips. A short, breathy 'ha' sound escapes, then stops abruptly. They look down, their expression still frozen in the uncomfortable smile.
+
+Prompt Template:
+
+Fixed: A close-up of a [Subject's Face], neutral expression. Their eyes widen slightly and [Look Direction]. A forced, awkward smile stretches their lips. A short, breathy laugh escapes, then stops abruptly. Their expression remains frozen and uncomfortable.
+
+Variables: [Subject's Face], [Look Direction] (e.g., dart away to the side, look down, avoid eye contact)
+The "Crying/Laughing" (Emotional Transition)
+
+New template! The biggest challenge: blending two opposite emotions. The key is to describe the transition from one to the other.
+
+Prompt Example: A close-up of a [person's face]. They are crying, with [tears streaming down their cheeks]. Their expression shows sadness. Suddenly, a single sob hitches and turns into a small, choked laugh. The laugh builds, becoming hysterical and slightly manic, mixing with the sobs, even as fresh tears continue to run down their face. A look of [confusion and relief].
+
+Prompt Template:
+
+Fixed: A close-of a [Subject's Face]. They are crying, with [Tear Detail]. Their expression shows sadness. A sob hitches and turns into a small, choked laugh. The laugh builds, becoming hysterical, mixing with the sobs, even as fresh tears run down their face. A look of [Mixed Emotion].
+
+Variables: [Subject's Face], [Tear Detail] (e.g., tears streaming down their cheeks, eyes wet and red), [Mixed Emotion] (e.g., confusion, disbelief, hysteria)
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/10/2025 6:27
+Shikoba_86
+ changed the post title: Kling Tip: Beyond "Smile": How to Control Any Character Expression in Kling — 11/10/2025 6:28
+cat.55 — 11/10/2025 8:10
+Too bad " crying " and " sad " are getting blocked on my accountKling Tip: The "Hero VFX Walk" Variations
+Shikoba_86
+OP
+ — 11/14/2025 13:43
+Want that epic, cinematic shot where your hero walks calmly away from total chaos? This Image-to-Video technique is a classic.
+
+It's all about contrast: a calm, determined subject in slow-motion moving towards the camera, while a disastrous, fast-paced VFX event happens in the background.
+
+Here's the universal template and three disastrous variations! 
+
+The Universal "Hero Walk" Template
+This is an Image-to-Video prompt. You provide the image of your subject, and this prompt adds the motion and the background chaos.
+
+Fixed: The subject walks in slow-motion towards a static, fixed lens camera. They never flinch, their expression is determined. In the background, [VFX EVENT DESCRIPTION]. Cinematic, high detail, epic lighting.
+
+Variable: [VFX EVENT DESCRIPTION] 
+
+examples 🔽 
+Shikoba_86
+OP
+ — 11/14/2025 13:46
+The "Earthquake Apocalypse" VFX (Ground Shattering Chaos)
+This focuses on the ground beneath the city tearing apart—a fundamental breakdown of stability, with roads collapsing and buildings crumbling.
+
+Prompt Example: The subject walks in slow-motion towards a static, fixed lens camera. They never flinch, their expression is determined. In the background, [a catastrophic earthquake tears the city apart: the street cracks and collapses into a chasm, skyscrapers sway and crumble, and panicked crowds flee in terror]. Cinematic, high detail, epic lighting.
+
+Variable Part: a catastrophic earthquake tears the city apart: the street cracks and collapses into a chasm, skyscrapers sway and crumble, and panicked crowds flee in terror
+The "Cataclysmic Explosion" VFX (Fiery Destruction)
+This is the quintessential action hero shot. The world erupts behind our calm subject with a massive, fiery blast and mass panic.
+
+Prompt Example: The subject walks in slow-motion towards a static, fixed lens camera. They never flinch, their expression is determined. In the background, [a massive, fiery explosion erupts from a building, sending debris, smoke, and shattered glass flying everywhere. Panicked people in the background run and scream in terror#. Cinematic, high detail, epic lighting.
+
+Variable Part: a massive, fiery explosion erupts from a building, sending debris, smoke, and shattered glass flying everywhere. Panicked people in the background run and scream in terror
+The "Godzilla Attack" VFX (Monster Mayhem)
+Let's bring in a classic kaiju. A colossal monster rampaging through the city provides instant, visceral chaos and destruction.
+
+Prompt Example: The subject walks in slow-motion towards a static, fixed lens camera. They never flinch, their expression is determined. In the background, a colossal Godzilla-like monster stomps through the city, smashing skyscrapers, while military jets open fire. Cars are overturned, and huge plumes of smoke rise as people flee in terror. Cinematic, high detail, epic lighting.
+
+Variable Part: a colossal Godzilla-like monster stomps through the city, smashing skyscrapers, while military jets open fire. Cars are overturned, and huge plumes of smoke rise as people flee in terrorKling Tip: Mastering the "Whip" Effect: 3 Ways to Use High-Speed Pans & Racks
+Shikoba_86
+OP
+ — 11/12/2025 8:34
+Want to add energy, create seamless transitions, or land a perfect comedic surprise? Then you need to master the "Whip"—one of the most dynamic camera effects you can prompt.
+
+A "whip" uses extreme speed and motion blur to move the audience's eye. This can be a Whip-Pan (where the camera itself moves rapidly) or a Whip-Rack (where the focus moves rapidly).
+
+Here are 3 distinct ways to use this effect, complete with your prompts and the universal templates to build your own! ⬇️ 
+Shikoba_86
+OP
+ — 11/12/2025 8:36
+1 - The "Whip-Pan" (In-Scene Reveal)
+This is the perfect move for dramatic or comedic reveals. The camera stays in the same location but snaps to a new subject, often with a "what?!" or "oh!" moment.
+
+Prompt Example: The shot starts on a detective's intense face in a dark interrogation room. The camera then whip-pans rapidly right, with extreme motion blur, and lands on a nervous mickey mouse under a harsh light in the same room.
+
+Prompt Template:
+
+Fixed: The shot starts on [Subject 1] in [Location]. The camera then whip-pans rapidly [Direction], with extreme motion blur, and lands on [Subject 2] in the same room.
+
+Variables: [Subject 1], [Location], [Direction], [Subject 2]
+2.-The "Whip-Pan" (Seamless Scene Transition)
+This is a classic editing trick used to blend two different scenes into one continuous motion. The extreme motion blur of the whip-pan "hides" the cut, making the transition feel energetic and seamless.
+
+Prompt Example: The shot starts on the detective’s face, the camera whip-pans right — and seamlessly transitions into the next scene: a car speeding through the night.
+
+Prompt Template:
+
+Fixed: The shot starts on [Subject 1]. The camera whip-pans [Direction] with extreme motion blur — and seamlessly transitions into the next scene: [Subject 2 / New Scene].
+
+Variables: [Subject 1], [Direction], [Subject 2 / New Scene] 
+3 - The "Whip-Rack" (Rapid Focus Shift)
+This is a powerful technique where the camera movement is fixed, but the focus snaps from one subject to another. It's perfect for creating a sudden realization or shifting the audience's attention instantly.
+
+Prompt Example: The shot starts on the detective’s face in sharp focus, then with a whip-rack right, the focus snaps to a blurred spider crawling in the background.
+
+Prompt Template:
+
+Fixed: The shot starts on [Subject 1, Foreground] in sharp focus, while [Subject 2, Background] is out of focus. Then, with an instant 'whip-rack' (rapid focus pull), the focus snaps to [Subject 2, Background], making it the new, sharp focal point.
+
+Variables: [Subject 1, Foreground], [Subject 2, Background]Kling Tip: The Dynamic "Action Tracking Shot"
+Shikoba_86
+OP
+ — 11/6/2025 13:55
+Ready to capture incredible motion in your videos? The "Action Tracking Shot" is a fundamental technique for dynamic, professional-looking scenes. This is when the camera moves with your subject, matching its speed, creating an immersive sense of movement.
+
+By focusing on "Action Tracking" and clearly describing the perspective you want, you can achieve a wide range of thrilling shots!
+
+To show you how powerful and flexible this technique is, we are going to use the exact same scene for three different examples. The only thing we'll change is the wording of the prompt to control the framing and perspective of the shot.
+
+Our Base Scene: A beautiful girl with windblown hair rides a sleek, motorcycle in a high-speed chase through a desert canyon.
+
+Now, let's see the 3 variations!
+Shikoba_86
+OP
+ — 11/6/2025 14:01
+The "Wide" Action Tracking Shot (Emphasizing Scale & Environment)
+
+This variation positions the camera to show the subject and their epic environment. It's perfect for establishing the scene while still capturing the high-speed action.
+
+Prompt for Text-to-Video: 
+
+A beautiful girl with windblown hair rides a sleek, motorcycle in a high-speed chase through a desert canyon. A sweeping wide action tracking shot follows the motorcycle, keeping it in frame while emphasizing the massive scale of the canyon walls blurring past. Cinematic, high-speed, dynamic lighting.
+
+Prompt for Image-to-Video: 
+
+A sweeping wide action tracking shot follows the motorcycle, keeping it in frame while emphasizing the massive scale of the canyon walls blurring past. Cinematic, high-speed, dynamic lighting.
+
+Effect: A grand, sweeping shot that makes the subject feel fast, but also small against the epic landscape, providing context to the chase.
+
+Template:
+
+Fixed (Text-to-Video): 
+
+[Base Scene]. A sweeping wide action tracking shot follows the subject, emphasizing the massive scale of the [Environment Details] blurring past. Cinematic, high-speed, dynamic lighting.
+
+Fixed (Image-to-Video): 
+
+A sweeping wide action tracking shot follows the subject, emphasizing the massive scale of the [Environment Details] blurring past. Cinematic, high-speed, dynamic lighting.
+
+Variables: [Base Scene], [Environment Details] 
+The "Heroic Frontal" Action Tracking Shot (Emphasizing Power & Determination)
+
+This shot places the camera directly in front of the subject, tracking backward as they approach. It creates an incredibly heroic and powerful feel, emphasizing their drive and determination.
+
+Prompt for Text-to-Video: 
+
+A beautiful girl with windblown hair rides a sleek, motorcycle in a high-speed chase through a desert canyon. A dynamic frontal action tracking shot moves backwards, keeping her perfectly centered as she charges forward, weaving between rock formations, her gaze fixed ahead. Cinematic, intense, strong focus.
+
+Prompt for Image-to-Video: 
+
+A dynamic frontal action tracking shot moves backwards, keeping her perfectly centered as she charges forward, weaving between rock formations, her gaze fixed ahead. Cinematic, intense, strong focus.
+
+Effect: A powerful, direct shot that puts the audience in the path of the action, making the rider appear unstoppable and heroic.
+
+Template:
+
+Fixed (Text-to-Video): 
+
+[Base Scene]. A dynamic frontal action tracking shot moves backwards, keeping [him/her/it] perfectly centered as they [Subject's Action], their gaze fixed ahead. Cinematic, intense, strong focus.
+
+Fixed (Image-to-Video):
+
+ A dynamic frontal action tracking shot moves backwards, keeping [him/her/it] perfectly centered as they [Subject's Action], their gaze fixed ahead. Cinematic, intense, strong focus.
+
+Variables: [Base Scene], [him/her/it], [Subject's Action]
+The "Intense Close-Up" Action Tracking Shot (Emphasizing Emotion & Speed)
+
+This variation pushes the camera in close, focusing intensely on the character. We can also add keywords like "shaky" or "handheld" to make it feel more visceral and chaotic, conveying raw emotion and the blur of speed.
+
+Prompt for Text-to-Video: 
+
+A beautiful girl with windblown hair rides a sleek, motorcycle in a high-speed chase through a desert canyon. A tight, shaky, handheld-style action tracking shot follows her, focusing intensely on her determined face and windblown hair, the canyon background is an extreme blur. Visceral, high-energy, emotional focus.
+
+Prompt for Image-to-Video: 
+
+A tight, shaky, handheld-style action tracking shot follows her, focusing intensely on her determined face and windblown hair, the canyon background is an extreme blur. Visceral, high-energy, emotional focus.
+
+Effect: A very intense, personal, and high-energy shot that makes the audience feel the speed and the character's raw emotion and determination.
+
+Template:
+
+Fixed (Text-to-Video): 
+
+[Base Scene]. A tight, shaky, handheld-style action tracking shot follows [Subject], focusing intensely on their [Key Feature, e.g., determined face, hands on controls], the background is an extreme blur. Visceral, high-energy, emotional focus.
+
+Fixed (Image-to-Video): 
+
+A tight, shaky, handheld-style action tracking shot follows [Subject], focusing intensely on their [Key Feature, e.g., determined face, hands on controls], the background is an extreme blur. Visceral, high-energy, emotional focus.
+
+Variables: [Base Scene], [Subject], [Key Feature]
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/6/2025 14:06
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/6/2025 14:06
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/6/2025 14:06
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/6/2025 14:06
+Shikoba_86
+OP
+ — 11/6/2025 14:19
+Feel free to share your ideas about these tips! You can also show us any work you’ve created using the tips :blobcat_salute:  @here
+Picassong.ai — 11/7/2025 2:13
+thank you
+Shikoba_86
+OP
+ — 11/7/2025 2:23
+If you want to show some of your tests or variants we are happy to see them 😉
+Picassong.ai — 11/7/2025 2:54
+Yes~ I'll definitely test it out and share my results!!
+Vladimir PRO
+
+ — 11/7/2025 11:00
+test new receipt
+Shikoba_86
+OP
+ — 11/7/2025 22:01
+Great ! Awesome video
+Kosmo — 11/8/2025 5:28
+The camera swings up and around the vehicle in a fast arc, whipping past the rider on the roof. It briefly moves overhead, showing the chaotic landscape rushing below, then dives behind the rig, following its trail of rising dust clouds as another armored vehicle jumps off a dune in the distance. The whole sequence maintains intense kinetic energy, raw vibration, and desert grit.Kling Tip: The 'Reveal Shot' Camera Movement
+Shikoba_86
+OP
+ — 11/4/2025 5:51
+Want to add a touch of suspense and discovery to your Kling videos? The "Reveal Shot" is the perfect camera movement for this! It starts with a close-up on a detail, and then, through a specific camera move, unveils a surprising context or element that completely changes the scene's perception.
+
+Here are 3 creative ways to use the "Reveal Shot," complete with detailed prompts and templates to build your own! ⬇️ 
+Shikoba_86
+OP
+ — 11/4/2025 5:54
+The "Pull Back" Reveal (Unveiling the Dramatic Context)
+
+
+Start with an intimate detail or a significant object, and then use a slow camera "pull back" to unveil the vast and surprising environment.
+
+Prompt Example:
+
+Extreme close-up on a single tear rolling down a weathered face, expressionless. The camera slowly pulls back, drifting past abandoned rusty machinery, to reveal the figure is a lone android sitting amidst a silent, overgrown cityscape at twilight.
+
+Prompt Template:
+
+         
+Fixed:
+
+Extreme close-up on [Initial Detail: Face/Object]. The camera slowly pulls back to reveal [Full Subject] in [Surprising Context/Vast Environment].
+
+          
+Variables:
+
+[Initial Detail], [Full Subject], [Surprising Context/Vast Environment] 
+The "Pan" Reveal (Unveiling the Unexpected Neighbor)
+
+
+Start with an intense close-up, then "pan" (move sideways) to unveil a humorous or bizarre element that was hidden just out of frame.
+
+Prompt Example: Extreme close-up on the intense eyes of a knight, visible through the narrow slit of his steel helmet. The camera holds on his gaze, then smoothly pans right to reveal his "mighty steed" is a ridiculously small, fluffy pony chewing boredly on a thistle.
+
+Prompt Template:
+
+            
+Fixed:
+
+Extreme close-up on [Subject Detail: e.g., eyes, hands]. The camera smoothly pans [left/right] to reveal [Hidden/Unexpected Element Alongside].
+
+             
+Variables:
+
+[Subject Detail], [left/right], [Hidden/Unexpected Element Alongside] 
+3 .The "Pull Back & Tilt" Reveal (Unveiling the Epic Destination)
+
+Begin with a close-up on a key action, then pull the camera back and "tilt" it up or down to reveal the true, magnificent scale of the environment.
+
+Prompt Example: Close-up on a pirate's rough hands tracing a line on an ancient, unfurled treasure map on the wooden deck of a ship. The camera pulls back, rising up and tilting forward over the pirate's shoulder, to reveal a vast turquoise sea and a massive, epic volcanic island shrouded in mist on the horizon.
+
+Prompt Template:
+
+            
+Fixed:
+
+Close-up on [Action/Ground Detail]. The camera pulls back and then tilts [up/down] to reveal [The true scale/magnificence of the environment].
+
+             
+Variables:
+
+[Action/Ground Detail], [up/down], [The true scale/magnificence of the environment] 
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/4/2025 6:46
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/4/2025 6:46
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/4/2025 6:46
+Shikoba_86
+ pinned a message to this channel. See all pinned messages. — 11/4/2025 6:46
+Kling AI
+
+ — 11/5/2025 23:16
+Feel free to share your ideas about these tips! You can also show us any work you’ve created using the tips :blobcat_salute:  @hereKling Tip: Making Hyperspeed Shots in Kling 2.5 Turbo
+Kling AI
+
+
+OP
+ — 11/3/2025 2:22
+Ever wondered how those cool wide angle hyperspeed shots are made? 👀
+The new model makes them smoother, faster, and way more dynamic — all while keeping stability and realism in motion.
+
+Here are some prompt examples you can have a try 👇 
+Kling AI
+
+
+OP
+ — 11/3/2025 2:23
+1️⃣ prompt：Slow-motion sci-fi disaster. A giant wave hundreds of meters high surges from right to left. Foreground: a small rover fleeing.
+Background: oceanic planet, storm clouds, distant glaciers breaking.
+Cold blue-gray tones, high contrast, low saturation, hard light for water texture. Wide-angle long shot, tracking rover, then slow-motion as wave crashes.
+2️⃣ prompt：Real-time speed. A small gray spacecraft races through a dense asteroid belt, blue thrusters blazing. Rocks of all sizes rush past as it narrowly dodges massive boulders.
+Style: realistic sci-fi, cool blue tones, sharp light, mid-high saturation. Dynamic low-angle tracking with fast zooms and handheld shake creates a tense, cinematic feel. 
+Kling AI
+
+
+OP
+ — 11/3/2025 18:23
+3️⃣ prompt: Real-time playback. Wide shot of a ruined city: collapsed towers, fires blazing, storm clouds with lightning. Camera drops fast from the sky over burning streets and tilted buildings. Smoke and dust fill the air. A lone hero walks out of the ruins, silhouetted by fire. Camera shifts front: his face is dirty with dust and sweat, eyes firm, a faint smile. Wind blows, debris rises. Extreme close-up: his eyes reflect the approaching enemy. Music and drums hit. Final wide shot: fire forms a blazing halo behind him — reborn in flames with epic cinematic vibe.
+Kling AI
+ changed the post title: Making Hyperspeed Shots in Kling 2.5 Turbo — 11/3/2025 18:30
+Kling AI_Jessica
+ pinned a message to this channel. See all pinned messages. — 11/3/2025 23:05
+Kling AI_Jessica
+ pinned a message to this channel. See all pinned messages. — 11/3/2025 23:05
+Kling AI_Jessica
+ pinned a message to this channel. See all pinned messages. — 11/3/2025 23:05
+Kling AI
+ changed the post title: Kling Tip: Making Hyperspeed Shots in Kling 2.5 Turbo — 11/4/2025 19:42DeadMan
+official.deadman
+
+This is the start of the #🦄│community-tutorials channel. This channel is for sharing tutorial links only. Your post must include a video link or text with a link.  
+
+Text-only posts will be automatically removed. Only posts with a link or text plus a link are allowed.  
+
+If a tutorial helped you, share it so others can benefit too. Want to discuss a tutorial? Go to #tutorial-talk. Let’s keep this space clean and useful for everyone.
+3Daizy🌼
+
+ — 3/19/2025 16:06
+https://3daizy.com/cracking-the-code/
+3DAiZY
+Cracking the Code of DizzyDizzy #klingai
+Kling AI’s DizzyDizzy effect is designed to make things twirl—but what if your subject isn’t a person or animal? When I tried making spaghetti spin on a fork, it failed… over and over. 🍝❌
+
+
+
+Turns out, AI needs a reference point. After some trial and error, I cracked the secret—tricking AI into seeing a plate. Want to know how? Read on and save...
+Cracking the Code of DizzyDizzy #klingai
+Cherry Blackcloud
+
+ — 3/19/2025 20:51
+Not sure if my 360 degree angles of any object video belongs here.  https://klingai.com/?skitId=731456032811122712
+KLING AI
+KLING AI, tools for creating imaginative images and videos, based on state-of-art generative AI methods.
+3Daizy🌼
+
+ — 3/21/2025 13:53
+https://3daizy.com/ai-video-generation-fails-why-model-1-6-doesnt-understand-candles-but-1-5-gets-it-right/
+3DAiZY
+AI Video Generation Fails: Why Model 1.6 Doesn’t Understand Candles...
+Creating realistic AI-generated videos is an evolving challenge, and one of the biggest tests for any model is how well it can simulate real-world physics. To test this, I attempted to generate a time-lapse video of a globe-shaped candle melting naturally in Kling AI using Model 1.6 and Model 1.5.
+
+
+
+After 19 different prompt variations, we cam...
+AI Video Generation Fails: Why Model 1.6 Doesn’t Understand Candles...
+3Daizy🌼
+
+ — 3/21/2025 14:00
+https://3daizy.com/🎧-kling-ais-new-feature-ai-sound-quick-tutorial-tips/
+https://youtube.com/shorts/Nr37bsvHdpc
+YouTube
+3DaizyOfficial
+🎧 Kling AI - How to Use the New AI Sound Feature (Simple Tutorial)
+Image
+Kling Moderator
+
+ — 3/21/2025 17:49
+Forwarded
+https://youtu.be/gjAokpfeaSM?si=lXxtNldyHu6hJD1A 
+This is a great video for 5-10 second loops
+YouTube
+AI2Play
+How to Create Looping Videos with Kling AI
+Image
+#💬｜general-chat  •  3/21/2025
+dongtech — 3/22/2025 10:29
+Tutorial for Koreans
+https://www.youtube.com/watch?v=AhqZB2jAA9Y&t=31s
+YouTube
+동테크
+(클링 AI) 중국 1짱 생성형 인공지능 사용법
+Image
+https://www.youtube.com/watch?v=jrJllDPVfKs&t=9s
+YouTube
+동테크
+[KLING] 클링AI 충격 업데이트, 사진만 넣으면 영상 끝?!
+Image
+Cherry Blackcloud
+
+ — 3/23/2025 16:37
+What is the fastest way to create a looping video?https://klingai.com/?workId=274743259304509 
+KLING AI
+KLING AI, tools for creating imaginative images and videos, based on state-of-art generative AI methods.
+3Daizy🌼
+
+ — 3/24/2025 15:21
+https://www.youtube.com/shorts/3OVBVJFczDE
+YouTube
+3DaizyOfficial
+Bring Zepeto avatars to life with #KlingAI! 🎬✨
+Image
+3Daizy🌼
+
+ — 3/28/2025 20:57
+For iPhone users without App Store access, who want to download videos via their browser.
+3Daizy🌼
+
+ — 4/15/2025 1:00
+https://youtube.com/shorts/C7jRPvLYVLU?feature=share
+YouTube
+3DaizyOfficial
+@Kling_ai New with 2.0 launch: Multi Elements - ADD (video to video)
+Image
+https://youtube.com/shorts/IN28hDFm8co?feature=share
+YouTube
+3DaizyOfficial
+@Kling_ai New with 2.0 launch: Multi Elements - REMOVE (video to vi...
+Image
+https://youtube.com/shorts/_0OM_u-gDoQ?feature=share
+YouTube
+3DaizyOfficial
+@Kling_ai   New with 2.0 launch: Multi Elements - SWAP (video to vi...
+Image
+3Daizy🌼
+
+ — 4/15/2025 6:28
+Forwarded
+Hi everyone I've had early access to the 2.0 model and recorded an entire tutorial covering every new feature on the platform and how to use them. Enjoy 😉 https://www.youtube.com/watch?v=6-iROQHV3rk
+YouTube
+Astrovah
+Kling 2.0 Has Arrived And It's INCREDIBLE! - Generate AMAZING AI Vi...
+Image
+#💬｜general-chat  •  4/15/2025
+Kling Moderator
+
+ — 4/16/2025 5:35
+Forwarded
+I'm not sure if there any other "official" guides.  Here in this discord there are several servers, one entitled "community-tutorials" and the other "tutorial-talk".  As for having an outline for structuring your prompts, you might search for Youtube tutorials.  This recent one seems pretty good... https://youtu.be/EWBsU0fSgPs?si=uAyDl6WHfLMXzCGT
+YouTube
+Roboverse
+STOP Wasting Credits & Become a Kling AI Master in 8 Minutes
+Image
+#💬｜general-chat  •  4/16/2025
+Kling Moderator
+
+ — 4/16/2025 6:38
+Forwarded
+https://youtu.be/G7Cc3Du5m3w
+YouTube
+Mathieu Ibanez
+Kling 2.0 est le MEILLEUR Générateur de Vidéo IA (du moment) !
+Image
+Kling Moderator
+
+ — 4/21/2025 10:30
+Forwarded
+https://youtu.be/p2F6lBnEWoU
+YouTube
+Atomic Gains
+KLING 2.0 INSANE VFX Videos | How-To Tutorial | 4 Pro Methods
+Image
+Kling Moderator
+
+ — 4/24/2025 4:44
+Forwarded
+This Youtube video gets into the nitty gritty for highlighting in green with precision, and can involve clicking in the image multiple times.   It might give you enough tips to focus on swapping only the head/face. Good luck! https://youtu.be/X3jSyiIpZto?feature=shared
+YouTube
+Astrovah
+Kling 1.6 Multi-Elements - Swap, Add And Delete Objects From Videos...
+Image
+#🎛️｜new-features-chat  •  4/24/2025
+Forwarded
+Tao Prompts has a video that discusses camera angles and movement. https://youtu.be/cHpgSf7LKEE?feature=shared
+YouTube
+Tao Prompts
+EVERY Camera Movement Prompt in Kling Ai (in 6 Minutes)
+Image
+#🎛️｜new-features-chat  •  4/24/2025
+Kling Moderator
+
+ — 5/1/2025 4:44
+https://youtu.be/16_yMxrG-so?si=F8Tg3ULzIB8WTEar
+YouTube
+Tao Prompts
+Create Consistent Ai Characters From ONE Image (in 7 minutes)
+Image
+3Daizy🌼
+
+ — 5/9/2025 13:53
+https://youtu.be/L3zLC0mCo_U
+YouTube
+3DaizyOfficial
+KlingAI KOLORS Beginner Guide – All Buttons + Text-to-Image Basics
+Image
+Kling Moderator
+
+ — 5/21/2025 9:54
+https://youtu.be/k7_W_WhqJTw?si=kloqba6ov3_xz6Md
+YouTube
+Digital Magic
+Insane Kling AI 2.0 Hacks
+Image
+3Daizy🌼
+
+ — 5/30/2025 12:04
+https://youtu.be/84IFp_FQIN0?si=37aMYnYdDTqmG2EX
+YouTube
+3DaizyOfficial
+KlingAI KOLORS Beginner Guide – Part 2
+Image
+Kling Moderator
+
+ — 6/2/2025 18:53
+Forwarded
+Some helpful prompt info https://youtu.be/cb1ZCMBDmPk?si=TBl9cfVrNAkj45NA
+YouTube
+OpenArt
+Why Kling 2.1 Might Be the Best AI Video Model for You - Complete R...
+Image
+Kling Moderator
+
+ — 6/14/2025 10:01
+Forwarded
+There is guide for camera movements: https://www.youtube.com/watch?v=IiyBo-qLDeM&t=83s (not for AI, but same thing 😄 )
+YouTube
+StudioBinder
+Ultimate Guide to Camera Movement — Every Camera Movement Techniq...
+Image
+#💬｜general-chat  •  6/13/2025
+This is not a Kling tutorial, but good information on camera movements
+3Daizy🌼
+
+ — 6/21/2025 17:14
+https://youtu.be/IhJnedwPhuw?si=155fMk5E1g76O5Dt
+YouTube
+3DaizyOfficial
+KlingAI DeepSeek Tutorial – Smarter Prompts & Animations
+Image
+Kling Moderator
+
+ — 6/30/2025 10:37
+Forwarded
+Plenty of youtube videos out there that explain how it works.. https://youtu.be/l0kDjteBRVw?si=6zly4VkKuVT5hTe_
+YouTube
+Creative AI Show
+Make Fashion Come Alive - Fashion Model Video Generator - Kling AI ...
+Image
+#💬｜general-chat  •  6/30/2025
+AI Wonderland — 7/3/2025 2:26
+I made a tutorial for creating 1-minute seamless POV ride loop videos.
+
+With Kling 1.6's frame specification feature, you can make really interesting videos. If anyone's interested, please check it out:
+https://note.com/ai_wonderland/n/na926ebbef1f2 
+note（ノート）
+Mastering POV Videos with Kling AI: A Pro's Guide to 1-Minute Cinem...
+Introduction Welcome to the forefront of AI-powered video production. This tutorial is a comprehensive guide to leveraging three powerful AIs—Gemini, ImageFX, and Kling AI—to create immersive 1-minute POV (Point-of-View) videos that deeply engage your audience. By the time you finish this tuto
+Mastering POV Videos with Kling AI: A Pro's Guide to 1-Minute Cinem...
+Litany of Ignition
+
+ — 7/17/2025 21:51
+I didn't realize there was a tutorial section. I should have posted this here in the first place.  Motion Control Guide -  https://youtu.be/FDiaQKZfOlw
+YouTube
+Litany of Ignition
+Kling VS Will Smith - Motion Control Guide
+Image
+3Daizy🌼
+
+ — 8/4/2025 3:17
+Forwarded
+I made a guide for the new Labs feature.   https://youtu.be/RepKYFAat5g
+YouTube
+Litany of Ignition
+Kling Labs Guide
+Image
+#🎞️│community-showcases  •  8/3/2025
+pixaroma
+
+ — 9/26/2025 21:27
+https://youtu.be/WaqXTg_avUM?si=O0eSo1y8goVEDAJf
+YouTube
+AI2Play
+Kling AI Start & End Frame | How to Make Longer AI Videos
+Image
+JaketheJakester
+
+ — 10/16/2025 5:39
+https://www.youtube.com/watch?v=WaqXTg_avUM  A Wealth of knowledge in this video and others you have created, Thank You Very Much!!
+YouTube
+AI2Play
+Kling AI Start & End Frame | How to Make Longer AI Videos
+Image
+Litany of Ignition
+
+ — 10/19/2025 23:35
+Halloween AI pumpkin carving tutorial with Nano Banana and Gemini
+
+https://youtu.be/d-VO-QMt53k
+YouTube
+Litany of Ignition
+Halloween AI pumpkin carving tutorial with Nano Banana and Gemini
+Image
+Paul Nahualica — 11/22/2025 17:13
+https://youtu.be/F7sXGNkvq8A  Spanish Tutorial - Playmation ADS (Halloween & Christmas) 🎬
+ 👁️
+YouTube
+AI Nature
+¡Crea el Anuncio PERFECTO con Inteligencia Artificial para tu nego...
+Image
+HK — 12/1/2025 13:31
+https://www.youtube.com/watch?v=TmdObmkpfyA
+YouTube
+Theoretically Media
+The "Nano Banana" of AI Video is Here!
+Image
+pixaroma
+
+ — 12/4/2025 7:45
+Kling O1 for Creators: Advanced AI Video Editing Made Easy
+https://www.youtube.com/watch?v=AF9NfQehuG0
+YouTube
+AI2Play
+Kling O1 for Creators: Advanced AI Video Editing Made Easy
+Image
+Bottomline AI — 12/13/2025 1:35
+Runway vs Kling O1: The BEST AI for removing objects from video?
+https://youtu.be/4CqFI6pRSWg
+YouTube
+CLAUDIA_AI
+Runway vs Kling O1: The BEST AI for removing objects from video?
+DeadMan
+official.deadman
+
+amphibians_o — 5/19/2025 6:19
+Editing is so much fun. Thanks Kling.
+https://youtube.com/shorts/LdBePJHhM00
+YouTube
+Z&A Frequency
+too much pepper? 胡椒かけすぎ？suno【英語歌詞洋楽風...
+Image
+Kling Moderator
+
+ — 5/19/2025 6:19
+This is the right spot for showcasing your videos. Please don't double post it in other channels, thank you
+Mr Not Perfect — 5/19/2025 6:20
+Ah my bad. Thank you so much
+Kang•Vidz — 5/19/2025 6:53
+Warning : Too much cuteness at the amusement park! With Kling Ai. 🙏🏻😊
+https://youtube.com/shorts/8jE5J7iA2YE?si=fQZRnsTp15TYVsTe
+YouTube
+Kang•Vidz
+ちっちゃい子が入った？！かわいすぎ〜！#klingai #...
+Image
+Worty_hero Mateusz_Warsaw_Poland
+
+ — 5/19/2025 8:52
+https://youtu.be/TQG8xMZ90s8
+YouTube
+itamkio
+Mystical Being
+Image
+Bony — 5/19/2025 10:28
+Scripted & Generate Image with ChatGPT 04-mini  → Image to Video with Kling 1.6 🤩🤩🤩
+https://youtu.be/WIfchohUCg8
+YouTube
+DailyContrastHub
+Minnie’s Cozy Bake-Off: 3D Cat Baker’s Heartwarming Village Adv...
+
+Veilnine — 5/19/2025 12:37
+https://youtu.be/8XDDkmG40Iw
+YouTube
+Veilnine
+Luminara - Music Video (Retro-Cyberpunk Fantasy)
+
+9cons.ai — 5/19/2025 12:45
+New vídeo made with Midjourney + Kling.ai
+Ale 🪐 — 5/19/2025 14:57
+https://x.com/AleRVG/status/1924556652604490069
+AlexandrIA (@AleRVG) on X
+🥀🌷 Animali Botanici 🪻🌸
+
+Here’s how we made it 🧵
+AlexandrIA (@AleRVG) on X
+
+X•5/19/2025 13:03
+Dumenks — 5/19/2025 20:25
+https://youtu.be/VHaVdqp7RRQ
+YouTube
+Dumenks
+12 Elemental Goddesses | Epic AI Fantasy Music Video
+Image
+Przemotar — 5/20/2025 3:38
+https://www.youtube.com/watch?v=N9FoBhe3ST4
+YouTube
+Alter Worlds AI
+Heroes of Might and Magic 3 Units in Real Life - Tower | AI Generated
+Image
+tbonez4395 — 5/20/2025 4:07
+Second video using kling ai. This time a long form
+
+https://youtu.be/p5XhysslDK0?si=Y757zv6eLDEgz82J
+
+appreciate your kind feedback and support
+YouTube
+Maximus Gingerbread The Great
+🐾✨ Maximus & The Lost Firefly Crystal ✨🌿 | An Enchanted F...
+Image
+Renatiltskin
+
+ — 5/20/2025 6:06
+Hey guys! Check my latest video ❤️ If you'd like share some feedback https://www.youtube.com/shorts/qHeyEjXrQr4
+YouTube
+Artificial Mind Maze
+Tomb Raider from PS1 to Real Life! Lara Croft in AI Transformation ...
+
+playmaker29 — 5/20/2025 7:02
+https://youtu.be/JfHy_iGGKZo?si=MW02xeVwGl91CDIo
+YouTube
+Playmakers In The Faith
+Sports Spiritual Arena
+Image
+Felix
+
+ — 5/20/2025 7:37
+https://www.tiktok.com/@sporky08/video/7467563219536596246?is_from_webapp=1&sender_device=pc
+TikTok
+TikTok · sporky
+
+d_studioproject
+
+ — 5/20/2025 9:02
+https://x.com/D_studioproject/status/1924857548722802726
+DStudioproject (@D_studioproject)
+The Call to Arms
+A cinematic AI retelling of 1 Samuel 11:7.
+Inspired by prophecy. Forged in fear.
+Powered by @Imagine_aiart &amp; @Kling_ai
+
+#klingAI #AIart #aifilm #aimovie
+Image
+
+X•5/20/2025 8:59
+Xydose — 5/20/2025 9:22
+I like to create full videos using ai, but I really enjoy connecting drone footage together using ai frame to frame, Kling has always been my choice for this.
+https://youtu.be/gXEYhh0HcIM?si=7cOhpnkIThUvYJpB
+YouTube
+Xydose
+RIVERWALK – Wabash to Lagro | Cinematic Drone Journey (DJI Avata ...
+Image
+SampadArtX — 5/20/2025 11:17
+https://youtu.be/Ea8G5Ty8aSc
+YouTube
+Sampad Vibe AI
+1890 Germany’s FORBIDDEN Castle SECRETS | Retro Cars, Steampunk Q...
+
+NewCompetiton — 5/20/2025 11:38
+https://youtu.be/M1qalCKnE4w?si=lnnhMYzneTgJeUIE
+YouTube
+AnimeGuessWork
+Heated Anime Fight Preview
+Image
+Aibo — 5/20/2025 17:10
+Navio espacial / The starship
+https://vimeo.com/1086216338?activityReferer=1
+Vimeo
+Aibo
+Navio estelar
+Image
+batudude — 5/21/2025 2:38
+https://www.youtube.com/watch?v=NZHxFWl-uNM
+YouTube
+Batuhan Yıldız
+Inferno
+Image
+Sith Daddy — 5/21/2025 6:28
+https://x.com/aionixfilm/status/1925177044691763221
+Aionix Film (@aionixfilm)
+QT your layered world 🔊The hidden layers of this megastructure pulse with alien light—each ring a world, each world a riddle. Created with
+@freepik.
+Image
+
+X•5/21/2025 6:09
+marcello — 5/21/2025 6:47
+Just released a new short, would love to know what you think
+
+https://www.instagram.com/p/DJ6qrkSt5_z/?hl=en
+
+marcelloisme
+“Instinct” is a short film that explores what happens when primal survival instincts collide with the demands of modern life. It asks a simple but unsettling question: is becoming “civilised” really an upgrade, or does it strip away something essential to who we are?
+
+The story follows a Neanderthal who stumbles upon an unexpected, surre...
+
+
+Instagram
+AnthonyStephenMark
+
+ — 5/21/2025 7:24
+Ladies 'n Gentlemen...
+We have a winner! 9/10 score.
+And the first Ai video model to reach this level of temporal coherence.
+Well done Kling dev team.
+MysticShadow — 5/21/2025 8:07
+https://youtube.com/shorts/h6bHXtQw7S8
+YouTube
+Mystic Shadows 2020
+Shocking Hero Transformations of 2025! #shorts #marvel #anime
+Image
+Propmaster — 5/21/2025 8:09
+See a 100 year old stuffed Heron come back to life with the help of @Kling AI . I used photogrammetry to capture the subject and then Kling to work its magic using just the last frame of my render as reference.
+Trippy Trekker — 5/21/2025 8:53
+https://youtu.be/Xux1yLTRRU0
+YouTube
+Trippy Trek
+Unwind Your Mind: A Psychedelic Journey to Self-Discovery
+Image
+Mark_5678 — 5/21/2025 10:00
+That is amazing!
+A dream by — 5/21/2025 10:52
+Hello
+My new AI film
+DREAM 02
+Dreaming of Water
+https://vimeo.com/1086255236
+Vimeo
+Diego Martins
+DREAM 02: Dreaming of Water
+Image
+AI Rare Visions — 5/21/2025 12:09
+Quick test: Kling 2.0 vs 1.6 (close-up to detail shot)
+2.0 delivers smoother character movement, more expressive microgestures, better camera behavior and sharper detail.
+1.6 still holds up, but feels stiffer and less refined overall.
+📌 Verdict: 2.0 is clearly a step up in all key aspects. 
+
+https://www.youtube.com/shorts/YXt6CtOEcEg
+YouTube
+AI Rare Visions
+🎬 KLING 1.6 VS KLING 2.0 - FROM CLOSE-UP TO DETAIL
+Image
+DiOriginal — 5/21/2025 12:31
+Hi team Kling!
+It's wednesday, and I just wanted to share my latest creation made with Kling AI! Feel free to check it out, like, and share it if you enjoy it. I've included links to both the French and English versions:
+    •  French Version: https://youtu.be/HwOM1NKjao4
+    • English Version: https://youtu.be/wB_3AhyHBEA
+Thanks for checking it out and for your amazing tool! If you like what you see, feel free to hit that subscribe button to catch more creative projects coming to my YouTube channel!
+YouTube
+System D
+L'IA donne une VOIX aux oubliés  | Prayers for Our People (Mayotte...
+
+YouTube
+System D_Us
+AI Gives VOICE to the Forgotten | Prayers for Our People (Mayotte) ...
+
+Xaeon
+
+ — 5/21/2025 15:47
+https://www.youtube.com/shorts/HRO9dx9v2eU
+YouTube
+Xaeon
+Lamborghini | A.I Ads
+Image
+https://www.youtube.com/watch?v=DRzaPrnkYy4&list=PLUTXkjfGSmKjG-OA16EJS482FEYUZPXvY
+YouTube
+Xaeon
+Breath
+Image
+Kling Moderator
+
+ — 5/21/2025 17:51
+Forwarded
+https://youtu.be/3woNg6wD4to?si=9JXv5ZuqrLGYTDuL
+YouTube
+Ran D
+Running to Meri
+Image
+#💬｜general-chat  •  5/21/2025
+ShoogerGG — 5/21/2025 20:00
+https://youtube.com/shorts/4wP-zB22Gro?si=99T_agDO3AEsoy0-
+YouTube
+AI MEDIAGEN
+MySelf Hyper Realistic AI Generated by KlingAI #ai #shorts #aigener...
+Image
+MilaTova — 5/22/2025 4:25
+Hi Friends,
+I have incredibly exciting news: my AI-generated video, "Breaking Chains, Embracing Light," has made it to the finals of the international Artiver competition!
+And get this amazing prize: the video will be showcased in Times Square, New York! This is a huge achievement, and you can help me get there.
+Now we enter the decisive stage: the audience vote. Your support is significant, so we can bring this project to a win.
+How to Vote? It's Super Easy:
+Click this link now: 
+https://www.instagram.com/reel/DJ4YfyIRgVE/?igsh=MXByaXp6Y2I2ZXQzdA==
+Hit "Like" (❤️) on the reel!
+Let's break boundaries together!
+A huge thank you in advance for your support and encouragement! 
+artiver.ai
+🏆 Artiver AI Art Awards – Motion Art Finalist
+“Breaking Chains, Embracing Light” by Keren Sohezki @sohezki
+
+🎬 Category: Storytelling – Character & Environment Narratives
+
+What happens when chains fall and creativity soars?
+
+Breaking Chains, Embracing Light is a cinematic meditation on transformation. With fluttering wings atop the ...
+Likes
+226
+
+Instagram
+ODDY STUDIO — 5/22/2025 5:58
+https://youtu.be/cXn1O4zNK4Q?si=axoN3lifATx41U36
+YouTube
+ODDY STUDIO
+Masterpiece Art Runway: Part 2
+Image
+ghostlayer — 5/22/2025 7:46
+"Money Money" (Full AI short film)
+first contribution as a member of Prompt Club (France)
+https://youtu.be/ILw2Bp3DGjM
+Midjourney V7
+Kling 1.6
+Udio (Soundtrack)
+Adobe After Effects (Tracking + Typography)
+Adobe Premiere (Edit + Color Grading)
+YouTube
+Renovatio
+MONEY MONEY • Root of all Evil
+Image
+Shubh — 5/22/2025 7:57
+https://youtube.com/shorts/lPdbVlu28_4
+A friend of mine asked me to share this ahead in the group. He made using Kling.
+YouTube
+White Colon
+What If You Followed Your Childhood Dream? #shorts
+
+Warp Relic — 5/22/2025 9:02
+https://youtube.com/shorts/5HRKjYfD7WE
+YouTube
+Warp Relic
+POV: you're a worker building the Great Wall of China 221 BC
+Image
+Cinder — 5/22/2025 9:15
+A 2 minutes short-film i made today. I am very impressed with the consistency AI can show for the character even though its still not perfect.
+
+https://youtu.be/Acesu7tUrsA?si=wBMphohVN564zZDc 
+YouTube
+Cinder's Journey
+What’s Left– Short Film made with AI
+
+Jordan Daniel Chesney — 5/22/2025 9:20
+A little AI commercial I just made with Kling 2.0. Enjoy!
+https://www.linkedin.com/posts/do-control_your-data-isnt-a-parting-gift-lock-it-down-activity-7331302832366624768-3YlY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEICBNQBBjFbbNkf64vP30zFGq2Oh1Cr1eI
+Your data isn’t a parting gift. Lock it down with DoControl. | Do...
+INTRODUCING: THE THIEF (🔊 turn sound on!)
+
+Meet Bill. He’s the finance guy from your team – the one that everybody loves. Bill just landed a shiny new role at your biggest competitor. Before handing in his badge, he quietly shared ALL of the companies’ financial models with his personal email, straight from Google Workspace. No alerts,...
+Your data isn’t a parting gift. Lock it down with DoControl. | Do...
+RockyPaw — 5/22/2025 10:13
+https://www.youtube.com/watch?v=wQbH95qv5kE
+YouTube
+RockyPaw Beats
+Between Good and Evil - Music Video
+Image
+fukUuLookinAt — 5/22/2025 10:22
+thats amazing
+M4rtle — 5/22/2025 11:28
+Leonardo + Kling + Hedra + Udio
+
+https://www.youtube.com/watch?v=k8dFOybcrQw
+YouTube
+M4rtle
+Death Reborn - Cycle [Death Metal]
+Image
+ShoogerGG — 5/22/2025 16:34
+https://youtube.com/shorts/Clz96k7LAwQ?si=ttgKRDmmJFRfZjhA
+YouTube
+AI MEDIAGEN
+Kling AI Hyper Realistic Al  #ai #shorts #aigenerated #hypereality ...
+Image
+Gus_Artman_AI — 5/22/2025 16:38
+Hi guys this my Entry for kling challenge, enjoy https://youtu.be/H84L-5fnEVQ?si=PLGLaZu-RVHD3m0q
+YouTube
+GUS ARTMAN AI
+The Farmer's Tale: Life in Miniature 4K
+Image
+Mariano. — 5/22/2025 17:39
+I loved how Kling 2.0 handled the dance!
+https://www.instagram.com/reel/DJ9jVTZPDJn/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+
+detucoestudio
+Color pops. Rhythm moves. Inspiration hits at DeTuco.🔥
+
+música @nicki.nicole @milo.j
+
+#music #musicvideo #trending #fashion #viral #insta #detuco #animation #new #trendingnow #fyp #explore #StreetStyle #NeonAesthetics #creativity
+
+Instagram
