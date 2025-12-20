@@ -1,7 +1,7 @@
 import { FlowCanvas } from "@/components/FlowCanvas";
 import { Sidebar } from "@/components/Sidebar";
 import { Button } from "@/components/ui/button";
-import { LangGraphSimulator, AgentState } from "@/lib/langgraph";
+import { AgentOrchestrator, ProjectState, AgentType } from "@/lib/agents";
 import { AgentConfigModal } from "@/components/AgentConfigModal";
 import { Plus, Terminal } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
@@ -9,42 +9,56 @@ import { useLocation } from "wouter";
 
 export default function Dashboard() {
   const [location, setLocation] = useLocation();
-  const [agentState, setAgentState] = useState<AgentState | null>(null);
+  const [projectState, setProjectState] = useState<ProjectState | null>(null);
   const [isConfigOpen, setIsConfigOpen] = useState(false);
-  const simulatorRef = useRef<LangGraphSimulator | null>(null);
+  const orchestratorRef = useRef<AgentOrchestrator | null>(null);
 
-  // Check for auto-start from Create page
+  // Check for auto-start or load existing project
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const autoStart = params.get('start');
     const prompt = params.get('prompt');
+    const projectId = params.get('id');
 
-    if (autoStart === 'true' && prompt && !simulatorRef.current) {
-      const sim = new LangGraphSimulator(prompt);
-      simulatorRef.current = sim;
-      
-      sim.subscribe((state) => {
-        setAgentState(state);
-      });
+    if (!orchestratorRef.current) {
+      let orchestrator: AgentOrchestrator;
 
-      sim.start();
+      try {
+        if (projectId) {
+          // Load existing project
+          orchestrator = new AgentOrchestrator('', projectId);
+        } else if (autoStart === 'true' && prompt) {
+          // Create new project
+          orchestrator = new AgentOrchestrator(prompt);
+          // Update URL to include the new ID without reloading
+          const newUrl = new URL(window.location.href);
+          newUrl.searchParams.set('id', orchestrator['state'].id);
+          window.history.pushState({}, '', newUrl);
+        } else {
+          return; // No project to load or create
+        }
+
+        orchestratorRef.current = orchestrator;
+        
+        orchestrator.subscribe((state) => {
+          setProjectState(state);
+        });
+
+        if (autoStart === 'true') {
+          orchestrator.startWorkflow();
+        }
+      } catch (e) {
+        console.error("Failed to initialize orchestrator:", e);
+        // Handle error (e.g., project not found)
+      }
     }
   }, []);
 
-  // Map LangGraph state to UI steps
-  const getActiveStep = (agent: string) => {
-    switch(agent) {
-      case 'researcher': return 0;
-      case 'writer': return 1;
-      case 'visualizer': return 2;
-      case 'publisher': return 3;
-      case 'end': return 4;
-      default: return 0;
-    }
-  };
-
-  const activeStep = agentState ? getActiveStep(agentState.currentAgent) : 0;
-  const lastMessage = agentState?.messages[agentState.messages.length - 1];
+  const activeStep = projectState ? projectState.currentStep : 0;
+  
+  // Get the currently active agent to show its logs
+  const activeAgent = projectState?.agents.find(a => a.status === 'working') || projectState?.agents[projectState.agents.length - 1];
+  const lastMessage = activeAgent?.logs[activeAgent.logs.length - 1];
 
   return (
     <div className="flex h-screen bg-[#05050a] text-white overflow-hidden font-sans">
@@ -65,17 +79,17 @@ export default function Dashboard() {
         </div>
 
         {/* Agent Status Overlay */}
-        {agentState && (
+        {projectState && activeAgent && (
           <div className="absolute top-4 left-8 z-50 bg-[#0f1016]/90 backdrop-blur border border-blue-500/30 rounded-lg p-4 w-80 shadow-2xl">
             <div className="flex items-center gap-2 mb-2 text-blue-400 font-mono text-xs uppercase tracking-wider">
               <Terminal className="h-3 w-3" />
-              LangGraph Runtime
+              Agent Orchestrator
             </div>
             <div className="font-medium text-sm text-white mb-1">
-              Node: {agentState.currentAgent.toUpperCase()}
+              Agent: {activeAgent.name} ({activeAgent.type.toUpperCase()})
             </div>
             <div className="text-xs text-gray-400 font-mono h-20 overflow-y-auto flex flex-col-reverse">
-              {agentState.messages.slice().reverse().map((msg, i) => (
+              {activeAgent.logs.slice().reverse().map((msg, i) => (
                 <div key={i} className="mb-1">&gt; {msg}</div>
               ))}
             </div>
@@ -85,7 +99,11 @@ export default function Dashboard() {
         {/* Main Canvas */}
         <FlowCanvas activeStep={activeStep} />
 
-        <AgentConfigModal open={isConfigOpen} onOpenChange={setIsConfigOpen} />
+        <AgentConfigModal 
+          open={isConfigOpen} 
+          onOpenChange={setIsConfigOpen} 
+          orchestrator={orchestratorRef.current}
+        />
 
         {/* Bottom Actions */}
         <div className="absolute bottom-8 right-8 z-50 flex items-center gap-4">

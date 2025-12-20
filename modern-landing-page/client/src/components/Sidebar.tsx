@@ -8,8 +8,20 @@ import { Link, useLocation } from "wouter";
 export function Sidebar() {
   const [location] = useLocation();
   const [isPlatformOpen, setIsPlatformOpen] = useState(true);
+  const [recentProjects, setRecentProjects] = useState<{id: string, name: string}[]>([]);
 
   const isActive = (path: string) => location === path;
+
+  // Load recent projects
+  useState(() => {
+    const indexJson = localStorage.getItem('viewcreator_projects_index');
+    if (indexJson) {
+      const projects = JSON.parse(indexJson)
+        .sort((a: any, b: any) => b.updatedAt - a.updatedAt)
+        .slice(0, 5);
+      setRecentProjects(projects);
+    }
+  });
 
   return (
     <div className="w-64 h-screen bg-[#0f1016] border-r border-white/5 flex flex-col text-gray-300">
@@ -45,10 +57,34 @@ export function Sidebar() {
           <div className="px-2 py-1 text-[10px] font-semibold text-gray-600 uppercase tracking-wider">Platform</div>
           
           <Link href="/dashboard">
-            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/dashboard') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
+            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/dashboard') && !location.includes('id=') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
               <LayoutGrid className="h-4 w-4" /> Post
             </Button>
           </Link>
+
+          {recentProjects.length > 0 && (
+            <Collapsible defaultOpen>
+              <CollapsibleTrigger asChild>
+                <Button variant="ghost" className="w-full justify-between hover:bg-white/5 mt-2">
+                  <span className="flex items-center gap-3 text-xs font-semibold text-gray-500 uppercase tracking-wider">Recent Projects</span>
+                  <ChevronDown className="h-3 w-3" />
+                </Button>
+              </CollapsibleTrigger>
+              <CollapsibleContent className="pl-2 space-y-1">
+                {recentProjects.map(project => (
+                  <Link key={project.id} href={`/dashboard?id=${project.id}`}>
+                    <Button 
+                      variant="ghost" 
+                      className={`w-full justify-start gap-3 text-sm truncate ${location.includes(project.id) ? 'bg-blue-600/10 text-blue-500' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}
+                    >
+                      <div className="h-2 w-2 rounded-full bg-blue-500/50" />
+                      <span className="truncate">{project.name}</span>
+                    </Button>
+                  </Link>
+                ))}
+              </CollapsibleContent>
+            </Collapsible>
+          )}
 
           <Collapsible open={isPlatformOpen} onOpenChange={setIsPlatformOpen}>
             <CollapsibleTrigger asChild>

@@ -12,7 +12,17 @@ import { useLocation } from "wouter";
 export default function Create() {
   const [mode, setMode] = useState<'text' | 'image' | 'video'>('text');
   const [prompt, setPrompt] = useState("");
+  const [activeTab, setActiveTab] = useState<'canvas' | 'history'>('canvas');
+  const [history, setHistory] = useState<{id: string, name: string, updatedAt: number}[]>([]);
   const [_, setLocation] = useLocation();
+
+  // Load history when tab changes
+  const loadHistory = () => {
+    const indexJson = localStorage.getItem('viewcreator_projects_index');
+    if (indexJson) {
+      setHistory(JSON.parse(indexJson).sort((a: any, b: any) => b.updatedAt - a.updatedAt));
+    }
+  };
 
   const handleGenerate = () => {
     if (!prompt) return;
@@ -141,24 +151,63 @@ export default function Create() {
         {/* Preview Area (Right) */}
         <div className="flex-1 bg-[#05050a] flex flex-col">
           <div className="h-14 border-b border-white/5 flex items-center px-6 gap-4">
-            <Button variant="ghost" className="text-white border-b-2 border-blue-500 rounded-none h-14 px-2 hover:bg-transparent">
+            <Button 
+              variant="ghost" 
+              className={`${activeTab === 'canvas' ? 'text-white border-b-2 border-blue-500' : 'text-gray-500 hover:text-white'} rounded-none h-14 px-2 hover:bg-transparent transition-colors`}
+              onClick={() => setActiveTab('canvas')}
+            >
               <Layout className="mr-2 h-4 w-4" /> Canvas
             </Button>
-            <Button variant="ghost" className="text-gray-500 hover:text-white rounded-none h-14 px-2 hover:bg-transparent">
+            <Button 
+              variant="ghost" 
+              className={`${activeTab === 'history' ? 'text-white border-b-2 border-blue-500' : 'text-gray-500 hover:text-white'} rounded-none h-14 px-2 hover:bg-transparent transition-colors`}
+              onClick={() => { setActiveTab('history'); loadHistory(); }}
+            >
               <Clock className="mr-2 h-4 w-4" /> History
             </Button>
           </div>
           
-          <div className="flex-1 flex items-center justify-center p-10">
-            <div className="border-2 border-dashed border-white/10 rounded-2xl w-full max-w-2xl aspect-square flex flex-col items-center justify-center text-center p-10">
-              <div className="h-16 w-16 rounded-2xl bg-[#1a1b26] flex items-center justify-center mb-6">
-                <Sparkles className="h-8 w-8 text-gray-600" />
+          <div className="flex-1 p-10 overflow-y-auto">
+            {activeTab === 'canvas' ? (
+              <div className="h-full flex items-center justify-center">
+                <div className="border-2 border-dashed border-white/10 rounded-2xl w-full max-w-2xl aspect-square flex flex-col items-center justify-center text-center p-10">
+                  <div className="h-16 w-16 rounded-2xl bg-[#1a1b26] flex items-center justify-center mb-6">
+                    <Sparkles className="h-8 w-8 text-gray-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-2">Ready to Create?</h3>
+                  <p className="text-gray-500 max-w-md">
+                    Select a model from the sidebar, adjust your settings, and describe what you want to create to get started.
+                  </p>
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Ready to Create?</h3>
-              <p className="text-gray-500 max-w-md">
-                Select a model from the sidebar, adjust your settings, and describe what you want to create to get started.
-              </p>
-            </div>
+            ) : (
+              <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {history.length === 0 ? (
+                  <div className="col-span-full text-center text-gray-500 py-20">
+                    No history found. Create your first agent!
+                  </div>
+                ) : (
+                  history.map((project) => (
+                    <Card 
+                      key={project.id} 
+                      className="bg-[#1a1b26] border-white/5 p-4 cursor-pointer hover:border-blue-500/50 transition-colors group"
+                      onClick={() => setLocation(`/dashboard?id=${project.id}`)}
+                    >
+                      <div className="flex items-center justify-between mb-3">
+                        <div className="h-8 w-8 rounded bg-blue-500/20 flex items-center justify-center text-blue-500">
+                          <Wand2 className="h-4 w-4" />
+                        </div>
+                        <span className="text-[10px] text-gray-500 font-mono">
+                          {new Date(project.updatedAt).toLocaleDateString()}
+                        </span>
+                      </div>
+                      <h4 className="font-bold text-white mb-1 truncate">{project.name}</h4>
+                      <p className="text-xs text-gray-400">Click to resume workflow</p>
+                    </Card>
+                  ))
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>
