@@ -1,0 +1,120 @@
+import { motion } from "framer-motion";
+import { Bot, FileText, Image as ImageIcon, Scissors, Send, Search } from "lucide-react";
+
+interface StepProps {
+  icon: React.ElementType;
+  label: string;
+  status: 'pending' | 'active' | 'completed';
+  delay?: number;
+}
+
+function FlowStep({ icon: Icon, label, status, delay = 0 }: StepProps) {
+  return (
+    <div className="flex flex-col items-center gap-3 relative z-10">
+      <motion.div
+        initial={{ scale: 0.8, opacity: 0.5 }}
+        animate={{ 
+          scale: status === 'active' ? 1.1 : 1, 
+          opacity: status === 'pending' ? 0.5 : 1,
+          borderColor: status === 'active' ? '#3b82f6' : status === 'completed' ? '#3b82f6' : '#334155'
+        }}
+        transition={{ duration: 0.5, delay }}
+        className={`h-16 w-16 rounded-full bg-[#0f1016] border-2 flex items-center justify-center
+          ${status === 'active' ? 'border-blue-500 shadow-[0_0_20px_rgba(59,130,246,0.5)]' : 
+            status === 'completed' ? 'border-blue-500' : 'border-slate-700'}`}
+      >
+        <Icon className={`h-6 w-6 ${status === 'pending' ? 'text-slate-500' : 'text-white'}`} />
+      </motion.div>
+      <span className={`text-sm font-medium ${status === 'pending' ? 'text-slate-500' : 'text-white'}`}>
+        {label}
+      </span>
+    </div>
+  );
+}
+
+export function FlowCanvas({ activeStep }: { activeStep: number }) {
+  // 5 Steps: Research -> Content -> Visual -> Clipping -> Publish
+  // activeStep 0 = Planning (Start)
+  // activeStep 1 = Researching
+  // ...
+  
+  return (
+    <div className="flex-1 bg-[#05050a] relative overflow-hidden flex items-center justify-center">
+      {/* Background Grid */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+      
+      {/* Connecting Line (SVG) */}
+      <svg className="absolute inset-0 w-full h-full pointer-events-none">
+        {/* Path for 5 nodes distributed in a wave pattern */}
+        <motion.path
+          d="M 150 400 C 250 400, 250 300, 350 300 C 450 300, 450 400, 550 400 C 650 400, 650 300, 750 300 C 850 300, 850 400, 950 400"
+          fill="none"
+          stroke="#1e293b"
+          strokeWidth="2"
+          strokeDasharray="5 5"
+        />
+        <motion.path
+          d="M 150 400 C 250 400, 250 300, 350 300 C 450 300, 450 400, 550 400 C 650 400, 650 300, 750 300 C 850 300, 850 400, 950 400"
+          fill="none"
+          stroke="#3b82f6"
+          strokeWidth="2"
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: activeStep / 5 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+        />
+      </svg>
+
+      {/* Steps */}
+      <div className="relative w-full max-w-6xl h-[600px]">
+        {/* Step 1: Research */}
+        <div className="absolute left-[120px] top-[370px]">
+          <FlowStep 
+            icon={Search} 
+            label="Research" 
+            status={activeStep >= 1 ? (activeStep === 1 ? 'active' : 'completed') : 'pending'} 
+          />
+        </div>
+
+        {/* Step 2: Content (Script) */}
+        <div className="absolute left-[320px] top-[270px]">
+          <FlowStep 
+            icon={FileText} 
+            label="Script" 
+            status={activeStep >= 2 ? (activeStep === 2 ? 'active' : 'completed') : 'pending'} 
+            delay={0.2} 
+          />
+        </div>
+
+        {/* Step 3: Visuals */}
+        <div className="absolute left-[520px] top-[370px]">
+          <FlowStep 
+            icon={ImageIcon} 
+            label="Visuals" 
+            status={activeStep >= 3 ? (activeStep === 3 ? 'active' : 'completed') : 'pending'} 
+            delay={0.4} 
+          />
+        </div>
+
+        {/* Step 4: Clipping */}
+        <div className="absolute left-[720px] top-[270px]">
+          <FlowStep 
+            icon={Scissors} 
+            label="Clipping" 
+            status={activeStep >= 4 ? (activeStep === 4 ? 'active' : 'completed') : 'pending'} 
+            delay={0.6} 
+          />
+        </div>
+
+        {/* Step 5: Publish */}
+        <div className="absolute left-[920px] top-[370px]">
+          <FlowStep 
+            icon={Send} 
+            label="Publish" 
+            status={activeStep >= 5 ? (activeStep === 5 ? 'active' : 'completed') : 'pending'} 
+            delay={0.8} 
+          />
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,52 +1,52 @@
+import { Toaster } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import NotFound from "@/pages/NotFound";
+import { Route, Switch } from "wouter";
+import ErrorBoundary from "./components/ErrorBoundary";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Create from "./pages/Create";
+import Profiles from "./pages/Profiles";
+import PlatformTools from "./pages/PlatformTools";
+import ClippingTool from "./pages/ClippingTool";
 
-import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import Dashboard from './components/Dashboard';
-import ClippingTool from './components/ClippingTool';
-import VisualsAgent from './components/VisualsAgent';
-import SEOTools from './components/SEOTools';
-import AgentsManager from './components/AgentsManager';
-import Analytics from './components/Analytics';
-import { ViewType } from './types';
 
-const App: React.FC = () => {
-  const [currentView, setCurrentView] = useState<ViewType>(ViewType.DASHBOARD);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-
-  const renderView = () => {
-    switch (currentView) {
-      case ViewType.DASHBOARD:
-        return <Dashboard />;
-      case ViewType.CLIPPING:
-        return <ClippingTool />;
-      case ViewType.VISUALS:
-        return <VisualsAgent />;
-      case ViewType.SEO:
-        return <SEOTools />;
-      case ViewType.AGENTS:
-        return <AgentsManager />;
-      case ViewType.ANALYTICS:
-        return <Analytics />;
-      default:
-        return <Dashboard />;
-    }
-  };
-
+function Router() {
   return (
-    <div className="flex h-screen overflow-hidden bg-[#030712]">
-      <Sidebar 
-        currentView={currentView} 
-        onNavigate={setCurrentView} 
-        isOpen={isSidebarOpen}
-        toggle={() => setIsSidebarOpen(!isSidebarOpen)}
-      />
-      <main className="flex-1 overflow-y-auto relative p-6 lg:p-10">
-        <div className="max-w-7xl mx-auto w-full">
-          {renderView()}
-        </div>
-      </main>
-    </div>
+    <Switch>
+      <Route path={"/"} component={Home} />
+      <Route path={"/dashboard"} component={Dashboard} />
+      <Route path={"/create"} component={Create} />
+      <Route path={"/profiles"} component={Profiles} />
+        <Route path="/platform-tools" component={PlatformTools} />
+      <Route path="/clipping-tool" component={ClippingTool} />
+      <Route path={"/404"} component={NotFound} />
+      {/* Final fallback route */}
+      <Route component={NotFound} />
+    </Switch>
   );
-};
+}
+
+// NOTE: About Theme
+// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
+//   to keep consistent foreground/background color across components
+// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+
+function App() {
+  return (
+    <ErrorBoundary>
+      <ThemeProvider
+        defaultTheme="light"
+        // switchable
+      >
+        <TooltipProvider>
+          <Toaster />
+          <Router />
+        </TooltipProvider>
+      </ThemeProvider>
+    </ErrorBoundary>
+  );
+}
 
 export default App;

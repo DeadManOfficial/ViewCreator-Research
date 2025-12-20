@@ -1,127 +1,128 @@
+import { Sidebar } from "@/components/Sidebar";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Progress } from "@/components/ui/progress";
+import { Scissors, Upload, Video, Wand2 } from "lucide-react";
+import { useState } from "react";
 
-import React, { useState } from 'react';
-import { Scissors, Video, Link as LinkIcon, Search, Loader2, Sparkles, Star } from 'lucide-react';
-import { analyzeContentForHooks } from '../services/geminiService';
-import { ViralHook } from '../types';
+export default function ClippingTool() {
+  const [url, setUrl] = useState("");
+  const [processing, setProcessing] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [logs, setLogs] = useState<string[]>([]);
 
-const ClippingTool: React.FC = () => {
-  const [url, setUrl] = useState('');
-  const [isProcessing, setIsProcessing] = useState(false);
-  const [hooks, setHooks] = useState<ViralHook[]>([]);
-
-  const handleProcess = async () => {
+  const handleClip = async () => {
     if (!url) return;
-    setIsProcessing(true);
+    setProcessing(true);
+    setLogs(["Initializing FFmpeg...", "Connecting to OpenAI Whisper..."]);
     
-    // Simulate Video -> Transcription phase
-    // In a real app, this would call a backend with FFmpeg and Whisper
-    const mockTranscript = "Alright guys, let me tell you the absolute secret to growing your business with AI workflows. Most people think you just need a better model, but that's wrong. You need modular agents. I've been vibe coding for 10 hours a day and the results are insane. I've seen 400% engagement spikes just by switching to a human-in-the-loop system. Don't be the guy who gets left in the mud while everyone else is using the magic juice.";
-    
-    try {
-      const results = await analyzeContentForHooks(mockTranscript);
-      setHooks(results);
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setIsProcessing(false);
+    // Simulate the clipping pipeline
+    const steps = [
+      "Downloading video via yt-dlp...",
+      "Extracting audio track...",
+      "Transcribing with Whisper (timestamping)...",
+      "Analyzing sentiment for 'high energy' moments...",
+      "Found 3 viral clips. Cropping to 9:16 (4K)...",
+      "Rendering final assets (ProRes 4444)..."
+    ];
+
+    for (let i = 0; i < steps.length; i++) {
+      await new Promise(r => setTimeout(r, 1500));
+      setLogs(prev => [...prev, steps[i]]);
+      setProgress(((i + 1) / steps.length) * 100);
     }
+
+    setProcessing(false);
   };
 
   return (
-    <div className="animate-in slide-in-from-bottom-4 duration-500 max-w-4xl mx-auto">
-      <header className="mb-10 text-center">
-        <h1 className="text-4xl font-bold tracking-tight mb-4">Clipping Agent</h1>
-        <p className="text-gray-400">Extract high-intensity moments from long-form video automatically.</p>
-      </header>
-
-      <div className="glass p-8 rounded-[40px] mb-10 shadow-2xl">
-        <div className="relative mb-6">
-          <LinkIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500" size={20} />
-          <input 
-            type="text" 
-            placeholder="Paste YouTube or Loom URL..."
-            className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all text-lg"
-            value={url}
-            onChange={(e) => setUrl(e.target.value)}
-          />
+    <div className="flex h-screen bg-[#05050a] text-white overflow-hidden font-sans">
+      <Sidebar />
+      
+      <div className="flex-1 flex flex-col p-8 overflow-y-auto">
+        <div className="mb-8">
+          <h1 className="text-2xl font-bold mb-2 flex items-center gap-2">
+            <Scissors className="h-6 w-6 text-blue-500" />
+            Agentic Clipping System
+          </h1>
+          <p className="text-gray-400">
+            Automated long-form to short-form repurposing using FFmpeg & Whisper.
+          </p>
         </div>
-        <button 
-          onClick={handleProcess}
-          disabled={isProcessing || !url}
-          className={`w-full py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 transition-all ${
-            isProcessing || !url ? 'bg-gray-800 text-gray-500 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-500 text-white accent-glow'
-          }`}
-        >
-          {isProcessing ? (
-            <><Loader2 size={24} className="animate-spin" /> Analyzing Viral Potential...</>
-          ) : (
-            <><Sparkles size={24} /> Extract Hooks</>
-          )}
-        </button>
-      </div>
 
-      {isProcessing && (
-        <div className="space-y-4">
-          <div className="glass p-6 rounded-3xl animate-pulse flex items-center gap-4">
-            <div className="w-12 h-12 bg-white/5 rounded-xl" />
-            <div className="flex-1 space-y-2">
-              <div className="h-4 bg-white/10 rounded-full w-1/4" />
-              <div className="h-3 bg-white/5 rounded-full w-2/3" />
-            </div>
-          </div>
-          <div className="glass p-6 rounded-3xl animate-pulse flex items-center gap-4">
-            <div className="w-12 h-12 bg-white/5 rounded-xl" />
-            <div className="flex-1 space-y-2">
-              <div className="h-4 bg-white/10 rounded-full w-1/4" />
-              <div className="h-3 bg-white/5 rounded-full w-2/3" />
-            </div>
-          </div>
-        </div>
-      )}
-
-      {hooks.length > 0 && (
-        <div className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 px-2">
-            <Star size={24} className="text-yellow-500 fill-yellow-500" />
-            Detected Viral Moments
-          </h2>
-          {hooks.map((hook, idx) => (
-            <div key={idx} className="glass p-6 rounded-3xl hover:border-blue-500/50 transition-all group">
-              <div className="flex items-start justify-between gap-6 mb-4">
-                <div className="space-y-1">
-                  <div className="flex items-center gap-2">
-                    <span className="text-blue-400 font-mono font-bold bg-blue-400/10 px-2 py-0.5 rounded uppercase text-xs">
-                      {hook.startTime} - {hook.endTime}
-                    </span>
-                    <span className="text-green-400 font-bold text-xs uppercase tracking-widest">
-                      Virality: {hook.viralityScore}/10
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-100 group-hover:text-white transition-colors">
-                    "{hook.hookText}"
-                  </h3>
+        <div className="grid lg:grid-cols-2 gap-8">
+          {/* Input Section */}
+          <Card className="bg-[#0f1016] border-white/10">
+            <CardHeader>
+              <CardTitle className="text-white">Source Material</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              <div className="space-y-2">
+                <Label>YouTube URL</Label>
+                <div className="flex gap-2">
+                  <Input 
+                    placeholder="https://youtube.com/watch?v=..." 
+                    className="bg-[#1a1b26] border-white/10 text-white"
+                    value={url}
+                    onChange={(e) => setUrl(e.target.value)}
+                  />
+                  <Button onClick={handleClip} disabled={processing || !url} className="bg-blue-600 hover:bg-blue-500">
+                    {processing ? <Wand2 className="h-4 w-4 animate-spin" /> : "Auto-Clip"}
+                  </Button>
                 </div>
-                <button className="bg-white/5 hover:bg-white/10 p-3 rounded-2xl transition-colors">
-                  <Scissors size={20} className="text-gray-400" />
-                </button>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                <span className="font-semibold text-gray-300">Reason:</span> {hook.reason}
-              </p>
-              <div className="flex gap-4">
-                <button className="bg-blue-600 text-white font-bold py-2 px-6 rounded-xl hover:bg-blue-500 transition-colors">
-                  Create Reel
-                </button>
-                <button className="bg-white/5 text-gray-300 font-bold py-2 px-6 rounded-xl hover:bg-white/10 transition-colors">
-                  Ignore
-                </button>
+
+              <div className="border-2 border-dashed border-white/10 rounded-lg p-8 flex flex-col items-center justify-center text-gray-500 hover:border-blue-500/50 transition-colors cursor-pointer">
+                <Upload className="h-8 w-8 mb-2" />
+                <span className="text-sm">Or upload raw video file (mp4, mov)</span>
               </div>
-            </div>
-          ))}
+            </CardContent>
+          </Card>
+
+          {/* Processing Terminal */}
+          <Card className="bg-[#0f1016] border-white/10 flex flex-col">
+            <CardHeader>
+              <CardTitle className="text-white flex justify-between items-center">
+                <span>Processing Log</span>
+                {processing && <span className="text-xs text-blue-400 animate-pulse">ACTIVE</span>}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="flex-1 flex flex-col">
+              <div className="bg-black/50 rounded-lg p-4 font-mono text-xs text-green-400 h-[300px] overflow-y-auto mb-4 border border-white/5">
+                {logs.length === 0 ? (
+                  <span className="text-gray-600">// Waiting for input...</span>
+                ) : (
+                  logs.map((log, i) => (
+                    <div key={i} className="mb-1">&gt; {log}</div>
+                  ))
+                )}
+              </div>
+              {processing && <Progress value={progress} className="h-2" />}
+            </CardContent>
+          </Card>
         </div>
-      )}
+
+        {/* Results Grid */}
+        {!processing && logs.length > 0 && (
+          <div className="mt-8">
+            <h2 className="text-xl font-bold mb-4">Generated Clips</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {[1, 2, 3].map((i) => (
+                <div key={i} className="aspect-[9/16] bg-[#1a1b26] rounded-lg border border-white/10 flex items-center justify-center relative group cursor-pointer overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+                    <div className="text-white font-bold">Viral Clip #{i}</div>
+                    <div className="text-xs text-green-400 font-bold">Score: 9.{i}/10 (Viral)</div>
+                    <div className="text-[10px] bg-blue-500 text-white px-1 rounded mt-1 w-fit">4K HDR</div>
+                  </div>
+                  <Video className="h-12 w-12 text-gray-600" />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
-};
-
-export default ClippingTool;
+}
