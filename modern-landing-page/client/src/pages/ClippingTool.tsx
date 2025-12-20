@@ -24,8 +24,8 @@ export default function ClippingTool() {
       "Extracting audio track...",
       "Transcribing with Whisper (timestamping)...",
       "Analyzing sentiment for 'high energy' moments...",
-      "Found 3 viral clips. Cropping to 9:16 (4K)...",
-      "Rendering final assets (ProRes 4444)..."
+      "Found 3 viral clips. Cropping to 9:16...",
+      "Rendering final assets..."
     ];
 
     for (let i = 0; i < steps.length; i++) {
@@ -113,8 +113,7 @@ export default function ClippingTool() {
                 <div key={i} className="aspect-[9/16] bg-[#1a1b26] rounded-lg border border-white/10 flex items-center justify-center relative group cursor-pointer overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
                     <div className="text-white font-bold">Viral Clip #{i}</div>
-                    <div className="text-xs text-green-400 font-bold">Score: 9.{i}/10 (Viral)</div>
-                    <div className="text-[10px] bg-blue-500 text-white px-1 rounded mt-1 w-fit">4K HDR</div>
+                    <div className="text-xs text-gray-300">Score: 9.{i}/10</div>
                   </div>
                   <Video className="h-12 w-12 text-gray-600" />
                 </div>

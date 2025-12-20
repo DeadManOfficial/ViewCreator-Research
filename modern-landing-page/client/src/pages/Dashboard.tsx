@@ -2,7 +2,6 @@ import { FlowCanvas } from "@/components/FlowCanvas";
 import { Sidebar } from "@/components/Sidebar";
 import { Button } from "@/components/ui/button";
 import { LangGraphSimulator, AgentState } from "@/lib/langgraph";
-import { AgentConfigModal } from "@/components/AgentConfigModal";
 import { Plus, Terminal } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
@@ -10,7 +9,6 @@ import { useLocation } from "wouter";
 export default function Dashboard() {
   const [location, setLocation] = useLocation();
   const [agentState, setAgentState] = useState<AgentState | null>(null);
-  const [isConfigOpen, setIsConfigOpen] = useState(false);
   const simulatorRef = useRef<LangGraphSimulator | null>(null);
 
   // Check for auto-start from Create page
@@ -58,7 +56,7 @@ export default function Dashboard() {
           </Button>
           <Button 
             className="bg-blue-600 hover:bg-blue-500 text-white shadow-[0_0_15px_rgba(37,99,235,0.3)]"
-            onClick={() => setIsConfigOpen(true)}
+            onClick={() => setLocation('/create')}
           >
             Create Agent
           </Button>
@@ -84,8 +82,6 @@ export default function Dashboard() {
 
         {/* Main Canvas */}
         <FlowCanvas activeStep={activeStep} />
-
-        <AgentConfigModal open={isConfigOpen} onOpenChange={setIsConfigOpen} />
 
         {/* Bottom Actions */}
         <div className="absolute bottom-8 right-8 z-50 flex items-center gap-4">

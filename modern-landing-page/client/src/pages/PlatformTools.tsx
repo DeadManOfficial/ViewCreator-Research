@@ -16,8 +16,7 @@ export default function PlatformTools() {
 
         <div className="grid gap-6">
           {/* YouTube */}
-          <Card className="bg-[#0f1016] border-white/10 relative overflow-hidden">
-            <div className="absolute top-0 right-0 bg-green-500 text-[10px] font-bold px-2 py-0.5 rounded-bl-lg z-10">UNLOCKED</div>
+          <Card className="bg-[#0f1016] border-white/10">
             <CardHeader className="flex flex-row items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="h-12 w-12 rounded-lg bg-red-600/20 flex items-center justify-center text-red-500">
@@ -33,8 +32,7 @@ export default function PlatformTools() {
           </Card>
 
           {/* Instagram */}
-          <Card className="bg-[#0f1016] border-white/10 relative overflow-hidden">
-            <div className="absolute top-0 right-0 bg-green-500 text-[10px] font-bold px-2 py-0.5 rounded-bl-lg z-10">UNLOCKED</div>
+          <Card className="bg-[#0f1016] border-white/10">
             <CardHeader className="flex flex-row items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="h-12 w-12 rounded-lg bg-pink-600/20 flex items-center justify-center text-pink-500">
@@ -50,8 +48,7 @@ export default function PlatformTools() {
           </Card>
 
           {/* TikTok */}
-          <Card className="bg-[#0f1016] border-white/10 relative overflow-hidden">
-            <div className="absolute top-0 right-0 bg-green-500 text-[10px] font-bold px-2 py-0.5 rounded-bl-lg z-10">UNLOCKED</div>
+          <Card className="bg-[#0f1016] border-white/10">
             <CardHeader className="flex flex-row items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="h-12 w-12 rounded-lg bg-cyan-600/20 flex items-center justify-center text-cyan-500">
@@ -67,8 +64,7 @@ export default function PlatformTools() {
           </Card>
 
           {/* X / Twitter */}
-          <Card className="bg-[#0f1016] border-white/10 relative overflow-hidden">
-            <div className="absolute top-0 right-0 bg-green-500 text-[10px] font-bold px-2 py-0.5 rounded-bl-lg z-10">UNLOCKED</div>
+          <Card className="bg-[#0f1016] border-white/10">
             <CardHeader className="flex flex-row items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="h-12 w-12 rounded-lg bg-white/10 flex items-center justify-center text-white">
