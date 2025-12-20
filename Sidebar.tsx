@@ -1,85 +1,177 @@
+import { Button } from "@/components/ui/button";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { BarChart3, Calendar, ChevronDown, ChevronRight, CreditCard, Facebook, FileVideo, Instagram, LayoutGrid, LogOut, Plus, Settings, Sparkles, TrendingUp, Twitter, User, Users, Video, Youtube, Scissors } from "lucide-react";
+import { useState } from "react";
+import { Link, useLocation } from "wouter";
 
-import React from 'react';
-import { 
-  LayoutDashboard, 
-  Scissors, 
-  Image as ImageIcon, 
-  Search, 
-  Bot, 
-  BarChart3,
-  ChevronLeft,
-  ChevronRight,
-  Zap
-} from 'lucide-react';
-import { ViewType } from '../types';
+export function Sidebar() {
+  const [location] = useLocation();
+  const [isPlatformOpen, setIsPlatformOpen] = useState(true);
+  const [recentProjects, setRecentProjects] = useState<{id: string, name: string}[]>([]);
 
-interface SidebarProps {
-  currentView: ViewType;
-  onNavigate: (view: ViewType) => void;
-  isOpen: boolean;
-  toggle: () => void;
-}
+  const isActive = (path: string) => location === path;
 
-const Sidebar: React.FC<SidebarProps> = ({ currentView, onNavigate, isOpen, toggle }) => {
-  const navItems = [
-    { type: ViewType.DASHBOARD, label: 'Control Center', icon: LayoutDashboard },
-    { type: ViewType.CLIPPING, label: 'Clipping Agent', icon: Scissors },
-    { type: ViewType.VISUALS, label: 'Visual Engine', icon: ImageIcon },
-    { type: ViewType.SEO, label: 'Channel SEO', icon: Search },
-    { type: ViewType.AGENTS, label: 'Agent Factory', icon: Bot },
-    { type: ViewType.ANALYTICS, label: 'Pulse Check', icon: BarChart3 },
-  ];
+  // Load recent projects
+  useState(() => {
+    const indexJson = localStorage.getItem('viewcreator_projects_index');
+    if (indexJson) {
+      const projects = JSON.parse(indexJson)
+        .sort((a: any, b: any) => b.updatedAt - a.updatedAt)
+        .slice(0, 5);
+      setRecentProjects(projects);
+    }
+  });
 
   return (
-    <aside className={`${isOpen ? 'w-72' : 'w-20'} h-full transition-all duration-300 ease-in-out border-r border-white/10 glass flex flex-col z-50`}>
-      <div className="p-6 flex items-center justify-between mb-8">
-        <div className={`flex items-center gap-3 ${!isOpen && 'hidden'}`}>
-          <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center accent-glow">
-            <Zap className="text-white fill-white" size={20} />
+    <div className="w-64 h-screen bg-[#0f1016] border-r border-white/5 flex flex-col text-gray-300">
+      {/* Header */}
+      <div className="p-4">
+        <div className="flex items-center gap-2 font-bold text-xl text-white mb-6">
+          <div className="h-6 w-6 rounded bg-blue-500 flex items-center justify-center">
+            <Sparkles className="h-4 w-4 text-white" />
           </div>
-          <span className="text-xl font-bold tracking-tight">ViewCreator</span>
+          <span>ViewCreator</span>
         </div>
-        <button onClick={toggle} className="p-1 hover:bg-white/5 rounded-lg transition-colors">
-          {isOpen ? <ChevronLeft size={20} /> : <ChevronRight size={20} className="mx-auto" />}
-        </button>
-      </div>
 
-      <nav className="flex-1 px-4 space-y-2">
-        {navItems.map((item) => {
-          const Icon = item.icon;
-          const isActive = currentView === item.type;
-          return (
-            <button
-              key={item.type}
-              onClick={() => onNavigate(item.type)}
-              className={`w-full flex items-center gap-4 px-4 py-3 rounded-xl transition-all ${
-                isActive 
-                  ? 'bg-blue-600/20 text-blue-400 border border-blue-600/30' 
-                  : 'text-gray-400 hover:bg-white/5 hover:text-gray-100'
-              }`}
-            >
-              <Icon size={20} strokeWidth={isActive ? 2.5 : 2} />
-              {isOpen && <span className="font-medium">{item.label}</span>}
-              {isActive && isOpen && <div className="ml-auto w-1.5 h-1.5 bg-blue-400 rounded-full animate-pulse" />}
-            </button>
-          );
-        })}
-      </nav>
-
-      <div className="p-6">
-        <div className={`glass p-4 rounded-2xl border border-white/5 ${!isOpen && 'hidden'}`}>
-          <div className="flex items-center gap-2 mb-2">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-            <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Agents Live</span>
+        {/* Credits Card */}
+        <div className="bg-[#1a1b26] rounded-xl p-3 border border-white/5 flex items-center justify-between mb-2">
+          <div className="flex items-center gap-3">
+            <div className="h-8 w-8 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-500">
+              <CreditCard className="h-4 w-4" />
+            </div>
+            <div>
+              <div className="text-[10px] text-gray-500 font-semibold tracking-wider">CREDITS</div>
+              <div className="text-white font-bold text-lg">∞</div>
+            </div>
           </div>
-          <p className="text-sm text-gray-100 font-medium">3 Active Workers</p>
-          <div className="mt-3 w-full bg-white/10 h-1 rounded-full overflow-hidden">
-            <div className="w-2/3 h-full bg-blue-500" />
-          </div>
+          <Button size="icon" variant="ghost" className="h-6 w-6 text-gray-400 hover:text-white">
+            <Plus className="h-4 w-4" />
+          </Button>
         </div>
       </div>
-    </aside>
+
+      {/* Navigation */}
+      <ScrollArea className="flex-1 px-2">
+        <div className="space-y-1">
+          <div className="px-2 py-1 text-[10px] font-semibold text-gray-600 uppercase tracking-wider">Platform</div>
+          
+          <Link href="/dashboard">
+            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/dashboard') && !location.includes('id=') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
+              <LayoutGrid className="h-4 w-4" /> Post
+            </Button>
+          </Link>
+
+          {recentProjects.length > 0 && (
+            <Collapsible defaultOpen>
+              <CollapsibleTrigger asChild>
+                <Button variant="ghost" className="w-full justify-between hover:bg-white/5 mt-2">
+                  <span className="flex items-center gap-3 text-xs font-semibold text-gray-500 uppercase tracking-wider">Recent Projects</span>
+                  <ChevronDown className="h-3 w-3" />
+                </Button>
+              </CollapsibleTrigger>
+              <CollapsibleContent className="pl-2 space-y-1">
+                {recentProjects.map(project => (
+                  <Link key={project.id} href={`/dashboard?id=${project.id}`}>
+                    <Button 
+                      variant="ghost" 
+                      className={`w-full justify-start gap-3 text-sm truncate ${location.includes(project.id) ? 'bg-blue-600/10 text-blue-500' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}
+                    >
+                      <div className="h-2 w-2 rounded-full bg-blue-500/50" />
+                      <span className="truncate">{project.name}</span>
+                    </Button>
+                  </Link>
+                ))}
+              </CollapsibleContent>
+            </Collapsible>
+          )}
+
+          <Collapsible open={isPlatformOpen} onOpenChange={setIsPlatformOpen}>
+            <CollapsibleTrigger asChild>
+              <Button variant="ghost" className="w-full justify-between hover:bg-white/5">
+                <span className="flex items-center gap-3"><LayoutGrid className="h-4 w-4" /> Platform Tools</span>
+                {isPlatformOpen ? <ChevronDown className="h-3 w-3" /> : <ChevronRight className="h-3 w-3" />}
+              </Button>
+            </CollapsibleTrigger>
+            <CollapsibleContent className="pl-4 space-y-1 pt-1">
+              <Link href="/platform-tools">
+                <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
+                  <Youtube className="h-4 w-4" /> YouTube
+                </Button>
+              </Link>
+              <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
+                <Instagram className="h-4 w-4" /> Instagram
+              </Button>
+              <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
+                <Facebook className="h-4 w-4" /> Facebook
+              </Button>
+              <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
+                <Video className="h-4 w-4" /> TikTok
+              </Button>
+              <Button variant="ghost" className="w-full justify-start gap-3 text-sm text-gray-400 hover:text-white hover:bg-white/5">
+                <Twitter className="h-4 w-4" /> X (Twitter)
+              </Button>
+            </CollapsibleContent>
+          </Collapsible>
+
+          <div className="pt-4"></div>
+          
+          <Link href="/create">
+            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/create') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
+              <Sparkles className="h-4 w-4" /> Create
+            </Button>
+          </Link>
+          
+          <Link href="/profiles">
+            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/profiles') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
+              <User className="h-4 w-4" /> Profiles
+            </Button>
+          </Link>
+          
+          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
+            <Users className="h-4 w-4" /> Connect Socials
+          </Button>
+          
+          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
+            <BarChart3 className="h-4 w-4" /> Analytics
+          </Button>
+          
+          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
+            <TrendingUp className="h-4 w-4" /> Trends
+          </Button>
+
+          <div className="pt-4"></div>
+
+          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
+            <Users className="h-4 w-4" /> Agents
+          </Button>
+          
+          <Link href="/clipping-tool">
+            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/clipping-tool') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
+              <Scissors className="h-4 w-4" /> AI Clipping Agent
+            </Button>
+          </Link>
+          
+          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
+            <Sparkles className="h-4 w-4" /> Spark
+          </Button>
+          
+          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
+            <Calendar className="h-4 w-4" /> Calendar
+          </Button>
+        </div>
+      </ScrollArea>
+
+      {/* Footer */}
+      <div className="p-4 border-t border-white/5 space-y-1">
+        <div className="px-2 py-1 text-[10px] font-semibold text-gray-600 uppercase tracking-wider">Account</div>
+        <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
+          <Settings className="h-4 w-4" /> Settings
+        </Button>
+        <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5 text-red-400 hover:text-red-300">
+          <LogOut className="h-4 w-4" /> Sign out
+        </Button>
+      </div>
+    </div>
   );
-};
-
-export default Sidebar;
+}
