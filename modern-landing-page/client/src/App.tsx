@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import Create from "./pages/Create";
 import Profiles from "./pages/Profiles";
 import PlatformTools from "./pages/PlatformTools";
+import ClippingTool from "./pages/ClippingTool";
 
 
 function Router() {
@@ -18,7 +19,8 @@ function Router() {
       <Route path={"/dashboard"} component={Dashboard} />
       <Route path={"/create"} component={Create} />
       <Route path={"/profiles"} component={Profiles} />
-      <Route path={"/platform-tools"} component={PlatformTools} />
+        <Route path="/platform-tools" component={PlatformTools} />
+      <Route path="/clipping-tool" component={ClippingTool} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

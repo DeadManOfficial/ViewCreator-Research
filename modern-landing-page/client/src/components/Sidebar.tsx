@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { BarChart3, Calendar, ChevronDown, ChevronRight, CreditCard, Facebook, FileVideo, Instagram, LayoutGrid, LogOut, Plus, Settings, Sparkles, TrendingUp, Twitter, User, Users, Video, Youtube } from "lucide-react";
+import { BarChart3, Calendar, ChevronDown, ChevronRight, CreditCard, Facebook, FileVideo, Instagram, LayoutGrid, LogOut, Plus, Settings, Sparkles, TrendingUp, Twitter, User, Users, Video, Youtube, Scissors } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 
@@ -30,7 +30,7 @@ export function Sidebar() {
             </div>
             <div>
               <div className="text-[10px] text-gray-500 font-semibold tracking-wider">CREDITS</div>
-              <div className="text-white font-bold">25</div>
+              <div className="text-white font-bold text-lg">∞</div>
             </div>
           </div>
           <Button size="icon" variant="ghost" className="h-6 w-6 text-gray-400 hover:text-white">
@@ -110,9 +110,11 @@ export function Sidebar() {
             <Users className="h-4 w-4" /> Agents
           </Button>
           
-          <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
-            <FileVideo className="h-4 w-4" /> AI Clipping Agent
-          </Button>
+          <Link href="/clipping-tool">
+            <Button variant="ghost" className={`w-full justify-start gap-3 ${isActive('/clipping-tool') ? 'bg-blue-600/10 text-blue-500' : 'hover:bg-white/5'}`}>
+              <Scissors className="h-4 w-4" /> AI Clipping Agent
+            </Button>
+          </Link>
           
           <Button variant="ghost" className="w-full justify-start gap-3 hover:bg-white/5">
             <Sparkles className="h-4 w-4" /> Spark

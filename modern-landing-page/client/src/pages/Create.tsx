@@ -71,28 +71,15 @@ export default function Create() {
             <Label className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Quality Level</Label>
             <div className="space-y-3">
               <Card className="bg-[#1a1b26] border-blue-500/50 p-4 cursor-pointer relative overflow-hidden">
-                <div className="absolute top-0 right-0 bg-blue-500 text-[10px] font-bold px-2 py-0.5 rounded-bl-lg">Best</div>
+                <div className="absolute top-0 right-0 bg-blue-500 text-[10px] font-bold px-2 py-0.5 rounded-bl-lg">FREE</div>
                 <div className="flex items-start gap-3">
                   <div className="h-8 w-8 rounded bg-blue-500/20 flex items-center justify-center text-blue-500 mt-1">
                     <Sparkles className="h-4 w-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-sm flex items-center gap-2">Premium <span className="text-amber-400 text-[10px]">★ Best</span></div>
-                    <p className="text-xs text-gray-400 mt-1">Our best image generator with 4K resolution and superior detail.</p>
-                    <div className="mt-2 text-xs font-bold text-blue-400">6 credits</div>
-                  </div>
-                </div>
-              </Card>
-
-              <Card className="bg-[#1a1b26] border-white/5 p-4 cursor-pointer hover:border-white/10">
-                <div className="flex items-start gap-3">
-                  <div className="h-8 w-8 rounded bg-gray-700/20 flex items-center justify-center text-gray-400 mt-1">
-                    <Clock className="h-4 w-4" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-sm text-gray-300">Standard</div>
-                    <p className="text-xs text-gray-500 mt-1">Fast and affordable image generation perfect for drafts.</p>
-                    <div className="mt-2 text-xs font-bold text-gray-400">2 credits</div>
+                    <div className="font-bold text-sm flex items-center gap-2">Premium (God Mode) <span className="text-amber-400 text-[10px]">★ Best</span></div>
+                    <p className="text-xs text-gray-400 mt-1">Maximum 4K quality, unlimited usage.</p>
+                    <div className="mt-2 text-xs font-bold text-blue-400">0 credits (Free)</div>
                   </div>
                 </div>
               </Card>
