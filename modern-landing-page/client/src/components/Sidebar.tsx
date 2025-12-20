@@ -30,7 +30,7 @@ export function Sidebar() {
             </div>
             <div>
               <div className="text-[10px] text-gray-500 font-semibold tracking-wider">CREDITS</div>
-              <div className="text-white font-bold">25</div>
+              <div className="text-white font-bold text-lg">∞</div>
             </div>
           </div>
           <Button size="icon" variant="ghost" className="h-6 w-6 text-gray-400 hover:text-white">
